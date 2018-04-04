@@ -1,0 +1,79 @@
+<!-- menu mobile -->
+<amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+  <form class="menu-layer primary" action="/" target="_top">
+    <button type="reset" class="close-button" id="menu-button" on='tap:sidebar.toggle'></button>
+    <div class="items">
+        <a class="menu-item item-layer-1" href="/product"><amp-img src="/static/notes.png" width="30" height="30" layout="fixed" alt="sewa mobil di surabaya"></amp-img>
+        Harga
+        </a>
+        <a class="menu-item item-layer-1" href="/gallery"><amp-img src="/static/gallery-photo.png" width="30" height="30" layout="fixed" alt="sewa mobil di surabaya"></amp-img>
+        Galeri
+        </a>
+        <a class="menu-item item-layer-1" href="/blog"><amp-img src="/static/news-paper.png" width="30" height="30" layout="fixed" alt="sewa mobil di surabaya"></amp-img>
+        Info
+        </a>
+        <a class="menu-item item-layer-1" href="/contact"><amp-img src="/static/phone-book.png" width="30" height="30" layout="fixed" alt="sewa mobil di surabaya"></amp-img>
+        Hubungi Kami
+        </a>
+        <ul class="menu align-center vs-box-social">
+            <li>
+                <a href="tel:{{ site.telephone }}">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/phones-symbol.svg" width="32" height="32" layout="fixed" alt="rental mobil di surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="sms:{{ site.telephone }}">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/sms.svg" width="32" height="32" layout="fixed" alt="rental mobil di surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="{{ site.whatsapp-api }}">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/whatsapp.svg" width="32" height="32" layout="fixed" alt="rental mobil di surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+  </form>
+</amp-sidebar>
+<header class="vs-header" data-sticky-container>
+    <div class="sticky top-bar" data-sticky data-margin-top="0" data-sticky-on="small">
+        <div class="top-bar-left">
+            <a href="/">
+                <div class="vs-logo text-center">
+                </div>
+            </a>
+            <div class="vs-logo-text">
+                <h4 class="text-white">{{ site.company }}</h4>
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <div class="vs-box-phone-menu hide-for-medium" role="button" on="tap:sidebar.toggle" tabindex="0">
+                <a>
+                    <i class="mdi mdi-dots-vertical mdi-36px">
+                    </i>
+                </a>
+            </div>
+            <!-- navigasi desktop -->
+            <ul class="menu vs-menu show-for-medium">
+                <li class="vs-menu-li">
+                    <a href="/product" class="vs-menu-a ">Harga</a>
+                </li>
+                <li class="vs-menu-li">
+                    <a href="/gallery" class="vs-menu-a ">Galeri</a>
+                </li>
+                <li class="vs-menu-li">
+                    <a href="/blog" class="vs-menu-a ">Info</a>
+                </li>
+                <li class="vs-menu-li">
+                    <a href="/contact" class="vs-menu-a ">Hubungi Kami</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
