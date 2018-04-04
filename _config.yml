@@ -1,0 +1,51 @@
+creator: dennyrwa
+lang: id
+locale: id_ID
+title: Rental Mobil Surabaya
+company: Tran99.com
+description: Tran99.com adalah perusahaan yang bergerak di bidang jasa sewa mobil. Kami melayani jasa sewa mobil di daerah Surabaya dan sekitarnya.
+keywords: sewa mobil surabaya, rental mobil surabaya
+section-1:
+section-1-a: Rental Mobil
+section-1-b: di Surabaya
+section-2: Kami, Tran99.com
+section-2-a: Tran99.com adalah perusahaan yang bergerak di bidang jasa sewa mobil. Kami melayani jasa sewa mobil di daerah Surabaya dan sekitarnya. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas.
+section-3: Bagaimana Cara Memesan?
+section-4: Galeri Kami
+section-5: Dapatkan Layanan Kami
+section-6:
+section-6-a: Terimakasih, dan Segera
+section-6-b: Hubungi Kami
+section-7: Ikuti Kami
+section-8: © 2018 Tran99. All rights reserved.
+section-9: Hubungi Kami
+section-10: Harga Sewa
+section-post: Sekilas Info dari Kita
+whatsapp-float-desktop: https://web.whatsapp.com/send?phone=6281330548581&text=Hallo, saya mau sewa mobil
+whatsapp-float-phone: whatsapp://send?text=Hallo, saya mau sewa mobil!&phone=+6281330548581
+exclude: [README.md]
+email:
+type: AutoRental
+streetAddress: Jalan Ambeng-ambeng Tengah No.34
+address: Ngingas Waru Sidoarjo Jawa Timur Indonesia
+postalCode: 61256
+telephone: +6281330548581
+telephonedetail: 081-330-548-581
+fb_app_id: 
+twitter: tran99
+whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20Tran99.com%20(Name)%20(Address)%20&phone=6281330548581
+favicon: /static/favicon.ico
+photos: /static/rental-mobil-surabaya.jpg
+siteurl: https://tran99.com
+baseurl:
+permalink: pretty
+collections:
+- data-section-3
+- data-section-5
+- data-section-7
+- data-section-9
+- data-gallery
+- data-products
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
