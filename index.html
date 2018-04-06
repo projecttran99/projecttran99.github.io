@@ -1,6 +1,6 @@
 --- 
 layout: home 
-title: Sewa Mobil Surabaya
+title: Rental Mobil di Surabaya - Tinggal Klik Aja - CS 24 jam
 canonical: https://tran99.com/index.html
 photos: https://tran99.com/static/rental-mobil-surabaya.jpg
 ---
@@ -102,14 +102,21 @@ photos: https://tran99.com/static/rental-mobil-surabaya.jpg
                     <div class="small-12 medium-10 cell">
                         <div class="vs-gallery-content">
                             <div class="grid-x grid-padding-x">
-                                {% for item in site.data-gallery limit:6 %}
+                                <!-- {% for item in site.data-gallery limit:6 %}
                                 <div class="large-4 cell">
                                     <div class="vs-box-gall-img">
                                         <amp-instagram data-shortcode="{{ item.data-shortcode }}" width="1" height="1" layout="responsive">
                                         </amp-instagram>
                                     </div>
                                 </div>
-                                {% endfor %}
+                                {% endfor %} -->
+                                {% for item in site.data-gallery-picture limit:6 %}
+                                <div class="large-4 cell">
+                                    <div class="vs-box-gall-img">
+                                        <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
+                                    </div>
+                                </div>
+                                {% endfor %}                                
                             </div>
                         </div>
                     </div>
