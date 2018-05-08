@@ -5,7 +5,7 @@ amp-img-width: 750
 amp-img-height: 450
 amp-img-layout: responsive
 amp-img-alt: beejay bakau resort rental mobil surabaya trans99
-text-title: Beejay Bakau Resort
+text-title: Beejay Bakau Resort BJBR Probolinggo
 writer: Denny
 canonical: https://tran99.com/2018/04/12/beejay-bakau-resort/index.html
 photos: http://www.beejaybakauresort.com/img/logo.JPG
@@ -16,4 +16,6 @@ photos: http://www.beejaybakauresort.com/img/logo.JPG
 
 <p class="post"> Harga tiket masuk weekday (senin-jumat) rp. 20.000,- weekend (sabtu-minggu) rp. 40.000,- hari libur nasional (long weekend) rp. 50.000,- </p>
 
-<p class="post"> selengkapnya kunjungi website berikut <a href="http://www.beejaybakauresort.com/">beejay bakau resort</a></p>
+<p class="post"> selengkapnya kunjungi website berikut <a href="http://www.beejaybakauresort.com/">Beejay Bakau Resort BJBR Probolinggo</a></p>
+
+<p class="post">Tran99 melayani pengantaran dan rental mobil ke Beejay Bakau Resort BJBR Probolinggo, segera klik tombol WA di sebelah kanan bawah layar Anda dan nikmati pelayanan memuaskan dari kami</a></p>
