@@ -18,4 +18,4 @@ photos: http://www.beejaybakauresort.com/img/logo.JPG
 
 <p class="post"> selengkapnya kunjungi website berikut <a href="http://www.beejaybakauresort.com/">Beejay Bakau Resort BJBR Probolinggo</a></p>
 
-<p class="post">Tran99 melayani pengantaran dan rental mobil ke Beejay Bakau Resort BJBR Probolinggo, segera klik tombol WA di sebelah kanan bawah layar Anda dan nikmati pelayanan memuaskan dari kami</a></p>
+<p class="post">Tran99 melayani pengantaran dan rental mobil ke Beejay Bakau Resort BJBR Probolinggo, segera klik tombol WA di sebelah kanan bawah layar Anda dan nikmati pelayanan memuaskan dari kami</p>
