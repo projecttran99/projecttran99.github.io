@@ -35,6 +35,4 @@ Tran99.com mengutamakan layanan yang terbaik sesuai dengan motto kami: "melayan
 <p class="post">Tran99.com memberikan pelayanan dengan driver yang berpengalaman dan ramah untuk menjamin anda sampai ke tempat tujuan.
 - sopir / driver dapat dipertanggungjawabkan karena bukan sopir panggilan /freelance
 - sopir / driver selalu dalam keadaan fresh / fit karena bukan sopir panggilan /freelance jadi mengurangi resiko perjalanan anda</p>
-<h2 class="post">3. Tidak diwajibkan menyediakan penginapan buat sopir / driver</h2>
-<p class="post">Penyewa dapat menghemat biaya karena tidak perlu menyediakan penginapan buat sopir / driver.</p>
 <p class="post"><br></p>
