@@ -9,7 +9,7 @@ section-1:
 section-1-a: Rental Mobil
 section-1-b: di Surabaya
 section-2: Kami, Tran99.com
-section-2-a: Tran99.com adalah perusahaan yang bergerak di bidang jasa sewa mobil. Kami melayani jasa sewa / rental mobil di daerah Surabaya dan sekitarnya. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas.
+section-2-a: Tran99.com adalah Rental Mobil Surabaya yang menyediakan jasa sewa mobil di surabaya dan keluar kota. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas.
 section-3: Bagaimana Cara Memesan?
 section-4: Galeri Kami
 section-5: Dapatkan Layanan Kami
@@ -38,7 +38,7 @@ favicon: /static/favicon.ico
 photos: /static/rental-mobil-surabaya.jpg
 siteurl: https://tran99.com
 baseurl:
-permalink: pretty
+permalink: 
 collections:
 - data-section-3
 - data-section-5
