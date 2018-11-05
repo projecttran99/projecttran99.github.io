@@ -1,23 +1,23 @@
 ---
 layout: post
-amp-img-scr: /photos/imf-2.jpeg
+amp-img-scr: /photos/imf-2.jpg
 amp-img-width: 1280
 amp-img-height: 960
 amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
-text-title: Tran99 memberikan pelayanan annual meeting imf – world bank di bali.
+text-title: meeting IMF – World Bank
 writer: Denny
 canonical: https://tran99.com/2018-10-05-rental-annual-meeting-imf-world-bank-di-bali/index.html
-photos: /photos/imf-2.jpeg
+photos: /photos/imf-2.jpg
 ---
-<p class="post">Dengan menyediakan sewa mobil mewah surabaya kami mendapatkan kesempatan untuk melayani tamu-tamu negara dalam perhelatan dunia di acara  annual meeting imf – world bank di bali</p>
+<p class="post">Dengan menyediakan sewa mobil mewah surabaya kami mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara  annual meeting IMF – World Bank di bali</p>
 
 <h2 class="post"></h2>
 <p class="post">Cnn memberitakan bahwa pertemuan tahunan dewan gubernur dana moneter internasional-bank dunia akan resmi digelar pada minggu depan, 8 - 14 oktober 2018. Even dunia ini akan dihadiri oleh pejabat-pejabat pembuat kebijakan ekonomi dan sektor keuangan dari 189 negara. Selain para menteri keuangan dan gubernur bank sentral di dunia, sejumlah kepala negara juga bakal mampir ke indonesia untuk menghadiri pertemuan ini.</p>
 
 <p class="post">Untuk mendukung hal ini kami senantiasa melakukan rutinitas dalam perawatan unit dan menjadikan selalu merupakan evaluasi kedepan sehingga kami senantiasa menjadi yang terbaik dalam melayani rental mobil mewah guna mendukung perhelatan dan menyukseskan pertemuan tahunan (imf-world bank) akan resmi digelar pada pekan depan, 8-14 oktober 2018 di bali.</p>
 
-<amp-img class="post" src="/photos/imf-1.jpeg" width="585" height="1040" layout="responsive" alt="Tran99 memberikan pelayanan annual meeting imf – world bank di bali."></amp-img>
+<amp-img class="post" src="/photos/imf-1.jpg" width="585" height="1040" layout="responsive" alt="Tran99 memberikan pelayanan annual meeting imf – world bank di bali."></amp-img>
 
 <p class="post">Dalam hal pelayanan kami senantiasa memberikan pelayanan yang baik bagi pelanggan. Kami tumbuh dan berkembang seiring dengan ketepatan waktu, efektifitas, efisiensi, kenyamanan dan keamanan pelanggan sewa mobil mewah surabaya.</p>
 
