@@ -17,7 +17,7 @@ photos: /static/rental-mobil-surabaya-3.jpg
 <h2 class="post">Harga Sewa Mobil Surabaya</h2>
 <p class="post">Harga sewa mobil surabaya ini berlaku baik weekend maupun weekday, untuk semua hari dan berlaku seluruh wilayah Jawa Timur, tidak ada beda harga kemanapun tujuannya bisa ke Gunung Bromo, Gunung Ijen, Banyuwangi, Magetan, Pacitan, Malang, Batu, Blitar, Tulungagung</p>
 <p class="post">Harga kami sangat terjangkau dan kompetitif bisa melayani dalam kota Surabaya dan Luar Kota Surabaya, Silahkan Cek Harga bandingkan dan segera klik icon WA kami.</p>
-<p class="post"><strong><a href="https://tran99.com/product/" target="_blank" title="Harga sewa mobil surabaya">Tran99.com</a></strong> menyediakan layanan untuk kebutuhan transportasi di dalam kota Surabaya (sewa mobil / rental mobil) harian <strong>(Per hari / Pertanggal) </strong> dan tentu saja juga sewa mobil jangka waktu pendek, informasi lebih lanjut bisa klik icon WA kami. Dengan sewa harian yang murah tentu menjadi pilihan yang terbaik daripada memilih sewa mobil jangka waktu pendek, dan semuanya menjadi alternatif pilihan dan kenyamanan Anda.</p>
+<p class="post"><strong><a href="https://tran99.com/product/" target="_blank" rel="noopener" title="Harga sewa mobil surabaya">Tran99.com</a></strong> menyediakan layanan untuk kebutuhan transportasi di dalam kota Surabaya (sewa mobil / rental mobil) harian <strong>(Per hari / Pertanggal) </strong> dan tentu saja juga sewa mobil jangka waktu pendek, informasi lebih lanjut bisa klik icon WA kami. Dengan sewa harian yang murah tentu menjadi pilihan yang terbaik daripada memilih sewa mobil jangka waktu pendek, dan semuanya menjadi alternatif pilihan dan kenyamanan Anda.</p>
 <table border="1" cellspacing="0" cellpadding="5" width="100%">
     <tbody>
         <tr>
@@ -48,7 +48,7 @@ photos: /static/rental-mobil-surabaya-3.jpg
 </table>
 <br>
 <p class="post">
-    <span><strong><a href="https://tran99.com/product/" target="_blank" title="Harga sewa mobil surabaya"><span>Tran99.com</span></a>
+    <span><strong><a href="https://tran99.com/product/" target="_blank" rel="noopener" title="Harga sewa mobil surabaya"><span>Tran99.com</span></a>
     </strong> menyediakan layanan untuk kebutuhan transportasi (sewa mobil / rental mobil) harian <strong>(Per hari / Pertanggal) </strong> dan tentu saja sewa mobil jangka waktu pendek, informasi lebihlanjut bisa klik icon WA kami. Dengan sewa harian yang murah tentu menjadi pilihan yang terbaik daripada memilih sewa mobil jangka waktu pendek, dan semuanya menjadi alternatif pilihan dan kenyamanan Anda.</span>
 </p>
 <table border="1" cellspacing="0" cellpadding="5" width="100%">
