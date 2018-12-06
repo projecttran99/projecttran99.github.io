@@ -21,35 +21,35 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "2018/04/12/beejay-bakau-resort.html",
-    "revision": "15f40eed4cd44a097c228b189b76c2de"
+    "revision": "e725f093063d0f6c884f47f7ae946c1e"
   },
   {
     "url": "2018/05/27/sewa-mobil-di-surabaya.html",
-    "revision": "0550110a7f3d3e8635f4a02bfc212a67"
+    "revision": "eeec618164703c8db3a53a23fb9fd136"
   },
   {
     "url": "2018/06/21/harga-sewa-mobil-surabaya.html",
-    "revision": "17d9b10760f09875bae48f864fb64698"
+    "revision": "6c596c93b13eb41b83551712734f9abf"
   },
   {
     "url": "2018/07/23/sewa-mobil-bandara-juanda.html",
-    "revision": "0520e20e76cdf0600b7279a2700f91bc"
+    "revision": "131981acd5a81b865f179a697a1f95b3"
   },
   {
     "url": "2018/08/16/sewa-mobil-tanggulangin.html",
-    "revision": "a765a4844117a291e97b5f3224d9923d"
+    "revision": "840200fb78bd0db20315e3579f420774"
   },
   {
     "url": "2018/09/28/sewa-mobil-elf-surabaya.html",
-    "revision": "c46c0bac50602217a85987105f8deb5c"
+    "revision": "968870bf7509e72613383f5c916be97a"
   },
   {
     "url": "2018/10/05/rental-annual-meeting-imf-world-bank-di-bali.html",
-    "revision": "32f6e8549534d032257c6b590b432ecf"
+    "revision": "c26b88461e7c52bf20d9883b5f6d205c"
   },
   {
     "url": "2018/11/05/keunggulan-rental-mobil-surabaya.html",
-    "revision": "6e0238e765d299eda7c38acd3f6466b0"
+    "revision": "7fd5cd2b24b871c4b9b446a265e92c6a"
   },
   {
     "url": "404.html",
@@ -57,11 +57,11 @@ self.__precacheManifest = [
   },
   {
     "url": "blog.html",
-    "revision": "6e650ac881cc0666a7785defe571d422"
+    "revision": "057db4369e71a33f7f3b8e3f42c35e56"
   },
   {
     "url": "contact.html",
-    "revision": "02624b99988766606185bc13db79ff52"
+    "revision": "1363f8d2bce9f14167fa0140801e508b"
   },
   {
     "url": "favicon.ico",
@@ -69,11 +69,11 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "a18d84ffb3e9108596f5f2753b35dc07"
+    "revision": "0ac08a82613deafc630a8beded1ebfa5"
   },
   {
     "url": "gallery.html",
-    "revision": "a2ed581ec89b5a2412f5cb9002cb8a4a"
+    "revision": "5faa98cfd49118b36bc2960dd88acb6a"
   },
   {
     "url": "google80eb15f70004671a.html",
@@ -113,7 +113,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a640f046969b91f5fc853bc06cac8f76"
+    "revision": "42a6829e658ed111373b6f76ad0e9687"
   },
   {
     "url": "manifest.json",
@@ -133,7 +133,7 @@ self.__precacheManifest = [
   },
   {
     "url": "product.html",
-    "revision": "3273e0d8b5fbbf1e33a51797001e933b"
+    "revision": "740273fe38e4906abe2330aa644bc29a"
   },
   {
     "url": "robots.txt",
@@ -142,6 +142,42 @@ self.__precacheManifest = [
   {
     "url": "sitemap.xml",
     "revision": "2021a3bf137781fd9b144ca9661d9436"
+  },
+  {
+    "url": "static/32385489_1021643167993325_7243333418375708672_n.jpg",
+    "revision": "586820ef5f903c94209d2d8b3e670fd8"
+  },
+  {
+    "url": "static/41630686_345660996007408_3959362786232315390_n.jpg",
+    "revision": "8fadc4f1ca68d70da0c6d06d008dcb7c"
+  },
+  {
+    "url": "static/41816743_335570487006518_1070829132906493154_n.jpg",
+    "revision": "15a469ba1fa7aae3aa80d422de623c92"
+  },
+  {
+    "url": "static/42003704_2169489999956288_4874548311978663431_n.jpg",
+    "revision": "8bda534addddcfb26a5a0596cbd0fbae"
+  },
+  {
+    "url": "static/43061223_323731011736020_6734971322820834699_n.jpg",
+    "revision": "6300e4b7084402cfe83128af370129cf"
+  },
+  {
+    "url": "static/43597816_333862287374890_4164960330071885602_n.jpg",
+    "revision": "7b1706e70abe5e31037aba2dccb7641f"
+  },
+  {
+    "url": "static/43767628_2182134858675310_4593096987499668786_n.jpg",
+    "revision": "f9fd611078305b722b90c89ec807d2e0"
+  },
+  {
+    "url": "static/43817648_353828892048143_45810111997129597_n.jpg",
+    "revision": "a4dc1c1360fd55868df899f323e67127"
+  },
+  {
+    "url": "static/43913352_268369640351497_6468748527204336937_n.jpg",
+    "revision": "000e7ff916df36f917bd8ce927db2269"
   },
   {
     "url": "static/address.png",
@@ -241,11 +277,11 @@ self.__precacheManifest = [
   },
   {
     "url": "static/man.png",
-    "revision": "70a57ed75a7a299c67b199eb7874a45b"
+    "revision": "9010188083d12b533adee54364d8464f"
   },
   {
     "url": "static/manbrown.png",
-    "revision": "c859724d511ea49b7b3fb62b16cddd94"
+    "revision": "f216ea7bc366282a7e655e9d06545a3a"
   },
   {
     "url": "static/news-paper.png",
@@ -360,16 +396,8 @@ self.__precacheManifest = [
     "revision": "47c77bf133116ff76838809ae5d2c83a"
   },
   {
-    "url": "sw-lib/sw-lib.min.js",
-    "revision": "5e01e0c6001c6e8bd4fade3193f723ec"
-  },
-  {
     "url": "sw.html",
     "revision": "9ddb3c30045037e3f8d7c4c5810a4386"
-  },
-  {
-    "url": "workbox-config.js",
-    "revision": "5fc066d84402111b9cf56b2a6f293813"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
