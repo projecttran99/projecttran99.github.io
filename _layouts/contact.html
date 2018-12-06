@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="shortcut icon" href="{{ site.favicon }}">
-    <link rel="canonical" href="{{ page.canonical }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <meta name="theme-color" content="#3399ff"/>
     <meta name="amp-experiments-opt-in" content="visibility-v2,visibility-v3">
     <meta name="keywords" lang="{{ site.lang }}" content="{{ site.keywords }}">
     <!-- This site is optimized with the Yoast SEO plugin v3.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
