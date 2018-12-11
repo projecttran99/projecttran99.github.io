@@ -48,5 +48,4 @@ collections:
 - data-gallery-picture
 - data-products
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
