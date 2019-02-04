@@ -37,15 +37,22 @@ whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20Tran99.com%20(Name)%20(
 favicon: /static/favicon.ico
 photos: /static/rental-mobil-surabaya.jpg
 siteurl: https://tran99.com
-baseurl:
-permalink: 
+permalink: pretty
 collections:
-- data-section-3
-- data-section-5
-- data-section-7
-- data-section-9
-- data-gallery
-- data-gallery-picture
-- data-products
+  data-section-3:
+    output: true
+  data-section-5:
+    output: true
+  data-section-7:
+    output: true
+  data-section-9:
+    output: true
+  data-gallery:
+    output: true
+  data-gallery-picture:
+    output: true
+  data-products:
+    output: true
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
