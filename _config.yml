@@ -1,15 +1,15 @@
 creator: dennyrwa
 lang: id
 locale: id_ID
-title: Rental Mobil Surabaya
+title: Sewa Rental Mobil Surabaya
 company: Tran99.com
-description: Hubungi atau WA ke 081-330-548-581 dan dapatkan Rental dan Sewa Mobil Murah di Surabaya. Kami melayani jasa sewa mobil di Surabaya dan luar kota.
-keywords: sewa mobil surabaya, rental mobil surabaya
+description:
+keywords: sewa mobil surabaya, rental mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya murah, sewa mobil di surabaya, rental mobil di surabaya, sewa mobil murah surabaya, sewa mobil surabaya tran99.com, rental mobil surabaya tran99.com, tran99.com
 section-1:
 section-1-a: Rental Mobil
 section-1-b: di Surabaya
-section-2: Kami, Tran99.com
-section-2-a: Tran99.com adalah Rental Mobil Surabaya yang menyediakan jasa sewa mobil di surabaya dan keluar kota. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas.
+section-2: Kami, tran99.com
+section-2-a: tran99.com adalah Rental Mobil Surabaya yang menyediakan jasa sewa mobil di surabaya dan keluar kota. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas.
 section-3: Bagaimana Cara Memesan?
 section-4: Galeri Kami
 section-5: Dapatkan Layanan Kami
@@ -17,7 +17,7 @@ section-6:
 section-6-a: Terimakasih, dan Segera
 section-6-b: Hubungi Kami
 section-7: Ikuti Kami
-section-8: © 2018 Tran99. All rights reserved.
+section-8: © 2018 tran99.com. All rights reserved.
 section-9: Hubungi Kami
 section-10: Harga Sewa
 section-post: Sekilas Info dari Kita
@@ -32,8 +32,8 @@ postalCode: 61256
 telephone: +6281330548581
 telephonedetail: 081-330-548-581
 fb_app_id: 994411184068605
-twitter: tran99
-whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20Tran99.com%20(Name)%20(Address)%20&phone=6281330548581
+twitter: tran99.com
+whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20tran99.com.com%20(Name)%20(Address)%20&phone=6281330548581
 favicon: /static/favicon.ico
 photos: /static/rental-mobil-surabaya.jpg
 siteurl: https://tran99.com
