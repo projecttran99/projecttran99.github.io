@@ -36,17 +36,20 @@ photos: /photos/hiace-girl.jpg
 
 <div itemscope="" itemtype="http://schema.org/Review">
     <ul itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
-      <label for="rating1" title="1 stars">☆</label><label for="rating2" title="2 stars">☆</label><label for="rating3" title="3 stars">☆</label><label for="rating4" title="4 stars">☆</label><label for="rating5" title="5 stars">☆</label> <label itemprop="ratingValue" data-id="1100" data-score="5" data-count="100">Rating: 5 - 100 votes</label>
+      <label for="rating1" title="1 stars">☆</label><label for="rating2" title="2 stars">☆</label><label for="rating3" title="3 stars">☆</label><label for="rating4" title="4 stars">☆</label><label for="rating5" title="5 stars">☆</label> <label itemprop="ratingValue" data-id="110" data-score="5" data-count="100">Rating: 5 - 100 votes</label>
     </ul>
     <div class="line-dec"></div>
     <p itemprop="itemReviewed"><em>"</em> Web ini menyajikan informasi yang bermanfaat terkait rental mobil surabaya, memiliki keunikan sekaligus informasi-informasi terbaru terkait otomotif, sehingga sangat menjadi rekomendasi, sukses<em>"</em></p>
     <div class="author-rate" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
         <amp-img src="/photos/masden.png" width="100" height="100" layout="fixed" alt="Denny Rakhmad Widi Ashari" title="Denny Rakhmad Widi Ashari"></amp-img>
-        <h4 itemprop="author" itemscope="" itemtype="http://schema.org/Person">Denny Rakhmad Widi Ashari</h4>
-        <div class="line-dec2"></div>
-        <span>Web Reviewer</span>
-    </div>
+		<span itemprop='name'>
+			<h4>Denny Rakhmad Widi Ashari</h4>
+		</span>
+	</div>
+    <span>Web Reviewer</span>
 </div>
+
+
 
 <h2 class="post">Kami melayani :</h2>
 <p class="post">- rent car jemput bandara</p>
