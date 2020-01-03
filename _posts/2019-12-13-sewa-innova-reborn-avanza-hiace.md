@@ -1,8 +1,8 @@
 ---
 layout: post-youtube
 amp-img-scr: /photos/tran99-bersama-ibu-ibu.jpg
-amp-img-width: 900
-amp-img-height: 511
+amp-img-width: 500
+amp-img-height: 375
 amp-img-layout: responsive
 amp-img-alt: Sewa Innova Reborn, Avanza, Hiace, 081330548581 (WA) Surabaya
 text-title: Sewa Innova Reborn
