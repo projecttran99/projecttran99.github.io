@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ⚡ lang="id">
+
+<head prefix="og: http://ogp.me/ns#">
+    {% include metadata.html %} {% include amp-project.html %} {% include amp-boilerplate.html %} {% include amp-instagram.html %} {% include amp-sidebar.html %} {% include amp-form.html %}
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <style amp-custom>
+        {% include amp-custom-post.html %}
+    </style>
+</head>
+
+<body>
+    {% include nav.html %}
+    <section class="vs-content">
+        <div class="vs-page vs-page-about">
+            <div class="vs-section padding-bottom-0-post">
+                <div class="grid-container vs-box-about">
+                    <div class="grid-x align-center">
+                        <div class="small-12 large-9 cell">
+                            <div class="vs-box-product-list">
+                                <div class="vs-section-title text-center">
+                                    <h3><span class="text-title">{{ page.text-title }}</span></h3>
+                                </div>
+                                <div class="small-12 medium-4 cell">
+                                    <amp-img class="post" src="{{ page.amp-img-scr }}" width="{{ page.amp-img-width }}" height="{{ page.amp-img-height }}" layout="responsive" alt="{{ page.amp-img-alt }}"></amp-img>
+                                </div>
+                                {{ content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+    {% include float-button.html %}
+</body>
+
+</html>
