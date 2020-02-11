@@ -34,23 +34,6 @@ photos: /photos/hiace-girl.jpg
 <h2 class="post">Bagus tidak buat, sewa mobil hiace</h2>
 <p class="post">Desain dasbor memiliki model serupa Toyota Kijang Innova. Mobil ini kemungkinan mengadopsi teknologi keselamatan mengingat Hiace biasanya memiliki siklus lebih dari sepuluh tahun. Diantaranya Toyota safety Sense system dan Adaptive Redar Cruise Control system sebagai standar keselamatan terbaru. Toyota Hiace generasi keenam akan mencakup varian mewah yang akan ditempatkan di antara varian standar dan Toyota Alphard. Bahkan varian standar harus menawarkan peningkatan kenyamanan dan kemudahan. Model ini dirancang ulang dengan harapan dan diprediksi menggunakan mesin diesel berkapasitas 2,4 liter 2GD-FTV dan unit 1GD-FTV 2,8 liter.</p>
 
-<div itemscope="" itemtype="http://schema.org/Review">
-    <ul itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
-      <label for="rating1" title="1 stars">☆</label><label for="rating2" title="2 stars">☆</label><label for="rating3" title="3 stars">☆</label><label for="rating4" title="4 stars">☆</label><label for="rating5" title="5 stars">☆</label> <label itemprop="ratingValue" data-id="110" data-score="5" data-count="100">Rating: 5 - 100 votes</label>
-    </ul>
-    <div class="line-dec"></div>
-    <p itemprop="itemReviewed"><em>"</em> Web ini menyajikan informasi yang bermanfaat terkait rental mobil surabaya, memiliki keunikan sekaligus informasi-informasi terbaru terkait otomotif, sehingga sangat menjadi rekomendasi, sukses<em>"</em></p>
-    <div class="author-rate" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-        <amp-img src="/photos/masden.png" width="100" height="100" layout="fixed" alt="Denny Rakhmad Widi Ashari" title="Denny Rakhmad Widi Ashari"></amp-img>
-		<span itemprop='name'>
-			<h4>Denny Rakhmad Widi Ashari</h4>
-		</span>
-	</div>
-    <span>Web Reviewer</span>
-</div>
-
-
-
 <h2 class="post">Kami melayani :</h2>
 <p class="post">- rent car jemput bandara</p>
 <p class="post">- rental antar jemput</p>
