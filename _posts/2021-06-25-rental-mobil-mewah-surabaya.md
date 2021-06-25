@@ -9,7 +9,7 @@ text-title: Sewa Mobil Mewah Surabaya 081330548581
 title: Sewa Mobil Mewah Surabaya 081330548581
 writer: Denny Rakhmad Widi Ashari
 description: Kami menyediakan rental mobil mewah Surabaya dengan Armada yang cukup beragam yaitu mobil mewah seperti Alphard Transformer, Mercedes Benz, Pajero Sport, Toyota Fortuner
-photos: /photos/sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver.jpg
+photos: /photos/sewa-mobil-mewah-surabaya.jpg
 ---
 <p class="post">Kami menyediakan rental mobil mewah Surabaya dyang beragam seperti Alphard Transformer, Mercedes Benz, Pajero Sport, Toyota Fortuner</p>
 
