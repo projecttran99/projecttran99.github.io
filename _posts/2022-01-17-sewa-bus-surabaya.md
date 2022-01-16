@@ -14,10 +14,6 @@ photos: /photos/sewa-bus-surabaya-1.jpg
 <p class="post">
 Ternyata sewa bus pariwisata di Surabaya murah, harga terbaru tahun 2022, menyediakan berbagai macam tipe bus medium bus, big bus, 44 - 50 seat</p>
 
-
-<h2 class="post"> </h2>
-<p class="post"><a href="https://tran99.com/">Tran99.com</a> adalah tempat sewa mobil termurah di Mojokerto, selain di pusat kota Mojokerto kami juga melayani pinggiran kota Mojokerto seperti Mojosari Delanggu, Gedeg dan Empunala.</p>
-
 <h2 class="post">Tempat sewa bus pariwisata Surabaya </h2>
 <p class="post">Selamat sekarang Anda berada ditempat yang tepat, <a href="https://tran99.com/">kami Tran99.com</a> menawarkan sewa bus Surabaya untuk mendukung kenyamanan perjalanan Anda, supaya dapat memberikan sebuah kesan di kemudian hari. Surabaya adalah kota yang sangat menarik apabila dikunjungi beramai-ramai, tetapi tidak hanya Surabaya dengan sewa bus Surabaya Anda bisa mendapatkan akses yang lebih mudah untuk keluar kota secara rombongan atau beramai-ramai.  </p>
 <p class="post">Selain itu <a href="https://tran99.com/">kami Tran99.com</a> juga membuatkan paket wisata menarik <a href="https://tran99.com/">Rental bus Surabaya Tran99.com</a> dengan biaya terjangkau,  murah dan bisa menghemat budget anggaran liburan rombongan Anda, sehingga perjalanan wisata Anda makin menyenangkan. </p>
