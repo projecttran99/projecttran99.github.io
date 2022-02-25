@@ -1,6 +1,6 @@
 ---
 layout: post
-amp-img-scr: http://1.bp.blogspot.com/-fUKNS99PuBE/UhcGT1dvl1I/AAAAAAAAACA/jnRLecng3fU/s1600/16.-tas-tanggulangin.jpg
+amp-img-scr: /photos/16.-tas-tanggulangin.jpg
 amp-img-width: 794
 amp-img-height: 529
 amp-img-layout: responsive
@@ -8,7 +8,7 @@ amp-img-alt: sewa mobil tanggulangin rental mobil di surabaya trans99
 text-title: Sewa mobil Tanggulangin
 writer: Denny
 description: Berkunjung ke Sidoarjo kurang lengkap rasanya jika tidak menggunakan jasa Sewa mobil Tanggulangin WA ke 081-330-548-581
-photos: http://1.bp.blogspot.com/-fUKNS99PuBE/UhcGT1dvl1I/AAAAAAAAACA/jnRLecng3fU/s1600/16.-tas-tanggulangin.jpg
+photos: /photos/16.-tas-tanggulangin.jpg
 ---
 <p class="post">Berkunjung ke Sidoarjo kurang lengkap rasanya jika tidak menggunakan jasa Sewa mobil Tanggulangin Tran99 dan tak mampir ke Tanggulangin, hanya 9 kilometer dari Sidoarjo.</p>
 
