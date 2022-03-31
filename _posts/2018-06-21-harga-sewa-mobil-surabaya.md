@@ -6,7 +6,7 @@ amp-img-height: 358
 amp-img-layout: responsive
 amp-img-alt: harga sewa mobil surabaya rental mobil surabaya trans99
 text-title: Harga Sewa Mobil Surabaya
-writer: Denny
+writer: Denny Rakhmad Widi Ashari
 description: Harga sewa mobil surabaya / rental mobil Surabaya kini turun Hubungi / WA ke 081-330-548-581 sudah dapat sewa mobil
 photos: /static/rental-mobil-surabaya-3.jpg
 ---

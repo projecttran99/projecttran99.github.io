@@ -6,7 +6,7 @@ amp-img-height: 358
 amp-img-layout: responsive
 amp-img-alt: sewa mobil di surabaya rental mobil di surabaya trans99
 text-title: Sewa Mobil di Surabaya
-writer: Denny
+writer: Denny Rakhmad Widi Ashari
 description: Kami melayani sewa mobil di Surabaya dan diluar kota Surabaya harga terbaik kami Hubungi / WA ke 081-330-548-581
 photos: /static/rental-mobil-surabaya-1.jpg
 ---

@@ -6,7 +6,7 @@ amp-img-height: 529
 amp-img-layout: responsive
 amp-img-alt: sewa mobil tanggulangin rental mobil di surabaya trans99
 text-title: Sewa mobil Tanggulangin
-writer: Denny
+writer: Denny Rakhmad Widi Ashari
 description: Berkunjung ke Sidoarjo kurang lengkap rasanya jika tidak menggunakan jasa Sewa mobil Tanggulangin WA ke 081-330-548-581
 photos: /photos/16.-tas-tanggulangin.jpg
 ---

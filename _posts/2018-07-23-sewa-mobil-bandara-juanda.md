@@ -6,7 +6,7 @@ amp-img-height: 900
 amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Bandara Juanda rental mobil di surabaya trans99
 text-title: Sewa Mobil Bandara Juanda
-writer: Denny
+writer: Denny Rakhmad Widi Ashari
 description: Tran99 Rent Car Sewa Mobil Bandara Juanda Hubungi / WA ke 081-330-548-581 New Avanza New Innova Reborn New Xenia
 photos: https://4.bp.blogspot.com/-_gq2zeyNAbI/VqOm2kk-dpI/AAAAAAAAD9o/Vq0zMZMuthM/s1600/IMG_20151013_140355.jpg
 ---

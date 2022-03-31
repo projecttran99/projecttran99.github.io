@@ -6,7 +6,7 @@ amp-img-height: 780
 amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
 text-title: Alasan harus memilih kami?
-writer: Denny
+writer: Denny Rakhmad Widi Ashari
 description: Pelayanan Profesional Unit Kendaraan dalam keadaan terbaik Kendaraan Terbaru Sopir Berpengalaman WA ke 081-330-548-581
 photos: /photos/november-1.jpg
 ---
