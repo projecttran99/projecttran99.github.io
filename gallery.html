@@ -28,6 +28,20 @@ photos: https://tran99.com/static/32385489_1021643167993325_7243333418375708672_
                             </div>
                         </div>
                     </div>
+                    <div class="small-12 medium-11 large-10 cell">
+                        <div class="vs-gallery-content">
+                            <div class="grid-x grid-padding-x">
+                                {% for item in site.data-tiktok %}
+                                <div class="large-4 cell">
+                                    <div class="vs-box-gall-img">
+                                        <amp-tiktok width="1" height="1" layout="responsive" data-src="{{ item.data-src }}">
+                                        </amp-tiktok>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
