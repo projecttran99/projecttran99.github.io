@@ -53,5 +53,7 @@ collections:
     output: true
   data-products:
     output: true
+  data-tiktok:
+    output: true
 plugins:
   - jekyll-feed
