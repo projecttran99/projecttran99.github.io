@@ -4,9 +4,9 @@ amp-img-scr: /photos/sewa-mobil-innova-zenix-surabaya.jpg
 amp-img-width: 520
 amp-img-height: 390
 amp-img-layout: responsive
-amp-img-alt: Sewa Mobil Innova Zenix Murah Surabaya hub. 081330548581
-text-title: Sewa Mobil Innova Zenix Murah Surabaya hub. 081330548581
-title: Sewa Mobil Innova Zenix Murah Surabaya hub. 081330548581
+amp-img-alt: Sewa Mobil Innova Zenix Murah Surabaya hub 081330548581
+text-title: Sewa Mobil Innova Zenix Murah Surabaya hub 081330548581
+title: Sewa Mobil Innova Zenix Murah Surabaya hub 081330548581
 writer: Denny Rakhmad Widi Ashari
 description: Inovasi Sewa Mobil Innova Zenix Murah Surabaya: Solusi Transportasi Efisien
 photos: /photos/sewa-mobil-innova-zenix-surabaya.jpg
