@@ -13,7 +13,7 @@ photos: /photos/rental-mobil-innova-di-malang-2.jpg
 ---
 <p class="post">Anda yang mencari Rental Mobil Innova di Malang hubungi 081330548581, Tran99 menyediakan solusi transportasi yang tepat untuk kebutuhan</p>
 
-<amp-img class="post" src="/photos/rental-mobil-innova-di-malang-1.jpg" width="600" height="450" layout="responsive" alt="Rental Mobil Innova di Malang"></amp-img>
+<amp-img class="post" src="/photos/rental-mobil-innova-di-malang-1.jpg" width="450" height="600" layout="responsive" alt="Rental Mobil Innova di Malang"></amp-img>
 
 <h2 class="post">Rental Mobil Innova di Malang</h2> 
 <p class="post">Malang, sebuah kota yang terkenal dengan udara sejuk dan berbagai destinasi wisata menarik, sering kali menjadi tujuan wisatawan dari berbagai daerah. Ketika berwisata di Malang, memiliki kendaraan yang nyaman dan praktis sangatlah penting. Salah satu pilihan terbaik adalah menyewa mobil. Bagi Anda yang mencari Rental Mobil Innova di Malang hubungi 081330548581, Tran99 menyediakan solusi transportasi yang tepat untuk kebutuhan Anda.</p> 
