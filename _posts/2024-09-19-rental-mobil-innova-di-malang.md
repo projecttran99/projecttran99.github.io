@@ -13,7 +13,7 @@ photos: /photos/rental-mobil-innova-di-malang-2.jpg
 ---
 <p class="post">Anda yang mencari Rental Mobil Innova di Malang hubungi 081330548581, Tran99 menyediakan solusi transportasi yang tepat untuk kebutuhan</p>
 
-<amp-img class="post" src="/photos/rental-mobil-innova-di-malang-1.jpg" width="600" height="450" layout="responsive" alt="Rental Mobil Innova di Malang"></amp-img>
+<amp-img class="post" src="/photos/rental-mobil-innova-di-malang-1.jpg" width="450" height="600" layout="responsive" alt="Rental Mobil Innova di Malang"></amp-img>
 
 <h2 class="post">Rental Mobil Innova di Malang</h2> 
 <p class="post">Malang, sebuah kota yang terkenal dengan udara sejuk dan berbagai destinasi wisata menarik, sering kali menjadi tujuan wisatawan dari berbagai daerah. Ketika berwisata di Malang, memiliki kendaraan yang nyaman dan praktis sangatlah penting. Salah satu pilihan terbaik adalah menyewa mobil. Bagi Anda yang mencari Rental Mobil Innova di Malang hubungi 081330548581, Tran99 menyediakan solusi transportasi yang tepat untuk kebutuhan Anda.</p> 
@@ -46,7 +46,7 @@ photos: /photos/rental-mobil-innova-di-malang-2.jpg
 <h2 class="post">Tran99 Solusi Rental Mobil Terbaik di Malang</h2> 
 <p class="post">Dengan berbagai keunggulan yang telah dibahas, Tran99 semakin membuktikan diri sebagai solusi terbaik untuk kebutuhan rental mobil di Malang. Bagi Anda yang mencari Rental Mobil Innova di Malang hubungi 081330548581, Tran99 menawarkan layanan yang lengkap, mulai dari armada mobil yang terawat, proses pemesanan yang mudah, hingga layanan pelanggan yang ramah dan profesional.</p> 
 <p class="post">Jika Anda membutuhkan kendaraan yang nyaman, aman, dan fleksibel selama berada di Malang, Tran99 Rental Mobil Innova di Malang adalah pilihan yang tepat. Dengan berbagai opsi sewa dan kemudahan layanan, mereka siap memenuhi setiap kebutuhan transportasi Anda. Hubungi mereka di 081330548581 untuk pemesanan, dan nikmati perjalanan yang lancar dan tanpa hambatan di Malang.</p>
-<amp-img class="post" src="/photos/rental-mobil-innova-di-malang-2.jpg" width="600" height="800" layout="responsive" alt="Sewa Mobil Avanza Surabaya"></amp-img>
+<amp-img class="post" src="/photos/rental-mobil-innova-di-malang-2.jpg" width="800" height="600" layout="responsive" alt="Sewa Mobil Innova di Malang"></amp-img>
 
 <h2 class="post"></h2>
 <h2 class="post">Kami melayani :</h2>
