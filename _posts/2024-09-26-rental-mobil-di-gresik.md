@@ -1,8 +1,8 @@
 ---
 layout: post
 amp-img-scr: /photos/rental-mobil-di-gresik-2.jpg
-amp-img-width: 520
-amp-img-height: 390
+amp-img-width: 600
+amp-img-height: 450
 amp-img-layout: responsive
 amp-img-alt: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
 text-title: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
