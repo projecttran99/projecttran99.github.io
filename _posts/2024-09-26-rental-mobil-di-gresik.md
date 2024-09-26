@@ -8,10 +8,11 @@ amp-img-alt: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
 text-title: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
 title: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
 writer: Denny Rakhmad Widi Ashari
-description: Ketika berada di Gresik, kebutuhan transportasi menjadi sangat penting, baik untuk perjalanan bisnis maupun wisata
+description: Ketika berada di Gresik kebutuhan transportasi menjadi sangat penting baik untuk perjalanan bisnis maupun wisata
 photos: /photos/rental-mobil-di-gresik-2.jpg
 ---
-<p class="post">Ketika berada di Gresik, kebutuhan transportasi menjadi sangat penting, baik untuk perjalanan bisnis maupun wisata</p>
+
+<p class="post">Ketika berada di Gresik kebutuhan transportasi menjadi sangat penting, baik untuk perjalanan bisnis maupun wisata</p>
 
 <amp-img class="post" src="/photos/rental-mobil-di-gresik-1.jpg" width="520" height="390" layout="responsive" alt="Sewa Mobil Avanza Surabaya"></amp-img>
 
