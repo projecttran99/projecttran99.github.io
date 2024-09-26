@@ -1,14 +1,14 @@
 ---
 layout: post
-amp-img-scr: /photos/rental-mobil-di-gresik-2.jpg
-amp-img-width: 600
-amp-img-height: 450
+amp-img-scr: /photos/rental-mobil-di-gresik-1.jpg
+amp-img-width: 520
+amp-img-height: 390
 amp-img-layout: responsive
-amp-img-alt: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
-text-title: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
-title: Rental Mobil di Gresik dengan Bonus Driver hubungi 081330548581
+amp-img-alt: judul
+text-title: judul
+title: judul
 writer: Denny Rakhmad Widi Ashari
-description: Ketika berada di Gresik kebutuhan transportasi menjadi sangat penting baik untuk perjalanan bisnis maupun wisata
+description: Ketika berada di Gresik kebutuhan transportasi menjadi sangat penting, baik untuk perjalanan bisnis maupun wisata
 photos: /photos/rental-mobil-di-gresik-2.jpg
 ---
 <p class="post">Ketika berada di Gresik kebutuhan transportasi menjadi sangat penting, baik untuk perjalanan bisnis maupun wisata</p>
