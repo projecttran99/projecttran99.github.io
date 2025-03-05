@@ -44,7 +44,7 @@ photos: /photos/rental-mobil-kepanjen-malang.jpg
 <p class="post">Tran99 Rental Mobil adalah solusi terbaik bagi Anda yang membutuhkan transportasi di Kepanjen dan Malang. Dengan berbagai pilihan kendaraan, harga yang kompetitif, serta pelayanan profesional, Tran99 memastikan setiap perjalanan Anda lebih aman dan nyaman.</p>
 <p class="post">Jika Anda membutuhkan layanan rental mobil yang dapat diandalkan, segera hubungi "Rental Mobil Kepanjen Malang Tran99 📞 081330548581" dan nikmati pengalaman berkendara terbaik. Tran99 siap membantu Anda dalam setiap perjalanan, baik untuk keperluan bisnis, wisata, atau perjalanan keluarga.</p>
 
-<amp-img class="post" src="/photos/rental-mobil-kepanjen-malang-2.jpg" width="1280" height="960" layout="responsive" alt="Rental Mobil Kepanjen Malang Tran99"></amp-img>
+<amp-img class="post" src="/photos/rental-mobil-kepanjen-malang-3.jpg" width="1280" height="960" layout="responsive" alt="Rental Mobil Kepanjen Malang Tran99"></amp-img>
 
 <h2 class="post"></h2>
 <h2 class="post">Kami melayani :</h2>
