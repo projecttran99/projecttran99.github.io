@@ -30,7 +30,7 @@ Dalam hitungan menit, mobil siap menjemput Anda di lokasi yang diinginkan.
 Inilah yang membuat TRAN99 semakin dipercaya oleh masyarakat Mojokerto, khususnya di wilayah Ngoro, untuk berbagai kebutuhan transportasi.
 </p>
 
-<amp-img class="post" src="/photos/rental-mobil-ngoro-mojokerto-3.jpg" width="1280" height="960" layout="responsive" alt="Rental Mobil Kepanjen Malang Tran99"></amp-img>
+<amp-img class="post" src="/photos/rental-mobil-ngoro-mojokerto-5.jpg" width="1280" height="960" layout="responsive" alt="Rental Mobil Kepanjen Malang Tran99"></amp-img>
 
 <h2 class="post">Keunggulan Tran99 Rental Mobil Ngoro Mojokerto yang Wajib Anda Ketahui</h2>
 <p class="post">
