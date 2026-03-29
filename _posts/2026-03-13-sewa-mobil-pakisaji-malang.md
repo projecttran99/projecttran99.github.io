@@ -46,7 +46,7 @@ Selain kapasitas kendaraan, faktor kenyamanan juga menjadi pertimbangan penting 
 Dengan adanya pilihan kendaraan yang beragam, masyarakat dapat menyesuaikan kebutuhan perjalanan secara lebih fleksibel. Hal ini membuat layanan rental mobil menjadi solusi transportasi yang relevan bagi berbagai kalangan masyarakat di wilayah Pakisaji Malang.
 </p>
 
-<amp-img class="post" src="/photos/sewa-mobil-pakisaji-1.jpg" width="1280" height="960" layout="responsive" alt="Sewa Mobil Pakisaji Malang"></amp-img>
+<amp-img class="post" src="/photos/sewa-mobil-pakisaji-2.jpg" width="1280" height="960" layout="responsive" alt="Sewa Mobil Pakisaji Malang"></amp-img>
 
 <h2 class="post">Peran Layanan Sewa Mobil dalam Mendukung Aktivitas Wisata dan Kegiatan Keluarga</h2>
 <p class="post">
@@ -70,7 +70,7 @@ Mobilitas yang baik memberikan dampak positif terhadap pertumbuhan ekonomi lokal
 Dengan dukungan sistem layanan transportasi yang semakin baik, masyarakat Pakisaji Malang memiliki kesempatan lebih luas untuk menjalankan aktivitas secara produktif. Mobilitas yang lancar menjadi salah satu faktor penting dalam meningkatkan kualitas kehidupan masyarakat di wilayah tersebut.
 </p>
 
-<amp-img class="post" src="/photos/sewa-mobil-pakisaji-2.jpg" width="1280" height="960" layout="responsive" alt="Sewa Mobil Pakisaji Malang"></amp-img>
+<amp-img class="post" src="/photos/sewa-mobil-pakisaji-3.jpg" width="1280" height="960" layout="responsive" alt="Sewa Mobil Pakisaji Malang"></amp-img>
 
 <h2 class="post"></h2>
 <h2 class="post">Kami melayani :</h2>
