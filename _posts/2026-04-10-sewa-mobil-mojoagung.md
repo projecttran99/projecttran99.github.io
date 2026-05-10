@@ -1,8 +1,8 @@
 ---
 layout: post
 amp-img-scr: /photos/sewa-mobil-pakisaji-7.jpg
-amp-img-width: 1280
-amp-img-height: 980
+amp-img-width: 980
+amp-img-height: 1280
 amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Mojoagung 081330548581
 text-title: Sewa Mobil Mojoagung 081330548581
@@ -48,7 +48,7 @@ Selain kapasitas, aspek kenyamanan interior juga menjadi perhatian. Kendaraan ya
 Ketersediaan pilihan kendaraan yang lengkap membuat layanan rental menjadi solusi yang adaptif terhadap berbagai kebutuhan masyarakat. Hal ini mendukung mobilitas yang lebih efisien di wilayah Mojoagung dan sekitarnya.
 </p>
 
-<amp-img class="post" src="/photos/sewa-mobil-pakisaji-9.jpg" width="1280" height="960" layout="responsive" alt="Sewa Mobil Mojoagung"></amp-img>
+<amp-img class="post" src="/photos/sewa-mobil-pakisaji-9.jpg" width="960" height="1280" layout="responsive" alt="Sewa Mobil Mojoagung"></amp-img>
 
 <h2 class="post">Dukungan untuk Aktivitas Bisnis dan Kegiatan Keluarga</h2>
 <p class="post">
