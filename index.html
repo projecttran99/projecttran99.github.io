@@ -1,181 +1,336 @@
---- 
-layout: home 
-title: Rental Mobil Surabaya, Sewa Mobil Surabaya
-description: Reservasi 24 jam 081-330-548-581. Tersedia mulai Avanza New Innova Reborn Xenia Ertiga Hiace
-photos: https://tran99.com/static/43913352_268369640351497_6468748527204336937_n.jpg
 ---
-<section class="vs-content">
-    <div class="vs-page vs-home-page">
-        <div class="vs-section-slider">
-            <div class="grid-container full">
-                <div class="grid-x">
-                    <div class="small-12 cell">
-                        <div class="box-slider">
-                            <noscript>
-                            <h2 class="button vs-flat-btn-primary">Mohon Aktifkan Javascript Anda</h2>
-                            </noscript>
-                            <h1 class="text-center text-title">{{ site.section-1-a }}</h1>
-                            <h2 class="text-center text-title">{{ site.section-1-b }}</h2>
-                            <div class="grid-container">
-                                <div class="grid-x">
-                                </div>
-                            </div>
+layout: home
+title: Rental Mobil Surabaya, Sewa Mobil Surabaya Murah Terpercaya
+description: Rental Mobil Surabaya & Sewa Mobil Surabaya terpercaya. Reservasi 24 jam via WhatsApp 081-330-548-581. Tersedia Avanza, Innova Reborn, Hiace, Fortuner, Alphard.
+photos: https://tran99.com/static/rental-mobil-surabaya.jpg
+hero_badge: "Rental Mobil Surabaya Terpercaya #1"
+hero_title: "Rental Mobil Surabaya & Sewa Mobil Murah Terpercaya"
+hero_subtitle: "Pusat sewa mobil Surabaya terlengkap sudah termasuk supir berpengalaman, armada bersih wangi ber-AC dingin, dan layanan siap siaga 24 jam untuk kebutuhan perjalanan dinas, bisnis, maupun wisata Anda."
+about_badge: "Tentang Tran99"
+about_title: "Penyedia Jasa Rental Mobil Surabaya Berstandar Prima"
+about_p1: "Tran99.com adalah perusahaan penyedia jasa transportasi darat profesional di Surabaya yang melayani rental dan sewa mobil terlengkap dengan standar operasional prima. Seluruh kendaraan kami selalu dirawat secara berkala, wangi, bersih, dan ber-AC dingin guna menjamin kenyamanan Anda selama perjalanan."
+about_p2: "Didukung oleh para driver ramah, sopan, dan menguasai rute-rute strategis Jawa Timur, kami siap melayani berbagai keperluan Anda mulai dari kunjungan bisnis, dinas kantor, antar-jemput Bandara Juanda, hingga wisata keluarga ke Malang, Bromo, dan sekitarnya."
+about_img: "/static/rental-mobil-surabaya.jpg"
+about_img_alt: "Rental Mobil Surabaya Tran99"
+products_badge: "Pilihan Armada Terbaik"
+products_title: "Daftar Armada & Harga Sewa Mobil Terpopuler"
+products_subtitle: "Pilihan unit kendaraan terawat lengkap dengan supir ramah berpengalaman siap melayani perjalanan Anda di Surabaya dan Jawa Timur."
+blog_badge: "Informasi & Edukasi"
+blog_title: "Artikel & Info Wisata Terbaru"
+blog_subtitle: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa Timur, dan informasi seputar sewa mobil Surabaya bersama Tran99."
+---
+<section class="vs-content vs-home-modern">
+    <!-- Hero Section -->
+    <div class="vs-section-slider home-hero-wrap">
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="small-12 medium-11 large-10 cell text-center">
+                    <div class="home-hero-content">
+                        <span class="home-hero-badge">{{ page.hero_badge | default: "Rental Mobil Surabaya Terpercaya #1" }}</span>
+                        <h1 class="home-hero-title">{{ page.hero_title | default: "Rental Mobil Surabaya & Sewa Mobil Murah Terpercaya" }}</h1>
+                        <p class="home-hero-desc">
+                            {{ page.hero_subtitle | default: "Pusat sewa mobil Surabaya terlengkap sudah termasuk supir berpengalaman, armada bersih wangi ber-AC dingin, dan layanan siap siaga 24 jam untuk kebutuhan perjalanan dinas, bisnis, maupun wisata Anda." }}
+                        </p>
+                        <div class="home-hero-cta-group">
+                            <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_primary_phone | default: '6281330548581' }}&text=Halo%20Tran99,%20saya%20mau%20sewa%20mobil" class="btn-hero-wa" target="_blank" rel="noopener">
+                                <svg class="wa-btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                </svg>
+                                <span>Pesan Mobil via WhatsApp</span>
+                            </a>
+                            <a href="/product/" class="btn-hero-fleet">
+                                <span>Lihat Pilihan Armada &rarr;</span>
+                            </a>
+                        </div>
+
+                        <div class="home-hero-trust-bar">
+                            <div class="trust-item"><span class="trust-check">✓</span> Termasuk Driver Profesional</div>
+                            <div class="trust-item"><span class="trust-check">✓</span> Unit Bersih, Wangi & Terawat</div>
+                            <div class="trust-item"><span class="trust-check">✓</span> Antar Jemput Bandara Juanda</div>
+                            <div class="trust-item"><span class="trust-check">✓</span> Layanan 24 Jam Nonstop</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="padding-0">
-            <div class="grid-x">
-                <div class="medium-6 large-6 cell show-for-medium vs-bg-lightgrey">
-                    <div class="grid-container">
-                        <div class="grid-x grid-padding-x">
-                            <div class="large-12 cell text-center">
-                                <div class="vs-box-profile-img text-right">
-                                    <amp-img src="/static/man.png" width="400" height="551" layout="fixed" alt="man rental mobil surabaya"></amp-img>
-                                </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="vs-section vs-home-about-section">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x align-middle">
+                <div class="small-12 large-6 cell home-about-media-col">
+                    <div class="home-about-img-frame">
+                        <amp-img src="{{ page.about_img | default: '/static/rental-mobil-surabaya.jpg' }}" width="600" height="420" layout="responsive" alt="{{ page.about_img_alt | default: 'Rental Mobil Surabaya Tran99' }}" class="home-about-img"></amp-img>
+                        <div class="home-about-floating-badge">
+                            <span class="badge-star">★</span>
+                            <div class="badge-text">
+                                <strong>Standar Pelayanan Prima</strong>
+                                <small>Armada Resmi & Driver Berlisensi</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="medium-6 large-6 cell">
+                <div class="small-12 large-6 cell home-about-text-col">
+                    <div class="vs-about-content">
+                        <span class="home-badge-pill">{{ page.about_badge | default: "Tentang Tran99" }}</span>
+                        <h2 class="home-about-title">{{ page.about_title | default: "Pusat Sewa & Rental Mobil Surabaya Terpercaya" }}</h2>
+                        <p class="home-about-lead">
+                            {{ page.about_p1 | default: "Tran99.com adalah perusahaan penyedia jasa transportasi darat terpercaya di Surabaya yang melayani sewa mobil harian, mingguan, hingga bulanan untuk wilayah Surabaya, Bandara Juanda, dan seluruh Jawa Timur." }}
+                        </p>
+                        <p class="home-about-desc">
+                            {{ page.about_p2 | default: "Dengan komitmen menghadirkan kenyamanan dan keamanan perjalanan maksimal, setiap unit armada kami selalu menjalani perawatan rutin berkala, terjaga kebersihannya, memiliki kabin wangi, dan full AC dingin. Didukung supir profesional yang ramah, sopan, dan menguasai rute jalan, kami siap menemani agenda dinas, bisnis, maupun wisata Anda." }}
+                        </p>
+
+                        <div class="home-about-features-grid">
+                            <div class="about-feat-item">
+                                <span class="feat-icon">🚗</span>
+                                <div class="feat-text">
+                                    <strong>Armada Prima & Bersih</strong>
+                                    <small>Rutin servis & cek kelayakan</small>
+                                </div>
+                            </div>
+                            <div class="about-feat-item">
+                                <span class="feat-icon">👔</span>
+                                <div class="feat-text">
+                                    <strong>Supir Berpengalaman</strong>
+                                    <small>Ramah, rapi & paham rute</small>
+                                </div>
+                            </div>
+                            <div class="about-feat-item">
+                                <span class="feat-icon">⏱️</span>
+                                <div class="feat-text">
+                                    <strong>Layanan 24 Jam Nonstop</strong>
+                                    <small>Fast response via WhatsApp</small>
+                                </div>
+                            </div>
+                            <div class="about-feat-item">
+                                <span class="feat-icon">💰</span>
+                                <div class="feat-text">
+                                    <strong>Tarif Transparan</strong>
+                                    <small>Harga bersahabat tanpa biaya siluman</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-about-actions">
+                            <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_primary_phone | default: '6281330548581' }}&text=Halo%20Tran99,%20saya%20mau%20sewa%20mobil" class="btn-home-wa" target="_blank" rel="noopener">
+                                <svg class="wa-btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                </svg>
+                                <span>Konsultasi Sewa Mobil</span>
+                            </a>
+                            <a href="tel:+{{ site.telephone }}" class="btn-home-phone">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                </svg>
+                                <span>Telepon: {{ site.telephonedetail }}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section (6 Cards in 2 Rows of 3 Columns) -->
+    <section class="vs-section vs-home-products-section">
+        <div class="grid-container">
+            <div class="section-header-center text-center">
+                <span class="home-badge-pill">{{ page.products_badge | default: "Pilihan Armada Terbaik" }}</span>
+                <h2 class="home-section-title">{{ page.products_title | default: "Daftar Armada & Harga Sewa Mobil Terpopuler" }}</h2>
+                <p class="home-section-desc">{{ page.products_subtitle | default: "Pilihan unit kendaraan terawat lengkap dengan supir ramah berpengalaman siap melayani perjalanan Anda di Surabaya dan Jawa Timur." }}</p>
+            </div>
+
+            <div class="grid-x grid-padding-x home-product-grid">
+                {% for item in site.data-products limit:6 %}
+                <div class="small-12 medium-6 large-4 cell home-product-col">
+                    <div class="product-card-modern">
+                        <div class="card-media-wrapper">
+                            <span class="card-status-badge">Armada Siap Jalan</span>
+                            <a href="{{ item.url }}" class="card-media-link" aria-label="Lihat detail {{ item.text-title }}">
+                                <div class="card-img-square-box">
+                                    <amp-img src="{{ item.amp-img-scr | default: item.image }}" width="1" height="1" layout="responsive" alt="{{ item.amp-img-alt }}" class="card-vehicle-img"></amp-img>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-content-wrapper">
+                            <h3 class="card-vehicle-title">
+                                <a href="{{ item.url }}">{{ item.text-title }}</a>
+                            </h3>
+
+                            <div class="card-price-row">
+                                <span class="card-price-label">Mulai:</span>
+                                <span class="card-price-val">{{ item.price }}</span>
+                                <span class="card-price-unit">{% unless item.price == 'Call' %}/ hari{% endunless %}</span>
+                            </div>
+
+                            <ul class="card-features-list">
+                                <li><span class="feat-check">✓</span> {{ item.list-1 }}</li>
+                                <li><span class="feat-check">✓</span> {{ item.list-2 }}</li>
+                                <li><span class="feat-check">✓</span> {{ item.list-3 }}</li>
+                            </ul>
+
+                            <div class="card-actions-wrapper">
+                                <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_primary_phone | default: '6281330548581' }}&text=Pesan%20Produk:%20{{ item.text-title | url_encode }}" class="btn-pesan-wa" target="_blank" rel="noopener">
+                                    <svg class="wa-btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                    </svg>
+                                    <span>Pesan Sekarang</span>
+                                </a>
+                                <a href="{{ item.url }}" class="btn-detail-link">
+                                    Detail Unit &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="home-more-action text-center">
+                <a href="/product/" class="btn-home-all-fleet">Lihat Semua Armada Mobil (9 Unit) &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Order Section (Section 3) -->
+    <section class="vs-section vs-bg-secondary vs-how-to-order-section">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x align-center">
+                <div class="small-12 cell">
+                    <div class="section-header-center text-center">
+                        <span class="home-badge-pill">Proses Cepat & Mudah</span>
+                        <h2 class="home-section-title">{{ site.section-3 | default: "Bagaimana Cara Memesan?" }}</h2>
+                        <p class="home-section-desc">Pemesanan sewa mobil di Tran99 hanya butuh beberapa langkah mudah tanpa proses yang rumit.</p>
+                    </div>
+                </div>
+                <div class="small-12 large-11 cell">
                     <div class="grid-x grid-padding-x">
-                        <div class="small-12 large-10 cell">
-                            <div class="vs-about-content">
-                                <div class="vs-section-title text-center">
-                                    <h3><span class="text-title">{{ site.section-2 }}</span></h3>
+                        {% for item in site.data-section-3 %}
+                        <div class="small-12 medium-6 large-3 cell text-center order-step-col">
+                            <div class="shape-logo order-step-card">
+                                <div class="box-shape-img">
+                                    <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
                                 </div>
-                                <div class="media-object">
-                                    <div class="media-object-section main-section text-center">
-                                        <p class="text-center">{{ site.section-2-a }}</p>
-                                        <a href="tel:+{{ site.telephone }}" class="button vs-flat-btn-primary">{{ site.telephonedetail }}</a>
-                                    </div>
-                                </div>
+                                <h3 class="shape-text order-step-title">{{ item.text-title }}</h3>
+                                <p class="order-step-desc">{{ item.text-description }}</p>
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
                 </div>
-                <div class="medium-6 large-6 cell hide-for-medium">
-                    <div class="grid-container">
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section (4 Cards) -->
+    <section class="vs-section vs-home-blog-section">
+        <div class="grid-container">
+            <div class="section-header-center text-center">
+                <span class="home-badge-pill">{{ page.blog_badge | default: "Informasi & Edukasi" }}</span>
+                <h2 class="home-section-title">{{ page.blog_title | default: "Artikel & Info Wisata Terbaru" }}</h2>
+                <p class="home-section-desc">{{ page.blog_subtitle | default: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa Timur, dan informasi seputar sewa mobil Surabaya bersama Tran99." }}</p>
+            </div>
+
+            <div class="grid-x grid-padding-x home-blog-grid">
+                {% for post in site.posts limit:4 %}
+                <div class="small-12 medium-6 large-3 cell home-blog-col">
+                    <article class="home-blog-card">
+                        <div class="home-blog-media">
+                            <a href="{{ post.url }}" aria-label="{{ post.text-title | default: post.title }}">
+                                <amp-img src="{{ post.photos | default: post.amp-img-scr | default: '/static/rental-mobil-surabaya.jpg' }}" width="16" height="10" layout="responsive" alt="{{ post.amp-img-alt | default: post.text-title | default: post.title }}" class="home-blog-thumb"></amp-img>
+                            </a>
+                        </div>
+                        <div class="home-blog-body">
+                            <div class="home-blog-meta">
+                                <span class="meta-date">{{ post.date | date: "%d %b %Y" }}</span>
+                                <span class="meta-dot">&bull;</span>
+                                <span class="meta-author">{{ post.writer | default: "Tran99" }}</span>
+                            </div>
+                            <h3 class="home-blog-title">
+                                <a href="{{ post.url }}">{{ post.text-title | default: post.title }}</a>
+                            </h3>
+                            <p class="home-blog-excerpt">
+                                {{ post.description | default: post.excerpt | strip_html | truncate: 95 }}
+                            </p>
+                            <a href="{{ post.url }}" class="home-blog-link">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="home-more-action text-center">
+                <a href="/blog/" class="btn-home-all-blog">Lihat Semua Artikel Blog &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="vs-section vs-bg-smoke vs-section-gallery">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x align-center">
+                <div class="small-12 cell">
+                    <div class="section-header-center text-center">
+                        <span class="home-badge-pill">Dokumentasi Perjalanan</span>
+                        <h2 class="home-section-title">{{ site.section-4 | default: "Galeri Aktivitas Kami" }}</h2>
+                        <p class="home-section-desc">Dokumentasi nyata kepuasan pelanggan dalam berbagai agenda sewa mobil bersama Tran99.</p>
+                    </div>
+                </div>
+                <div class="small-12 medium-10 cell">
+                    <div class="vs-gallery-content">
                         <div class="grid-x grid-padding-x">
-                            <div class="large-12 cell text-center">
-                                <div class="vs-box-profile-img text-left">
-                                    <amp-img src="/static/man.png" width="175" height="241" layout="fixed" alt="sewa mobil di surabaya"></amp-img>
+                            {% for item in site.data-gallery-picture limit:6 %}
+                            <div class="small-6 medium-4 cell" style="margin-bottom: 1.25rem;">
+                                <div class="vs-box-gall-img">
+                                    <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
                                 </div>
                             </div>
+                            {% endfor %}                                
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="vs-section vs-bg-secondary">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x align-center">
-                    <div class="small-12 cell">
-                        <div class="vs-section-title text-center">
-                            <h3><span class="text-title">{{ site.section-3 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="small-12 large-10 cell">
-                        <div class="grid-x grid-padding-x">
-                            {% for item in site.data-section-3 %}
-                            <div class="small-12 medium-6 large-3 cell text-center">
-                                <div class="shape-logo">
-                                    <div class="box-shape-img">
-                                        <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
-                                    </div>
-                                    <h6 class="shape-text">{{ item.text-title }}</h6>
-                                    <p>{{ item.text-description }}</p>
-                                </div>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+                <div class="small-12 medium-10 cell text-center" style="margin-top: 1rem;">
+                    <a href="/gallery/" class="button btn-home-all-gallery">Buka Galeri Lengkap & Instagram &rarr;</a>
                 </div>
             </div>
         </div>
-        <div class="vs-section vs-bg-smoke vs-section-gallery">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x align-center">
-                    <div class="small-12 cell">
-                        <div class="vs-section-title text-center">
-                            <h3><span class="text-title">{{ site.section-4 }}</span></h3>
-                        </div>
+    </section>
+
+    <!-- Services Highlights (Section 5) -->
+    <section class="vs-section vs-bg-primary padding-bottom-1">
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="small-12 cell">
+                    <div class="section-header-center text-center">
+                        <h2 class="home-section-title text-secondary">{{ site.section-5 | default: "Dapatkan Layanan Kami" }}</h2>
                     </div>
-                    <div class="small-12 medium-10 cell">
-                        <div class="vs-gallery-content">
-                            <div class="grid-x grid-padding-x">
-                                <!-- {% for item in site.data-gallery limit:6 %}
-                                <div class="large-4 cell">
-                                    <div class="vs-box-gall-img">
-                                        <amp-instagram data-shortcode="{{ item.data-shortcode }}" width="1" height="1" layout="responsive">
-                                        </amp-instagram>
-                                    </div>
+                </div>
+                <div class="small-12 large-10 cell">
+                    <div class="grid-x grid-padding-x align-center">
+                        {% for item in site.data-section-5 %}
+                        <div class="small-6 medium-3 cell text-center service-feature-col">
+                            <div class="shape-logo service-feature-card">
+                                <div class="box-shape-img">
+                                    <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
                                 </div>
-                                {% endfor %} -->
-                                {% for item in site.data-gallery-picture limit:9 %}
-                                <div class="large-4 cell">
-                                    <div class="vs-box-gall-img">
-                                        <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
-                                    </div>
-                                </div>
-                                {% endfor %}                                
+                                <h3 class="shape-text service-feat-title"><span class="font-bold">{{ item.text-title }}</span></h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="small-12 medium-10 cell text-right">
-                        <a href="/gallery/" class="button vs-flat-btn-primary">Selebihnya</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="vs-section vs-bg-primary padding-bottom-1">
-        <div class="grid-x">
-            <div class="small-12 cell">
-                <div class="vs-section-title text-center">
-                    <h3><span class="text-title text-secondary">{{ site.section-5 }}</span></h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="padding-0">
-        <div class="grid-x">
-            <div class="medium-7 cell vs-bg-primary">
-                <div class="grid-container">
-                    <div class="grid-x grid-padding-x align-right">
-                        <div class="small-12 large-8 cell">
-                            <div class="grid-x grid-padding-x">
-                                {% for item in site.data-section-5 %}
-                                <div class="small-6 cell text-center">
-                                    <div class="shape-logo">
-                                        <div class="box-shape-img">
-                                            <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
-                                        </div>
-                                        <h6 class="shape-text"><span class="font-bold">{{ item.text-title }}</span></h6>
-                                    </div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="medium-5 cell vs-bg-primary show-for-medium">
-                <div class="grid-x grid-padding-x">
-                    <div class="small-12 large-8 cell">
-                        <div class="vs-box-profile-img text-left">
-                            <amp-img src="/static/manbrown.png" width="350" height="454" layout="fixed" alt="rental mobil di surabaya"></amp-img>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
+
+    <!-- Closing Motto (Section 6) -->
     <div class="vs-section-closing">
         <div class="grid-x grid-padding-x">
             <div class="small-12 cell text-center">
-                <h5 class="font-italic">" <span class="font-bold text-secondary">{{ site.section-6-a }}</span> {{ site.section-6-b }} "</h5>
+                <h3 class="font-italic">" <span class="font-bold text-secondary">{{ site.section-6-a }}</span> {{ site.section-6-b }} "</h3>
             </div>
         </div>
     </div>

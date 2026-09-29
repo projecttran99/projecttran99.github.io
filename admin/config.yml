@@ -172,6 +172,37 @@ collections:
   - name: "pages"
     label: "Kelola Halaman"
     files:
+      - label: "Halaman Utama (Beranda / Homepage)"
+        name: "home_page"
+        file: "index.html"
+        fields:
+          - { label: "Judul Browser (SEO Title)", name: "title", widget: "string", required: true }
+          - { label: "Meta Deskripsi (SEO)", name: "description", widget: "text", required: true }
+          - { label: "Foto Header / Open Graph", name: "photos", widget: "image" }
+
+          # --- HERO SECTION ---
+          - { label: "Hero - Badge Atas", name: "hero_badge", widget: "string", default: "Rental Mobil Surabaya Terpercaya #1" }
+          - { label: "Hero - Judul Utama (H1)", name: "hero_title", widget: "string", default: "Rental Mobil Surabaya & Sewa Mobil Murah Terpercaya" }
+          - { label: "Hero - Subjudul (Deskripsi)", name: "hero_subtitle", widget: "text", default: "Pusat sewa mobil Surabaya terlengkap sudah termasuk supir berpengalaman, armada bersih wangi ber-AC dingin, dan layanan siap siaga 24 jam untuk kebutuhan perjalanan dinas, bisnis, maupun wisata Anda." }
+
+          # --- TENTANG KAMI (ABOUT) ---
+          - { label: "Tentang Kami - Badge", name: "about_badge", widget: "string", default: "Tentang Tran99" }
+          - { label: "Tentang Kami - Judul (H2)", name: "about_title", widget: "string", default: "Penyedia Jasa Rental Mobil Surabaya Berstandar Prima" }
+          - { label: "Tentang Kami - Paragraf 1", name: "about_p1", widget: "text", default: "Tran99.com adalah perusahaan penyedia jasa transportasi darat terpercaya di Surabaya yang melayani sewa mobil harian, mingguan, hingga bulanan untuk wilayah Surabaya, Bandara Juanda, dan seluruh Jawa Timur." }
+          - { label: "Tentang Kami - Paragraf 2", name: "about_p2", widget: "text", default: "Dengan komitmen menghadirkan kenyamanan dan keamanan perjalanan maksimal, setiap unit armada kami selalu menjalani perawatan rutin berkala, terjaga kebersihannya, memiliki kabin wangi, dan full AC dingin. Didukung supir profesional yang ramah, sopan, dan menguasai rute jalan, kami siap menemani agenda dinas, bisnis, maupun wisata Anda." }
+          - { label: "Tentang Kami - Foto Gambar", name: "about_img", widget: "image", default: "/static/rental-mobil-surabaya.jpg", media_folder: "static", public_folder: "/static" }
+          - { label: "Tentang Kami - Alt Text Foto", name: "about_img_alt", widget: "string", default: "Rental Mobil Surabaya Tran99" }
+
+          # --- ARMADA PRODUK ---
+          - { label: "Armada Mobil - Badge", name: "products_badge", widget: "string", default: "Pilihan Armada Terbaik" }
+          - { label: "Armada Mobil - Judul (H2)", name: "products_title", widget: "string", default: "Daftar Armada & Harga Sewa Mobil Terpopuler" }
+          - { label: "Armada Mobil - Subjudul", name: "products_subtitle", widget: "text", default: "Pilihan unit kendaraan terawat lengkap dengan supir ramah berpengalaman siap melayani perjalanan Anda di Surabaya dan Jawa Timur." }
+
+          # --- BLOG & ARTIKEL ---
+          - { label: "Blog - Badge", name: "blog_badge", widget: "string", default: "Informasi & Edukasi" }
+          - { label: "Blog - Judul (H2)", name: "blog_title", widget: "string", default: "Artikel & Info Wisata Terbaru" }
+          - { label: "Blog - Subjudul", name: "blog_subtitle", widget: "text", default: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa Timur, dan informasi seputar sewa mobil Surabaya bersama Tran99." }
+
       - label: "Halaman Kontak (/contact/)"
         name: "contact_page"
         file: "contact.html"
