@@ -19,17 +19,24 @@
  TECHNICAL-ARCHITECTURE.md                 |  156 ++
  TESTING-STRATEGY.md                       |  110 +
  USER-STORIES.md                           |  148 ++
- _config.yml                               |   25 +-
+ _config.yml                               |   53 +-
+ _data-section-9/alamat.md                 |    4 +-
+ _data-section-9/email.md                  |    4 +-
+ _data-section-9/phone.md                  |    4 +-
+ _data-section-9/whatsapp-admin.md         |    6 +-
+ _data-section-9/whatsapp.md               |    6 +-
  _includes/amp-custom-blog.html            |  183 +-
+ _includes/amp-custom-contact.html         |  195 +-
  _includes/amp-custom-post.html            |   54 +-
  _includes/breadcrumb.html                 |    9 +
  _includes/float-button.html               |    4 +-
  _includes/metadata.html                   |   69 +-
  _layouts/nyasar.html                      |  182 +-
  _layouts/post.html                        |    8 +-
- admin/config.yml                          |   62 +
+ admin/config.yml                          |   92 +
  admin/index.html                          |   13 +
  blog.html                                 |   99 +-
+ contact.html                              |  154 +-
  existing-amp-pages.json                   |  886 +++++++
  existing-article-inventory.json           | 1394 +++++++++++
  existing-id-inventory.json                |  320 +++
@@ -57,4 +64,4 @@
  scripts/validate-diff.js                  |   66 +
  scripts/validate-seo.js                   |   65 +
  sitemap.xml                               |   53 +-
- 59 files changed, 23058 insertions(+), 231 deletions(-)
+ 66 files changed, 23414 insertions(+), 306 deletions(-)
