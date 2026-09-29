@@ -1,0 +1,2109 @@
+[
+  {
+    "path": "favicon.ico",
+    "filename": "favicon.ico",
+    "extension": ".ico",
+    "size_bytes": 28470,
+    "referenced_by": [
+      "_config.yml",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/favicon.ico"
+  },
+  {
+    "path": "images/icons/icon-128x128.png",
+    "filename": "icon-128x128.png",
+    "extension": ".png",
+    "size_bytes": 15607,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-128x128.png"
+  },
+  {
+    "path": "images/icons/icon-144x144.png",
+    "filename": "icon-144x144.png",
+    "extension": ".png",
+    "size_bytes": 18442,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-144x144.png"
+  },
+  {
+    "path": "images/icons/icon-152x152.png",
+    "filename": "icon-152x152.png",
+    "extension": ".png",
+    "size_bytes": 19841,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-152x152.png"
+  },
+  {
+    "path": "images/icons/icon-192x192.png",
+    "filename": "icon-192x192.png",
+    "extension": ".png",
+    "size_bytes": 27888,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-192x192.png"
+  },
+  {
+    "path": "images/icons/icon-384x384.png",
+    "filename": "icon-384x384.png",
+    "extension": ".png",
+    "size_bytes": 80080,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-384x384.png"
+  },
+  {
+    "path": "images/icons/icon-512x512.png",
+    "filename": "icon-512x512.png",
+    "extension": ".png",
+    "size_bytes": 117769,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-512x512.png"
+  },
+  {
+    "path": "images/icons/icon-72x72.png",
+    "filename": "icon-72x72.png",
+    "extension": ".png",
+    "size_bytes": 7237,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-72x72.png"
+  },
+  {
+    "path": "images/icons/icon-96x96.png",
+    "filename": "icon-96x96.png",
+    "extension": ".png",
+    "size_bytes": 10665,
+    "referenced_by": [
+      "manifest.json",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/images/icons/icon-96x96.png"
+  },
+  {
+    "path": "photos/16.-tas-tanggulangin.jpg",
+    "filename": "16.-tas-tanggulangin.jpg",
+    "extension": ".jpg",
+    "size_bytes": 164152,
+    "referenced_by": [
+      "_posts/2018-08-16-sewa-mobil-tanggulangin.md"
+    ],
+    "url": "https://tran99.com/photos/16.-tas-tanggulangin.jpg"
+  },
+  {
+    "path": "photos/hiace-girl-2.jpg",
+    "filename": "hiace-girl-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 66552,
+    "referenced_by": [
+      "_posts/2019-09-02-sewa-mobil-hiace.md"
+    ],
+    "url": "https://tran99.com/photos/hiace-girl-2.jpg"
+  },
+  {
+    "path": "photos/hiace-girl.jpg",
+    "filename": "hiace-girl.jpg",
+    "extension": ".jpg",
+    "size_bytes": 265426,
+    "referenced_by": [
+      "_posts/2019-09-02-sewa-mobil-hiace.md",
+      "_posts/2021-11-19-rental-mobil-mojokerto.md"
+    ],
+    "url": "https://tran99.com/photos/hiace-girl.jpg"
+  },
+  {
+    "path": "photos/imf-1.jpg",
+    "filename": "imf-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 52105,
+    "referenced_by": [
+      "_posts/2018-10-05-rental-annual-meeting-imf-world-bank-di-bali.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/photos/imf-1.jpg"
+  },
+  {
+    "path": "photos/imf-2.jpg",
+    "filename": "imf-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 99137,
+    "referenced_by": [
+      "_posts/2018-10-05-rental-annual-meeting-imf-world-bank-di-bali.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/photos/imf-2.jpg"
+  },
+  {
+    "path": "photos/masden.png",
+    "filename": "masden.png",
+    "extension": ".png",
+    "size_bytes": 357834,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/masden.png"
+  },
+  {
+    "path": "photos/november-1.jpg",
+    "filename": "november-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 134680,
+    "referenced_by": [
+      "_posts/2018-11-05-keunggulan-rental-mobil-surabaya.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/photos/november-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-avanza-terbaru-surabaya-2.jpg",
+    "filename": "rental-mobil-avanza-terbaru-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 260293,
+    "referenced_by": [
+      "_posts/2022-03-11-rental-mobil-avanza-terbaru-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-avanza-terbaru-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-avanza-terbaru-surabaya.jpg",
+    "filename": "rental-mobil-avanza-terbaru-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 170976,
+    "referenced_by": [
+      "_posts/2022-03-11-rental-mobil-avanza-terbaru-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-avanza-terbaru-surabaya.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-10.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-10.jpg",
+    "extension": ".jpg",
+    "size_bytes": 284857,
+    "referenced_by": [
+      "_posts/2026-01-08-rental-mobil-perak-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-10.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-11.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-11.jpg",
+    "extension": ".jpg",
+    "size_bytes": 305066,
+    "referenced_by": [
+      "_posts/2026-01-08-rental-mobil-perak-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-11.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-12.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-12.jpg",
+    "extension": ".jpg",
+    "size_bytes": 320668,
+    "referenced_by": [
+      "_posts/2026-01-08-rental-mobil-perak-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-12.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-13.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-13.jpg",
+    "extension": ".jpg",
+    "size_bytes": 193320,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-13.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-14.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-14.jpg",
+    "extension": ".jpg",
+    "size_bytes": 191693,
+    "referenced_by": [
+      "_posts/2026-02-01-harga-sewa-mobil-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-14.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-15.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-15.jpg",
+    "extension": ".jpg",
+    "size_bytes": 279048,
+    "referenced_by": [
+      "_posts/2026-02-01-harga-sewa-mobil-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-15.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-16.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-16.jpg",
+    "extension": ".jpg",
+    "size_bytes": 130391,
+    "referenced_by": [
+      "_posts/2026-02-01-harga-sewa-mobil-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-16.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-2.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 182547,
+    "referenced_by": [
+      "_posts/2025-02-06-rental-mobil-bangil-pasuruan.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-3.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 127867,
+    "referenced_by": [
+      "_posts/2025-02-06-rental-mobil-bangil-pasuruan.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-4.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 101400,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-4.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-5.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 216233,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-5.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-6.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-6.jpg",
+    "extension": ".jpg",
+    "size_bytes": 162924,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-6.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-7.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-7.jpg",
+    "extension": ".jpg",
+    "size_bytes": 226018,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-7.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-8.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-8.jpg",
+    "extension": ".jpg",
+    "size_bytes": 249065,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-8.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan-9.jpg",
+    "filename": "rental-mobil-bangil-pasuruan-9.jpg",
+    "extension": ".jpg",
+    "size_bytes": 305648,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan-9.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-bangil-pasuruan.jpg",
+    "filename": "rental-mobil-bangil-pasuruan.jpg",
+    "extension": ".jpg",
+    "size_bytes": 228660,
+    "referenced_by": [
+      "_posts/2025-02-06-rental-mobil-bangil-pasuruan.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-bangil-pasuruan.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-di-gresik-1.jpg",
+    "filename": "rental-mobil-di-gresik-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 52937,
+    "referenced_by": [
+      "_posts/2024-09-26-rental-mobil-di-gresik.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-di-gresik-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-di-gresik-2.jpg",
+    "filename": "rental-mobil-di-gresik-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 66858,
+    "referenced_by": [
+      "_posts/2024-09-26-rental-mobil-di-gresik.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-di-gresik-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-fortuner-surabaya-1.jpg",
+    "filename": "rental-mobil-fortuner-surabaya-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 192317,
+    "referenced_by": [
+      "_posts/2022-12-12-rental-mobil-fortuner-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-fortuner-surabaya-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-fortuner-surabaya-2.jpg",
+    "filename": "rental-mobil-fortuner-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 97082,
+    "referenced_by": [
+      "_posts/2022-12-12-rental-mobil-fortuner-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-fortuner-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-hiace-luxury-1.jpg",
+    "filename": "rental-mobil-hiace-luxury-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 353876,
+    "referenced_by": [
+      "_posts/2024-11-13-sewa-mobil-hiace-luxury-surabaya-tran99.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-hiace-luxury-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-hiace-luxury-2.jpg",
+    "filename": "rental-mobil-hiace-luxury-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 237233,
+    "referenced_by": [
+      "_posts/2024-11-13-sewa-mobil-hiace-luxury-surabaya-tran99.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-hiace-luxury-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-hiace-luxury-3.jpg",
+    "filename": "rental-mobil-hiace-luxury-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 201518,
+    "referenced_by": [
+      "_posts/2024-11-13-sewa-mobil-hiace-luxury-surabaya-tran99.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-hiace-luxury-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-hiace-luxury-4.jpg",
+    "filename": "rental-mobil-hiace-luxury-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 174700,
+    "referenced_by": [
+      "_posts/2024-11-13-sewa-mobil-hiace-luxury-surabaya-tran99.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-hiace-luxury-4.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-hiace-premio-comuter.jpg",
+    "filename": "rental-mobil-hiace-premio-comuter.jpg",
+    "extension": ".jpg",
+    "size_bytes": 279862,
+    "referenced_by": [
+      "_posts/2022-12-25-rental-mobil-hiace-premio-comuter.md",
+      "_posts/2024-07-01-rental-mobil-candi-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-hiace-premio-comuter.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-innova-di-malang-1.jpg",
+    "filename": "rental-mobil-innova-di-malang-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 84953,
+    "referenced_by": [
+      "_posts/2024-09-19-rental-mobil-innova-di-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-innova-di-malang-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-innova-di-malang-2.jpg",
+    "filename": "rental-mobil-innova-di-malang-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 57550,
+    "referenced_by": [
+      "_posts/2024-09-19-rental-mobil-innova-di-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-innova-di-malang-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kejapanan-porong-1.jpg",
+    "filename": "rental-mobil-kejapanan-porong-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 92551,
+    "referenced_by": [
+      "_posts/2025-07-15-rental-mobil-kejapanan-porong.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-kejapanan-porong-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kejapanan-porong-2.jpg",
+    "filename": "rental-mobil-kejapanan-porong-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 55835,
+    "referenced_by": [
+      "_posts/2025-07-15-rental-mobil-kejapanan-porong.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-kejapanan-porong-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kejapanan-porong-3.jpg",
+    "filename": "rental-mobil-kejapanan-porong-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 148650,
+    "referenced_by": [
+      "_posts/2025-07-15-rental-mobil-kejapanan-porong.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-kejapanan-porong-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-1.jpg",
+    "filename": "rental-mobil-kepanjen-malang-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 166176,
+    "referenced_by": [
+      "_posts/2025-03-05-rental-mobil-kepanjen-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-3.jpg",
+    "filename": "rental-mobil-kepanjen-malang-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 125895,
+    "referenced_by": [
+      "_posts/2025-03-05-rental-mobil-kepanjen-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-4.jpg",
+    "filename": "rental-mobil-kepanjen-malang-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 191880,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-4.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-5.jpg",
+    "filename": "rental-mobil-kepanjen-malang-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 174810,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-5.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-6.jpg",
+    "filename": "rental-mobil-kepanjen-malang-6.jpg",
+    "extension": ".jpg",
+    "size_bytes": 227401,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-6.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-7.jpg",
+    "filename": "rental-mobil-kepanjen-malang-7.jpg",
+    "extension": ".jpg",
+    "size_bytes": 275642,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-7.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang-8.jpg",
+    "filename": "rental-mobil-kepanjen-malang-8.jpg",
+    "extension": ".jpg",
+    "size_bytes": 330781,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang-8.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-kepanjen-malang.jpg",
+    "filename": "rental-mobil-kepanjen-malang.jpg",
+    "extension": ".jpg",
+    "size_bytes": 228078,
+    "referenced_by": [
+      "_posts/2025-03-05-rental-mobil-kepanjen-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-kepanjen-malang.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-malang-1.jpg",
+    "filename": "rental-mobil-malang-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 201582,
+    "referenced_by": [
+      "_posts/2024-02-28-rental-mobil-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-malang-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-malang-2.jpg",
+    "filename": "rental-mobil-malang-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 634938,
+    "referenced_by": [
+      "_posts/2024-02-28-rental-mobil-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-malang-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-malang-3.jpg",
+    "filename": "rental-mobil-malang-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 182748,
+    "referenced_by": [
+      "_posts/2024-03-25-sewa-mobil-innova-zenix-murah-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-malang-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-malang-4.jpg",
+    "filename": "rental-mobil-malang-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 243944,
+    "referenced_by": [
+      "_posts/2024-03-25-sewa-mobil-innova-zenix-murah-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-malang-4.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-malang-5.jpg",
+    "filename": "rental-mobil-malang-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 168878,
+    "referenced_by": [
+      "_posts/2024-07-01-rental-mobil-candi-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-malang-5.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-malang-6.jpg",
+    "filename": "rental-mobil-malang-6.jpg",
+    "extension": ".jpg",
+    "size_bytes": 202632,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-malang-6.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-mojokerto.jpg",
+    "filename": "rental-mobil-mojokerto.jpg",
+    "extension": ".jpg",
+    "size_bytes": 273910,
+    "referenced_by": [
+      "_posts/2021-11-19-rental-mobil-mojokerto.md",
+      "_posts/2022-08-28-aplikasi-rental-mobil-surabaya.md",
+      "_posts/2023-06-05-rental-mobil-banyuwangi.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-mojokerto.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-ngoro-mojokerto-1.jpg",
+    "filename": "rental-mobil-ngoro-mojokerto-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 177792,
+    "referenced_by": [
+      "_posts/2025-08-29-rental-mobil-ngoro-mojokerto.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-ngoro-mojokerto-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-ngoro-mojokerto-2.jpg",
+    "filename": "rental-mobil-ngoro-mojokerto-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 176472,
+    "referenced_by": [
+      "_posts/2025-08-29-rental-mobil-ngoro-mojokerto.md",
+      "_posts/2026-01-08-rental-mobil-perak-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-ngoro-mojokerto-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-ngoro-mojokerto-3.jpg",
+    "filename": "rental-mobil-ngoro-mojokerto-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 395611,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-ngoro-mojokerto-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-ngoro-mojokerto-4.jpg",
+    "filename": "rental-mobil-ngoro-mojokerto-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 313027,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/rental-mobil-ngoro-mojokerto-4.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-ngoro-mojokerto-5.jpg",
+    "filename": "rental-mobil-ngoro-mojokerto-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 127766,
+    "referenced_by": [
+      "_posts/2025-08-29-rental-mobil-ngoro-mojokerto.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-ngoro-mojokerto-5.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-ngoro-mojokerto.jpg",
+    "filename": "rental-mobil-ngoro-mojokerto.jpg",
+    "extension": ".jpg",
+    "size_bytes": 156623,
+    "referenced_by": [
+      "_posts/2025-08-29-rental-mobil-ngoro-mojokerto.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-ngoro-mojokerto.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-pajero.jpg",
+    "filename": "rental-mobil-pajero.jpg",
+    "extension": ".jpg",
+    "size_bytes": 169922,
+    "referenced_by": [
+      "_posts/2022-11-14-rental-mobil-fortuner-pajero-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-pajero.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir-2.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 151768,
+    "referenced_by": [
+      "_posts/2022-08-26-rental-mobil-surabaya-dengan-sopir.md",
+      "_posts/2023-06-05-rental-mobil-banyuwangi.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir-3.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 220192,
+    "referenced_by": [
+      "_posts/2022-08-27-sewa-mobil-surabaya-lepas-kunci.md",
+      "_posts/2023-08-09-rental-mobil-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir-4.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 92722,
+    "referenced_by": [
+      "_posts/2022-08-27-sewa-mobil-surabaya-lepas-kunci.md",
+      "_posts/2024-01-18-Sewa-Mobil-Pandaan.md",
+      "_posts/2025-01-03-rental-mobil-tumpang-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir-4.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir-5.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 122128,
+    "referenced_by": [
+      "_posts/2022-08-26-rental-mobil-surabaya-dengan-sopir.md",
+      "_posts/2025-01-03-rental-mobil-tumpang-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir-5.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir-6.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir-6.jpg",
+    "extension": ".jpg",
+    "size_bytes": 178237,
+    "referenced_by": [
+      "_posts/2022-08-27-sewa-mobil-surabaya-lepas-kunci.md",
+      "_posts/2022-08-28-aplikasi-rental-mobil-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir-6.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir-7.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir-7.jpg",
+    "extension": ".jpg",
+    "size_bytes": 203040,
+    "referenced_by": [
+      "_posts/2022-08-28-aplikasi-rental-mobil-surabaya.md",
+      "_posts/2023-06-05-rental-mobil-banyuwangi.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir-7.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-dengan-sopir.jpg",
+    "filename": "rental-mobil-surabaya-dengan-sopir.jpg",
+    "extension": ".jpg",
+    "size_bytes": 296115,
+    "referenced_by": [
+      "_posts/2022-08-26-rental-mobil-surabaya-dengan-sopir.md",
+      "_posts/2025-01-03-rental-mobil-tumpang-malang.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-dengan-sopir.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-pusat-kota-1.jpg",
+    "filename": "rental-mobil-surabaya-pusat-kota-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 350271,
+    "referenced_by": [
+      "_posts/2025-05-19-rental-mobil-surabaya-pusat-kota.md",
+      "_posts/2025-07-15-rental-mobil-kejapanan-porong.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-pusat-kota-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-pusat-kota-2.jpg",
+    "filename": "rental-mobil-surabaya-pusat-kota-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 269495,
+    "referenced_by": [
+      "_posts/2025-05-19-rental-mobil-surabaya-pusat-kota.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-pusat-kota-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-surabaya-pusat-kota-3.jpg",
+    "filename": "rental-mobil-surabaya-pusat-kota-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 169874,
+    "referenced_by": [
+      "_posts/2025-05-19-rental-mobil-surabaya-pusat-kota.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-surabaya-pusat-kota-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-waru-sidoarjo-1.jpg",
+    "filename": "rental-mobil-waru-sidoarjo-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 258192,
+    "referenced_by": [
+      "_posts/2025-10-15-rental-mobil-waru-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-waru-sidoarjo-1.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-waru-sidoarjo-2.jpg",
+    "filename": "rental-mobil-waru-sidoarjo-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 172892,
+    "referenced_by": [
+      "_posts/2025-10-15-rental-mobil-waru-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-waru-sidoarjo-2.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-waru-sidoarjo-3.jpg",
+    "filename": "rental-mobil-waru-sidoarjo-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 470941,
+    "referenced_by": [
+      "_posts/2025-10-15-rental-mobil-waru-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-waru-sidoarjo-3.jpg"
+  },
+  {
+    "path": "photos/rental-mobil-waru-sidoarjo-4.jpg",
+    "filename": "rental-mobil-waru-sidoarjo-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 204013,
+    "referenced_by": [
+      "_posts/2025-10-15-rental-mobil-waru-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/rental-mobil-waru-sidoarjo-4.jpg"
+  },
+  {
+    "path": "photos/sewa-bus-surabaya-1.jpg",
+    "filename": "sewa-bus-surabaya-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 782934,
+    "referenced_by": [
+      "_posts/2022-01-17-sewa-bus-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-bus-surabaya-1.jpg"
+  },
+  {
+    "path": "photos/sewa-bus-surabaya-2.jpg",
+    "filename": "sewa-bus-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 582317,
+    "referenced_by": [
+      "_posts/2022-01-17-sewa-bus-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-bus-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-bus-surabaya-3.jpg",
+    "filename": "sewa-bus-surabaya-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 160133,
+    "referenced_by": [
+      "_posts/2022-01-17-sewa-bus-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-bus-surabaya-3.jpg"
+  },
+  {
+    "path": "photos/sewa-elf-long-surabaya.jpg",
+    "filename": "sewa-elf-long-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 51475,
+    "referenced_by": [
+      "_posts/2022-02-25-sewa-elf-long-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-elf-long-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-hiace-surabaya-2.jpg",
+    "filename": "sewa-hiace-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 25321,
+    "referenced_by": [
+      "_posts/2022-02-16-sewa-hiace-surabaya.md",
+      "_posts/2023-08-09-rental-mobil-malang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-hiace-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-hiace-surabaya.jpg",
+    "filename": "sewa-hiace-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 22148,
+    "referenced_by": [
+      "_posts/2022-02-16-sewa-hiace-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-hiace-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-innova-reborn-faselift-surabaya-2.jpg",
+    "filename": "sewa-innova-reborn-faselift-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 207873,
+    "referenced_by": [
+      "_posts/2022-10-14-sewa-inova-reborn-facelift-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-innova-reborn-faselift-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-innova-reborn-faselift-surabaya-3.jpg",
+    "filename": "sewa-innova-reborn-faselift-surabaya-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 265495,
+    "referenced_by": [
+      "_posts/2022-10-14-sewa-inova-reborn-facelift-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-innova-reborn-faselift-surabaya-3.jpg"
+  },
+  {
+    "path": "photos/sewa-innova-reborn-faselift-surabaya.jpg",
+    "filename": "sewa-innova-reborn-faselift-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 294550,
+    "referenced_by": [
+      "_posts/2022-10-14-sewa-inova-reborn-facelift-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-innova-reborn-faselift-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-avanza-surabaya-2.jpg",
+    "filename": "sewa-mobil-avanza-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 73388,
+    "referenced_by": [
+      "_posts/2020-04-11-sewa-mobil-avanza-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-avanza-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-avanza-surabaya.jpg",
+    "filename": "sewa-mobil-avanza-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 49070,
+    "referenced_by": [
+      "_posts/2020-04-11-sewa-mobil-avanza-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-avanza-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-bonus-driver-surabaya-termurah-2.jpg",
+    "filename": "sewa-mobil-bonus-driver-surabaya-termurah-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 85298,
+    "referenced_by": [
+      "_posts/2021-03-28-rental-mobil-bonus-driver-surabaya-termurah.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-bonus-driver-surabaya-termurah-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-bonus-driver-surabaya-termurah.jpg",
+    "filename": "sewa-mobil-bonus-driver-surabaya-termurah.jpg",
+    "extension": ".jpg",
+    "size_bytes": 113351,
+    "referenced_by": [
+      "_posts/2021-03-28-rental-mobil-bonus-driver-surabaya-termurah.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-bonus-driver-surabaya-termurah.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-ertiga-surabaya-1.jpg",
+    "filename": "sewa-mobil-ertiga-surabaya-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 146143,
+    "referenced_by": [
+      "_posts/2021-02-01-sewa-mobil-ertiga-surabaya.md",
+      "_posts/2022-12-12-rental-mobil-fortuner-surabaya.md",
+      "_posts/2022-12-25-rental-mobil-hiace-premio-comuter.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-ertiga-surabaya-1.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-expander-surabaya-1.jpg",
+    "filename": "sewa-mobil-expander-surabaya-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 182843,
+    "referenced_by": [
+      "_posts/2021-01-01-sewa-mobil-expander-surabaya.md",
+      "_posts/2021-09-08-rental-mobil-terdekat.md",
+      "_posts/2024-01-18-Sewa-Mobil-Pandaan.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-expander-surabaya-1.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-expander-surabaya-2.jpg",
+    "filename": "sewa-mobil-expander-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 169138,
+    "referenced_by": [
+      "_posts/2021-01-01-sewa-mobil-expander-surabaya.md",
+      "_posts/2021-09-08-rental-mobil-terdekat.md",
+      "_posts/2024-01-18-Sewa-Mobil-Pandaan.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-expander-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-expander-surabaya-3.jpg",
+    "filename": "sewa-mobil-expander-surabaya-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 132729,
+    "referenced_by": [
+      "_posts/2021-01-01-sewa-mobil-expander-surabaya.md",
+      "_posts/2021-09-08-rental-mobil-terdekat.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-expander-surabaya-3.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-innova-reborn-surabaya-2.jpg",
+    "filename": "sewa-mobil-innova-reborn-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 69439,
+    "referenced_by": [
+      "_posts/2020-03-25-sewa-mobil-innova-reborn-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-innova-reborn-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-innova-reborn-surabaya.jpg",
+    "filename": "sewa-mobil-innova-reborn-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 98505,
+    "referenced_by": [
+      "_posts/2020-03-25-sewa-mobil-innova-reborn-surabaya.md",
+      "_posts/2020-04-11-sewa-mobil-avanza-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-innova-reborn-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-innova-zenix-surabaya.jpg",
+    "filename": "sewa-mobil-innova-zenix-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 185281,
+    "referenced_by": [
+      "_posts/2024-03-25-sewa-mobil-innova-zenix-murah-surabaya.md",
+      "_posts/2024-07-01-rental-mobil-candi-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-innova-zenix-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mewah-surabaya-2.jpg",
+    "filename": "sewa-mobil-mewah-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 62750,
+    "referenced_by": [
+      "_posts/2021-06-25-rental-mobil-mewah-surabaya.md",
+      "_posts/2021-10-19-sewa-alphard-surabaya.md",
+      "_posts/2022-08-28-aplikasi-rental-mobil-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mewah-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mewah-surabaya-3.jpg",
+    "filename": "sewa-mobil-mewah-surabaya-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 84018,
+    "referenced_by": [
+      "_posts/2021-06-25-rental-mobil-mewah-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mewah-surabaya-3.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mewah-surabaya-4.jpg",
+    "filename": "sewa-mobil-mewah-surabaya-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 81034,
+    "referenced_by": [
+      "_posts/2021-06-25-rental-mobil-mewah-surabaya.md",
+      "_posts/2021-09-08-rental-mobil-terdekat.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mewah-surabaya-4.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mewah-surabaya-5.jpg",
+    "filename": "sewa-mobil-mewah-surabaya-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 98899,
+    "referenced_by": [
+      "_posts/2021-10-19-sewa-alphard-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mewah-surabaya-5.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mewah-surabaya.jpg",
+    "filename": "sewa-mobil-mewah-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 92817,
+    "referenced_by": [
+      "_posts/2021-06-25-rental-mobil-mewah-surabaya.md",
+      "_posts/2021-09-08-rental-mobil-terdekat.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mewah-surabaya.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver-2.jpg",
+    "filename": "sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 62147,
+    "referenced_by": [
+      "_posts/2021-04-01-sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver.jpg",
+    "filename": "sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver.jpg",
+    "extension": ".jpg",
+    "size_bytes": 148105,
+    "referenced_by": [
+      "_posts/2021-04-01-sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-1.jpg",
+    "filename": "sewa-mobil-pakisaji-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 470941,
+    "referenced_by": [
+      "_posts/2026-03-13-sewa-mobil-pakisaji-malang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-1.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-10.jpg",
+    "filename": "sewa-mobil-pakisaji-10.jpg",
+    "extension": ".jpg",
+    "size_bytes": 284116,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-10.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-11.jpg",
+    "filename": "sewa-mobil-pakisaji-11.jpg",
+    "extension": ".jpg",
+    "size_bytes": 232957,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-11.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-12.jpg",
+    "filename": "sewa-mobil-pakisaji-12.jpg",
+    "extension": ".jpg",
+    "size_bytes": 165819,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-12.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-13.jpg",
+    "filename": "sewa-mobil-pakisaji-13.jpg",
+    "extension": ".jpg",
+    "size_bytes": 129826,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-13.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-14.jpg",
+    "filename": "sewa-mobil-pakisaji-14.jpg",
+    "extension": ".jpg",
+    "size_bytes": 331788,
+    "referenced_by": [],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-14.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-2.jpg",
+    "filename": "sewa-mobil-pakisaji-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 236548,
+    "referenced_by": [
+      "_posts/2026-03-13-sewa-mobil-pakisaji-malang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-3.jpg",
+    "filename": "sewa-mobil-pakisaji-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 262960,
+    "referenced_by": [
+      "_posts/2026-03-13-sewa-mobil-pakisaji-malang.md",
+      "_posts/2026-04-10-sewa-mobil-mojoagung.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-3.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-4.jpg",
+    "filename": "sewa-mobil-pakisaji-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 273918,
+    "referenced_by": [
+      "_posts/2026-03-17-sewa-mobil-bululawang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-4.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-5.jpg",
+    "filename": "sewa-mobil-pakisaji-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 301468,
+    "referenced_by": [
+      "_posts/2026-03-17-sewa-mobil-bululawang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-5.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-6.jpg",
+    "filename": "sewa-mobil-pakisaji-6.jpg",
+    "extension": ".jpg",
+    "size_bytes": 150591,
+    "referenced_by": [
+      "_posts/2026-03-17-sewa-mobil-bululawang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-6.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-7.jpg",
+    "filename": "sewa-mobil-pakisaji-7.jpg",
+    "extension": ".jpg",
+    "size_bytes": 228966,
+    "referenced_by": [
+      "_posts/2026-04-10-sewa-mobil-mojoagung.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-7.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-8.jpg",
+    "filename": "sewa-mobil-pakisaji-8.jpg",
+    "extension": ".jpg",
+    "size_bytes": 332034,
+    "referenced_by": [
+      "_posts/2026-04-10-sewa-mobil-mojoagung.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-8.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-pakisaji-9.jpg",
+    "filename": "sewa-mobil-pakisaji-9.jpg",
+    "extension": ".jpg",
+    "size_bytes": 190952,
+    "referenced_by": [
+      "_posts/2026-04-10-sewa-mobil-mojoagung.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-pakisaji-9.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-sidoarjo-2.jpg",
+    "filename": "sewa-mobil-sidoarjo-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 30926,
+    "referenced_by": [
+      "_posts/2020-02-11-sewa-mobil-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-sidoarjo-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-sidoarjo.jpg",
+    "filename": "sewa-mobil-sidoarjo.jpg",
+    "extension": ".jpg",
+    "size_bytes": 30224,
+    "referenced_by": [
+      "_posts/2020-02-11-sewa-mobil-sidoarjo.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-sidoarjo.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-tumpak-sewu-malang-1.jpg",
+    "filename": "sewa-mobil-tumpak-sewu-malang-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 331946,
+    "referenced_by": [
+      "_posts/2026-07-16-yuk-wisata-ke-air-terjun-tumpak-sewu-malang-lumajang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-tumpak-sewu-malang-1.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-tumpak-sewu-malang-2.jpg",
+    "filename": "sewa-mobil-tumpak-sewu-malang-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 325651,
+    "referenced_by": [
+      "_posts/2026-07-16-yuk-wisata-ke-air-terjun-tumpak-sewu-malang-lumajang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-tumpak-sewu-malang-2.jpg"
+  },
+  {
+    "path": "photos/sewa-mobil-tumpak-sewu-malang-3.jpg",
+    "filename": "sewa-mobil-tumpak-sewu-malang-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 389269,
+    "referenced_by": [
+      "_posts/2026-07-16-yuk-wisata-ke-air-terjun-tumpak-sewu-malang-lumajang.md"
+    ],
+    "url": "https://tran99.com/photos/sewa-mobil-tumpak-sewu-malang-3.jpg"
+  },
+  {
+    "path": "photos/tiktok.jpg",
+    "filename": "tiktok.jpg",
+    "extension": ".jpg",
+    "size_bytes": 14568,
+    "referenced_by": [
+      "_posts/2023-11-20-launching-Tiktok-Rental-Mobil-Surabaya-Tran99.md"
+    ],
+    "url": "https://tran99.com/photos/tiktok.jpg"
+  },
+  {
+    "path": "photos/tran99-bersama-ibu-ibu.jpg",
+    "filename": "tran99-bersama-ibu-ibu.jpg",
+    "extension": ".jpg",
+    "size_bytes": 90880,
+    "referenced_by": [
+      "_posts/2019-12-13-sewa-innova-reborn-avanza-hiace.md"
+    ],
+    "url": "https://tran99.com/photos/tran99-bersama-ibu-ibu.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-1.jpg",
+    "filename": "wisata-alam-surabaya-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 104112,
+    "referenced_by": [
+      "_posts/2020-12-07-wisata-alam-surabaya.md",
+      "_posts/2023-09-22-rent-a-car-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-1.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-2.jpg",
+    "filename": "wisata-alam-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 137721,
+    "referenced_by": [
+      "_posts/2020-12-07-wisata-alam-surabaya.md",
+      "_posts/2023-09-22-rent-a-car-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-2.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-3.jpg",
+    "filename": "wisata-alam-surabaya-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 192417,
+    "referenced_by": [
+      "_posts/2020-12-07-wisata-alam-surabaya.md",
+      "_posts/2023-09-22-rent-a-car-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-3.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-4.jpg",
+    "filename": "wisata-alam-surabaya-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 175263,
+    "referenced_by": [
+      "_posts/2020-12-07-wisata-alam-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-4.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-5.jpg",
+    "filename": "wisata-alam-surabaya-5.jpg",
+    "extension": ".jpg",
+    "size_bytes": 179619,
+    "referenced_by": [
+      "_posts/2020-12-21-sewa-elf-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-5.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-6.jpg",
+    "filename": "wisata-alam-surabaya-6.jpg",
+    "extension": ".jpg",
+    "size_bytes": 149430,
+    "referenced_by": [
+      "_posts/2020-12-21-sewa-elf-surabaya.md",
+      "_posts/2021-11-19-rental-mobil-mojokerto.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-6.jpg"
+  },
+  {
+    "path": "photos/wisata-alam-surabaya-7.jpg",
+    "filename": "wisata-alam-surabaya-7.jpg",
+    "extension": ".jpg",
+    "size_bytes": 172478,
+    "referenced_by": [
+      "_posts/2020-12-21-sewa-elf-surabaya.md"
+    ],
+    "url": "https://tran99.com/photos/wisata-alam-surabaya-7.jpg"
+  },
+  {
+    "path": "static/32385489_1021643167993325_7243333418375708672_n.jpg",
+    "filename": "32385489_1021643167993325_7243333418375708672_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 95481,
+    "referenced_by": [
+      "_data-gallery-picture/3.md",
+      "gallery.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/32385489_1021643167993325_7243333418375708672_n.jpg"
+  },
+  {
+    "path": "static/41630686_345660996007408_3959362786232315390_n.jpg",
+    "filename": "41630686_345660996007408_3959362786232315390_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 57468,
+    "referenced_by": [
+      "_data-gallery-picture/4.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/41630686_345660996007408_3959362786232315390_n.jpg"
+  },
+  {
+    "path": "static/41816743_335570487006518_1070829132906493154_n.jpg",
+    "filename": "41816743_335570487006518_1070829132906493154_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 39842,
+    "referenced_by": [
+      "_data-gallery-picture/6.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/41816743_335570487006518_1070829132906493154_n.jpg"
+  },
+  {
+    "path": "static/42003704_2169489999956288_4874548311978663431_n.jpg",
+    "filename": "42003704_2169489999956288_4874548311978663431_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 65042,
+    "referenced_by": [
+      "_data-gallery-picture/5.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/42003704_2169489999956288_4874548311978663431_n.jpg"
+  },
+  {
+    "path": "static/43061223_323731011736020_6734971322820834699_n.jpg",
+    "filename": "43061223_323731011736020_6734971322820834699_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 84995,
+    "referenced_by": [
+      "_data-gallery-picture/7.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/43061223_323731011736020_6734971322820834699_n.jpg"
+  },
+  {
+    "path": "static/43597816_333862287374890_4164960330071885602_n.jpg",
+    "filename": "43597816_333862287374890_4164960330071885602_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 53109,
+    "referenced_by": [
+      "_data-gallery-picture/9.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/43597816_333862287374890_4164960330071885602_n.jpg"
+  },
+  {
+    "path": "static/43767628_2182134858675310_4593096987499668786_n.jpg",
+    "filename": "43767628_2182134858675310_4593096987499668786_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 89437,
+    "referenced_by": [
+      "_data-gallery-picture/1.md",
+      "blog.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/43767628_2182134858675310_4593096987499668786_n.jpg"
+  },
+  {
+    "path": "static/43817648_353828892048143_45810111997129597_n.jpg",
+    "filename": "43817648_353828892048143_45810111997129597_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 58813,
+    "referenced_by": [
+      "_data-gallery-picture/2.md",
+      "contact.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/43817648_353828892048143_45810111997129597_n.jpg"
+  },
+  {
+    "path": "static/43913352_268369640351497_6468748527204336937_n.jpg",
+    "filename": "43913352_268369640351497_6468748527204336937_n.jpg",
+    "extension": ".jpg",
+    "size_bytes": 84336,
+    "referenced_by": [
+      "_data-gallery-picture/8.md",
+      "_posts/2018-09-28-sewa-mobil-elf-surabaya.md",
+      "index.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/43913352_268369640351497_6468748527204336937_n.jpg"
+  },
+  {
+    "path": "static/address.png",
+    "filename": "address.png",
+    "extension": ".png",
+    "size_bytes": 1553,
+    "referenced_by": [
+      "_data-section-9/alamat.md",
+      "_data-section-9/email.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/address.png"
+  },
+  {
+    "path": "static/alphard.jpg",
+    "filename": "alphard.jpg",
+    "extension": ".jpg",
+    "size_bytes": 13189,
+    "referenced_by": [
+      "_data-products/Alphard-Transformer.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/alphard.jpg"
+  },
+  {
+    "path": "static/avanza.jpg",
+    "filename": "avanza.jpg",
+    "extension": ".jpg",
+    "size_bytes": 9848,
+    "referenced_by": [
+      "_data-products/1-avanza.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/avanza.jpg"
+  },
+  {
+    "path": "static/booking.png",
+    "filename": "booking.png",
+    "extension": ".png",
+    "size_bytes": 1396,
+    "referenced_by": [
+      "_data-section-3/jadwal.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/booking.png"
+  },
+  {
+    "path": "static/call.png",
+    "filename": "call.png",
+    "extension": ".png",
+    "size_bytes": 4565,
+    "referenced_by": [
+      "_data-section-3/hubungi-kami.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/call.png"
+  },
+  {
+    "path": "static/camry.jpg",
+    "filename": "camry.jpg",
+    "extension": ".jpg",
+    "size_bytes": 16203,
+    "referenced_by": [
+      "_data-products/camri.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/camry.jpg"
+  },
+  {
+    "path": "static/cheap.png",
+    "filename": "cheap.png",
+    "extension": ".png",
+    "size_bytes": 4969,
+    "referenced_by": [
+      "_data-section-5/murah.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/cheap.png"
+  },
+  {
+    "path": "static/close.svg",
+    "filename": "close.svg",
+    "extension": ".svg",
+    "size_bytes": 2928,
+    "referenced_by": [
+      "_includes/amp-custom-asli.html",
+      "_includes/amp-custom-blog.html",
+      "_includes/amp-custom-contact.html",
+      "_includes/amp-custom-gallery.html",
+      "_includes/amp-custom-home.html",
+      "_includes/amp-custom-post.html",
+      "_includes/amp-custom-product.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/close.svg"
+  },
+  {
+    "path": "static/contact.png",
+    "filename": "contact.png",
+    "extension": ".png",
+    "size_bytes": 3780,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/contact.png"
+  },
+  {
+    "path": "static/elf-long.jpg",
+    "filename": "elf-long.jpg",
+    "extension": ".jpg",
+    "size_bytes": 11001,
+    "referenced_by": [
+      "_data-products/4-Elf-long.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/elf-long.jpg"
+  },
+  {
+    "path": "static/facebook.png",
+    "filename": "facebook.png",
+    "extension": ".png",
+    "size_bytes": 1372,
+    "referenced_by": [
+      "_data-section-7/facebook.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/facebook.png"
+  },
+  {
+    "path": "static/favicon.ico",
+    "filename": "favicon.ico",
+    "extension": ".ico",
+    "size_bytes": 28470,
+    "referenced_by": [
+      "_config.yml",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/favicon.ico"
+  },
+  {
+    "path": "static/fortuner-2.jpg",
+    "filename": "fortuner-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 19724,
+    "referenced_by": [
+      "_data-products/Fortuner-VRZ.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/fortuner-2.jpg"
+  },
+  {
+    "path": "static/fortuner.jpg",
+    "filename": "fortuner.jpg",
+    "extension": ".jpg",
+    "size_bytes": 17597,
+    "referenced_by": [
+      "_data-products/Fortuner.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/fortuner.jpg"
+  },
+  {
+    "path": "static/friend.png",
+    "filename": "friend.png",
+    "extension": ".png",
+    "size_bytes": 3860,
+    "referenced_by": [
+      "_data-section-5/Ramah.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/friend.png"
+  },
+  {
+    "path": "static/gallery-photo.png",
+    "filename": "gallery-photo.png",
+    "extension": ".png",
+    "size_bytes": 3190,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/gallery-photo.png"
+  },
+  {
+    "path": "static/google-plus.png",
+    "filename": "google-plus.png",
+    "extension": ".png",
+    "size_bytes": 2319,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/google-plus.png"
+  },
+  {
+    "path": "static/grand-livina.jpg",
+    "filename": "grand-livina.jpg",
+    "extension": ".jpg",
+    "size_bytes": 10354,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/grand-livina.jpg"
+  },
+  {
+    "path": "static/hamburger.svg",
+    "filename": "hamburger.svg",
+    "extension": ".svg",
+    "size_bytes": 1895,
+    "referenced_by": [
+      "_includes/amp-custom-asli.html",
+      "_includes/amp-custom-blog.html",
+      "_includes/amp-custom-contact.html",
+      "_includes/amp-custom-gallery.html",
+      "_includes/amp-custom-home.html",
+      "_includes/amp-custom-post.html",
+      "_includes/amp-custom-product.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/hamburger.svg"
+  },
+  {
+    "path": "static/hiace.jpg",
+    "filename": "hiace.jpg",
+    "extension": ".jpg",
+    "size_bytes": 20747,
+    "referenced_by": [
+      "_data-products/5-Hiace.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/hiace.jpg"
+  },
+  {
+    "path": "static/innova.jpg",
+    "filename": "innova.jpg",
+    "extension": ".jpg",
+    "size_bytes": 19010,
+    "referenced_by": [
+      "_data-products/2-Innova-grand-new.md",
+      "_data-products/3-Innova-Reborn.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/innova.jpg"
+  },
+  {
+    "path": "static/instagram.png",
+    "filename": "instagram.png",
+    "extension": ".png",
+    "size_bytes": 6242,
+    "referenced_by": [
+      "_data-section-7/instagram.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/instagram.png"
+  },
+  {
+    "path": "static/jemput.png",
+    "filename": "jemput.png",
+    "extension": ".png",
+    "size_bytes": 5364,
+    "referenced_by": [
+      "_data-section-3/jemput.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/jemput.png"
+  },
+  {
+    "path": "static/man.png",
+    "filename": "man.png",
+    "extension": ".png",
+    "size_bytes": 9592,
+    "referenced_by": [
+      "index.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/man.png"
+  },
+  {
+    "path": "static/manbrown.png",
+    "filename": "manbrown.png",
+    "extension": ".png",
+    "size_bytes": 33053,
+    "referenced_by": [
+      "index.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/manbrown.png"
+  },
+  {
+    "path": "static/news-paper.png",
+    "filename": "news-paper.png",
+    "extension": ".png",
+    "size_bytes": 1362,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/news-paper.png"
+  },
+  {
+    "path": "static/notes.png",
+    "filename": "notes.png",
+    "extension": ".png",
+    "size_bytes": 3311,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/notes.png"
+  },
+  {
+    "path": "static/phone-book.png",
+    "filename": "phone-book.png",
+    "extension": ".png",
+    "size_bytes": 1839,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/phone-book.png"
+  },
+  {
+    "path": "static/phone.png",
+    "filename": "phone.png",
+    "extension": ".png",
+    "size_bytes": 3316,
+    "referenced_by": [
+      "_data-section-9/phone.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/phone.png"
+  },
+  {
+    "path": "static/phones-symbol.svg",
+    "filename": "phones-symbol.svg",
+    "extension": ".svg",
+    "size_bytes": 1597,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/phones-symbol.svg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-1-1.jpg",
+    "filename": "rental-mobil-surabaya-1-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 17778,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-1-1.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-1-2.jpg",
+    "filename": "rental-mobil-surabaya-1-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 23204,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-1-2.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-1.jpg",
+    "filename": "rental-mobil-surabaya-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 43194,
+    "referenced_by": [
+      "_posts/2018-05-27-sewa-mobil-di-surabaya.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-1.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-2.jpg",
+    "filename": "rental-mobil-surabaya-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 15563,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-2.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-3-1.jpg",
+    "filename": "rental-mobil-surabaya-3-1.jpg",
+    "extension": ".jpg",
+    "size_bytes": 18759,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-3-1.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-3-2.jpg",
+    "filename": "rental-mobil-surabaya-3-2.jpg",
+    "extension": ".jpg",
+    "size_bytes": 18100,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-3-2.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-3.jpg",
+    "filename": "rental-mobil-surabaya-3.jpg",
+    "extension": ".jpg",
+    "size_bytes": 38539,
+    "referenced_by": [
+      "_posts/2018-06-21-harga-sewa-mobil-surabaya.md",
+      "product.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-3.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-4.jpg",
+    "filename": "rental-mobil-surabaya-4.jpg",
+    "extension": ".jpg",
+    "size_bytes": 15987,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-4.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-tran99-logo.png",
+    "filename": "rental-mobil-surabaya-tran99-logo.png",
+    "extension": ".png",
+    "size_bytes": 4282,
+    "referenced_by": [
+      "_includes/amp-custom-asli.html",
+      "_includes/amp-custom-blog.html",
+      "_includes/amp-custom-contact.html",
+      "_includes/amp-custom-gallery.html",
+      "_includes/amp-custom-home.html",
+      "_includes/amp-custom-post.html",
+      "_includes/amp-custom-product.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-tran99-logo.png"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-transparan.jpg",
+    "filename": "rental-mobil-surabaya-transparan.jpg",
+    "extension": ".jpg",
+    "size_bytes": 66145,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-transparan.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya-transparan.png",
+    "filename": "rental-mobil-surabaya-transparan.png",
+    "extension": ".png",
+    "size_bytes": 107197,
+    "referenced_by": [
+      "_includes/amp-custom-asli.html",
+      "_includes/amp-custom-blog.html",
+      "_includes/amp-custom-contact.html",
+      "_includes/amp-custom-gallery.html",
+      "_includes/amp-custom-home.html",
+      "_includes/amp-custom-post.html",
+      "_includes/amp-custom-product.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya-transparan.png"
+  },
+  {
+    "path": "static/rental-mobil-surabaya.jpg",
+    "filename": "rental-mobil-surabaya.jpg",
+    "extension": ".jpg",
+    "size_bytes": 53956,
+    "referenced_by": [
+      "_config.yml",
+      "_includes/amp-custom-asli.html",
+      "_includes/amp-custom-home.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya.jpg"
+  },
+  {
+    "path": "static/rental-mobil-surabaya.png",
+    "filename": "rental-mobil-surabaya.png",
+    "extension": ".png",
+    "size_bytes": 449014,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/rental-mobil-surabaya.png"
+  },
+  {
+    "path": "static/sms.svg",
+    "filename": "sms.svg",
+    "extension": ".svg",
+    "size_bytes": 2792,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/sms.svg"
+  },
+  {
+    "path": "static/tiktok.png",
+    "filename": "tiktok.png",
+    "extension": ".png",
+    "size_bytes": 13630,
+    "referenced_by": [
+      "_data-section-7/tiktok.md"
+    ],
+    "url": "https://tran99.com/static/tiktok.png"
+  },
+  {
+    "path": "static/time.png",
+    "filename": "time.png",
+    "extension": ".png",
+    "size_bytes": 11487,
+    "referenced_by": [
+      "_data-section-5/tepat-waktu.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/time.png"
+  },
+  {
+    "path": "static/transfer.png",
+    "filename": "transfer.png",
+    "extension": ".png",
+    "size_bytes": 5061,
+    "referenced_by": [
+      "_data-section-3/bayar.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/transfer.png"
+  },
+  {
+    "path": "static/transfer.svg",
+    "filename": "transfer.svg",
+    "extension": ".svg",
+    "size_bytes": 5770,
+    "referenced_by": [
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/transfer.svg"
+  },
+  {
+    "path": "static/trust.png",
+    "filename": "trust.png",
+    "extension": ".png",
+    "size_bytes": 4179,
+    "referenced_by": [
+      "_data-section-5/terpercaya.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/trust.png"
+  },
+  {
+    "path": "static/twitter.png",
+    "filename": "twitter.png",
+    "extension": ".png",
+    "size_bytes": 2232,
+    "referenced_by": [
+      "_data-section-7/twitter.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/twitter.png"
+  },
+  {
+    "path": "static/whatsapp-2.png",
+    "filename": "whatsapp-2.png",
+    "extension": ".png",
+    "size_bytes": 3348,
+    "referenced_by": [
+      "_data-section-9/whatsapp-admin.md",
+      "_data-section-9/whatsapp.md",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/whatsapp-2.png"
+  },
+  {
+    "path": "static/whatsapp.png",
+    "filename": "whatsapp.png",
+    "extension": ".png",
+    "size_bytes": 4924,
+    "referenced_by": [
+      "_includes/float-button.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/whatsapp.png"
+  },
+  {
+    "path": "static/whatsapp.svg",
+    "filename": "whatsapp.svg",
+    "extension": ".svg",
+    "size_bytes": 1683,
+    "referenced_by": [
+      "_includes/nav.html",
+      "sw.js"
+    ],
+    "url": "https://tran99.com/static/whatsapp.svg"
+  },
+  {
+    "path": "static/youtube.png",
+    "filename": "youtube.png",
+    "extension": ".png",
+    "size_bytes": 1109,
+    "referenced_by": [
+      "_data-section-7/youtube.md"
+    ],
+    "url": "https://tran99.com/static/youtube.png"
+  }
+]

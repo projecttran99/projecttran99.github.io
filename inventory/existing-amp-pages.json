@@ -1,0 +1,886 @@
+[
+  {
+    "url": "https://tran99.com/",
+    "layout": "home",
+    "custom_css_file": "_includes/amp-custom-home.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 30818,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/blog/",
+    "layout": "blog",
+    "custom_css_file": "_includes/amp-custom-blog.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 29314,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/contact/",
+    "layout": "contact",
+    "custom_css_file": "_includes/amp-custom-contact.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form",
+      "amp-iframe"
+    ],
+    "custom_css_bytes": 25889,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/gallery/",
+    "layout": "gallery",
+    "custom_css_file": "_includes/amp-custom-gallery.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form",
+      "amp-tiktok"
+    ],
+    "custom_css_bytes": 27600,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/product/",
+    "layout": "product",
+    "custom_css_file": "_includes/amp-custom-product.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 28402,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/04/12/beejay-bakau-resort/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/05/27/sewa-mobil-di-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/06/21/harga-sewa-mobil-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/07/23/sewa-mobil-bandara-juanda/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/08/16/sewa-mobil-tanggulangin/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/09/28/sewa-mobil-elf-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/10/05/rental-annual-meeting-imf-world-bank-di-bali/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2018/11/05/keunggulan-rental-mobil-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2019/09/02/sewa-mobil-hiace/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2019/12/13/sewa-innova-reborn-avanza-hiace/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2020/02/11/sewa-mobil-sidoarjo/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2020/03/25/sewa-mobil-innova-reborn-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2020/04/11/sewa-mobil-avanza-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2020/12/07/wisata-alam-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2020/12/21/sewa-elf-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/01/01/sewa-mobil-expander-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/02/01/sewa-mobil-ertiga-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/03/28/rental-mobil-bonus-driver-surabaya-termurah/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/04/01/sewa-mobil-mobilio-sigra-cayla-surabaya-bonus-driver/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/06/25/rental-mobil-mewah-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/09/08/rental-mobil-terdekat/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/10/19/sewa-alphard-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2021/11/19/rental-mobil-mojokerto/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/01/17/sewa-bus-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/02/16/sewa-hiace-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/02/25/sewa-elf-long-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/03/11/rental-mobil-avanza-terbaru-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/08/26/rental-mobil-surabaya-dengan-sopir/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/08/27/sewa-mobil-surabaya-lepas-kunci/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/08/28/aplikasi-rental-mobil-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/10/14/sewa-inova-reborn-facelift-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/11/14/rental-mobil-fortuner-pajero-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/12/12/rental-mobil-fortuner-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2022/12/25/rental-mobil-hiace-premio-comuter/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2023/06/05/rental-mobil-banyuwangi/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2023/08/09/rental-mobil-malang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2023/09/22/rent-a-car-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2023/11/20/launching-Tiktok-Rental-Mobil-Surabaya-Tran99/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/01/18/Sewa-Mobil-Pandaan/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/02/28/rental-mobil-malang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/03/25/sewa-mobil-innova-zenix-murah-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/07/01/rental-mobil-candi-sidoarjo/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/09/19/rental-mobil-innova-di-malang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/09/26/rental-mobil-di-gresik/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2024/11/13/sewa-mobil-hiace-luxury-surabaya-tran99/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/01/03/rental-mobil-tumpang-malang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/02/06/rental-mobil-bangil-pasuruan/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/03/05/rental-mobil-kepanjen-malang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/05/19/rental-mobil-surabaya-pusat-kota/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/07/15/rental-mobil-kejapanan-porong/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/08/29/rental-mobil-ngoro-mojokerto/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2025/10/15/rental-mobil-waru-sidoarjo/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2026/01/08/rental-mobil-perak-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2026/02/01/harga-sewa-mobil-surabaya/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2026/03/13/sewa-mobil-pakisaji-malang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2026/03/17/sewa-mobil-bululawang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2026/04/10/sewa-mobil-mojoagung/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  },
+  {
+    "url": "https://tran99.com/2026/07/16/yuk-wisata-ke-air-terjun-tumpak-sewu-malang-lumajang/",
+    "layout": "post",
+    "custom_css_file": "_includes/amp-custom-post.html",
+    "components": [
+      "amp-install-serviceworker",
+      "amp-instagram",
+      "amp-sidebar",
+      "amp-form"
+    ],
+    "custom_css_bytes": 26997,
+    "amp_css_valid_limit": 75000,
+    "is_within_amp_css_limit": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "tran99-adarent-cms",
+  "version": "1.0.0",
+  "description": "Adarent CMS modernization layer for tran99.com (Rental Mobil Surabaya)",
+  "scripts": {
+    "inventory": "node scripts/generate-inventory.js",
+    "test:build": "jekyll build",
+    "test:diff": "node scripts/validate-diff.js",
+    "test:amp": "node scripts/validate-amp.js",
+    "test:seo": "node scripts/validate-seo.js",
+    "test:all": "node scripts/validate-diff.js && node scripts/validate-amp.js && node scripts/validate-seo.js",
+    "test": "npm run test:all"
+  },
+  "author": "Tran99 & Adarent CMS Engineering",
+  "license": "UNLICENSED",
+  "private": true
+}
