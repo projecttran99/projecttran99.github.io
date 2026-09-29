@@ -1,4 +1,5 @@
 ---
+permalink: /product/fortuner/
 title: Sewa Mobil Toyota Fortuner Surabaya
 description: Rental mobil Toyota Fortuner Surabaya harga terjangkau dengan supir. Kendaraan SUV nyaman dan bertenaga untuk perjalanan dinas maupun pribadi.
 photos: /static/fortuner.jpg

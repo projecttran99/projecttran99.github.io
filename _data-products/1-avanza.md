@@ -1,4 +1,5 @@
 ---
+permalink: /product/avanza/
 text-title: Avanza
 title: Sewa Mobil Avanza Surabaya Murah
 description: Sewa mobil Avanza Surabaya murah dan terawat sudah termasuk supir berpengalaman. Melayani sewa harian untuk area Surabaya, Bandara Juanda, dan luar kota.

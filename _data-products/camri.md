@@ -1,4 +1,5 @@
 ---
+permalink: /product/camri/
 title: Sewa Mobil Sedan Toyota Camry Surabaya
 description: Sewa Toyota Camry Surabaya sedan premium untuk tamu kenegaraan, eksekutif, dan wedding car. Dilengkapi supir berpengalaman dengan standar pelayanan terbaik.
 photos: /static/camry.jpg

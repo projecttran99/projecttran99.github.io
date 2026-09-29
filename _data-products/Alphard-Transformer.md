@@ -1,4 +1,5 @@
 ---
+permalink: /product/alphard-transformer/
 title: Sewa Mobil Toyota Alphard Transformer Surabaya
 description: Sewa Alphard Transformer Surabaya mewah dan elegan untuk tamu VIP, pejabat, pernikahan (wedding car), dan event korporat bersama supir profesional.
 photos: /static/alphard.jpg

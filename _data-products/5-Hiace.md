@@ -1,4 +1,5 @@
 ---
+permalink: /product/hiace/
 title: Sewa Mobil Toyota Hiace Commuter Surabaya
 description: Sewa Toyota Hiace Surabaya dengan supir berpengalaman. Kabin lega, kursi nyaman, AC merata, ideal untuk perjalanan keluarga besar dan rombongan.
 photos: /static/hiace.jpg

@@ -1,4 +1,5 @@
 ---
+permalink: /product/innova-grand-new/
 title: Sewa Mobil Innova Grand New Surabaya
 description: Sewa mobil Innova Grand New Surabaya nyaman dan bersih sudah termasuk supir profesional. Pilihan tepat untuk perjalanan bisnis, keluarga, dan dinas kantor.
 photos: /static/innova.jpg

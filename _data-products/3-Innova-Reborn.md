@@ -1,4 +1,5 @@
 ---
+permalink: /product/innova-reborn/
 title: Sewa Mobil Innova Reborn Surabaya
 description: Rental dan sewa mobil Innova Reborn Surabaya terbaik dengan supir ramah. Armada prima, suspensi nyaman, AC dingin untuk perjalanan dalam dan luar kota.
 photos: /static/innova.jpg

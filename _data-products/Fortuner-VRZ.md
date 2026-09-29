@@ -1,4 +1,5 @@
 ---
+permalink: /product/fortuner-vrz/
 title: Sewa Mobil Toyota Fortuner VRZ Surabaya
 description: Sewa Toyota Fortuner VRZ Surabaya tangguh dan bergengsi dengan supir. Pilihan SUV premium untuk tamu dinas, proyek, maupun perjalanan bisnis Jawa Timur.
 photos: /static/fortuner-2.jpg

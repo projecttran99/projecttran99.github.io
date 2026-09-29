@@ -1,4 +1,5 @@
 ---
+permalink: /product/elf-long/
 title: Sewa Mobil Isuzu Elf Long Surabaya
 description: Sewa Elf Long Surabaya kapasitas hingga 19 penumpang dengan supir handal. Cocok untuk rombongan wisata, ziarah, kantor, dan drop luar kota.
 photos: /static/elf-long.jpg
