@@ -47,7 +47,7 @@
                            class="post-toc-link{% if forloop.first %} is-active{% endif %}"
                            role="button"
                            tabindex="0"
-                           on="tap:AMP.setState({ tocState: { selected: {{ forloop.index }} } })"
+                           on="tap:AMP.setState({ tocState: { selected: {{ forloop.index }} } }),{{ id_part }}.scrollTo(position='center')"
                            [class]="tocState.selected == {{ forloop.index }} ? 'post-toc-link is-active' : 'post-toc-link'">
                             <span class="post-toc-step-badge{% if forloop.first %} is-active{% endif %}"
                                   [class]="tocState.selected == {{ forloop.index }} ? 'post-toc-step-badge is-active' : 'post-toc-step-badge'">
