@@ -79,13 +79,23 @@ collections:
       - { label: "Thumbnail CMS", name: "image", widget: "hidden" }
       - { label: "Foto Open Graph", name: "photos", widget: "hidden" }
       - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true }
-      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 400, value_type: "int" }
+      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 250, value_type: "int" }
       - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 250, value_type: "int" }
       - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "responsive" }
       - { label: "Fasilitas 1", name: "list-1", widget: "string", default: "Termasuk Driver." }
       - { label: "Fasilitas 2", name: "list-2", widget: "string", default: "Pemakaian Area Surabaya." }
       - { label: "Fasilitas 3", name: "list-3", widget: "string", default: "Pemakaian Luar Kota [Call]." }
       - { label: "Tarif Sewa (Price)", name: "price", widget: "string", required: true }
+
+  - name: "gallery"
+    label: "Galeri Instagram"
+    label_singular: "Foto Instagram"
+    folder: "_data-gallery"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{data-shortcode}}"
+    fields:
+      - { label: "Instagram Post Shortcode", name: "data-shortcode", widget: "string", required: true, hint: "Kode unik postingan Instagram dari URL (contoh: dari https://www.instagram.com/p/B8VJKGRleaJ/ kodenya adalah B8VJKGRleaJ)" }
 
   - name: "pages"
     label: "Kelola Halaman"

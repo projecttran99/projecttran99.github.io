@@ -4,7 +4,7 @@ description: Rental dan sewa mobil Innova Reborn Surabaya terbaik dengan supir r
 photos: /static/innova.jpg
 amp-img-scr: /static/innova.jpg
 image: /static/innova.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: Innova Reborn rental mobil surabaya

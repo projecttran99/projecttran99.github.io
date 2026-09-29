@@ -4,7 +4,7 @@ description: Sewa mobil Avanza Surabaya murah dan terawat sudah termasuk supir b
 photos: /static/avanza.jpg
 amp-img-scr: /static/avanza.jpg
 image: /static/avanza.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: avanza rental mobil surabaya

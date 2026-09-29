@@ -4,7 +4,7 @@ description: Sewa Alphard Transformer Surabaya mewah dan elegan untuk tamu VIP, 
 photos: /static/alphard.jpg
 amp-img-scr: /static/alphard.jpg
 image: /static/alphard.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: Alphard Transformer rental mobil surabaya

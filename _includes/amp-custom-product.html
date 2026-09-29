@@ -178,8 +178,25 @@ screen and (min-width:40em) {
 
 @media print,
 screen and (min-width:64em) {
+    .grid-x>.large-4 {
+        width: 33.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%
+    }
+    .grid-x>.large-5 {
+        width: 41.66667%;
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%
+    }
     .grid-x>.large-6 {
-        width: 50%
+        width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+    .grid-x>.large-7 {
+        width: 58.33333%;
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%
     }
 }
 
@@ -1547,11 +1564,19 @@ amp-sidebar .close-button {
     padding: 0 1rem;
 }
 
+/* Breadcrumb not covered by fixed 64px header: padding-top: 88px */
 .product-catalog-section,
 .product-detail-section {
     background: #f8fafc;
-    padding: 1.5rem 0 3.5rem;
-    min-height: 80vh;
+    padding: 88px 0 3.5rem;
+    min-height: 85vh;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .product-catalog-section,
+    .product-detail-section {
+        padding: 76px 0 2.5rem;
+    }
 }
 
 /* Breadcrumb Navigation */
@@ -1644,10 +1669,34 @@ amp-sidebar .close-button {
     font-weight: 700;
 }
 
-/* Product Cards Grid */
+/* Product Cards Grid: Strictly 3 Columns on PC */
 .product-cards-grid {
+    display: flex;
+    flex-wrap: wrap;
     row-gap: 1.75rem;
 }
+@media screen and (min-width: 64em) {
+    .product-cards-grid > .cell {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        width: 33.333333%;
+    }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .product-cards-grid > .cell {
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 39.9375em) {
+    .product-cards-grid > .cell {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
 .product-card-modern {
     background: #ffffff;
     border-radius: 16px;
@@ -1663,34 +1712,50 @@ amp-sidebar .close-button {
     transform: translateY(-4px);
     box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
 }
+
+/* 1:1 Square Vehicle Media Wrapper */
 .card-media-wrapper {
     position: relative;
-    background: #f1f5f9;
+    background: #ffffff;
     overflow: hidden;
-    padding-top: 4px;
+    padding: 1.25rem 1rem 0.75rem;
+    border-bottom: 1px solid #f1f5f9;
 }
 .card-media-link {
     display: block;
     text-decoration: none;
+}
+.card-img-square-box {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
+}
+.card-vehicle-img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.35s ease;
+}
+.card-vehicle-img img {
+    object-fit: contain;
+    object-position: center;
+}
+.product-card-modern:hover .card-vehicle-img {
+    transform: scale(1.04);
 }
 .card-status-badge {
     position: absolute;
     top: 12px;
     left: 12px;
     z-index: 2;
-    background: rgba(15, 23, 42, 0.75);
+    background: rgba(15, 23, 42, 0.8);
     color: #ffffff;
     font-size: 0.72rem;
     font-weight: 600;
     padding: 0.25rem 0.65rem;
     border-radius: 6px;
 }
-.card-vehicle-img {
-    transition: transform 0.35s ease;
-}
-.product-card-modern:hover .card-vehicle-img {
-    transform: scale(1.03);
-}
+
 .card-content-wrapper {
     padding: 1.25rem;
     display: flex;
@@ -1846,6 +1911,18 @@ amp-sidebar .close-button {
 .product-main-info {
     margin-bottom: 2rem;
 }
+@media screen and (min-width: 64em) {
+    .product-main-info {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        width: 58.333333%;
+    }
+    .product-sidebar-col {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        width: 41.666667%;
+    }
+}
 .product-title-wrap {
     margin-bottom: 1.5rem;
 }
@@ -1862,16 +1939,32 @@ amp-sidebar .close-button {
     line-height: 1.6;
     margin: 0;
 }
+
+/* 1:1 Square Hero Photo Card (Not Stretched / Squished) */
 .product-photo-card {
     background: #ffffff;
     border-radius: 16px;
     border: 1px solid #e2e8f0;
     box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
-    overflow: hidden;
     margin-bottom: 1.75rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-img-square-box {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
 }
 .product-hero-amp-img {
-    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+.product-hero-amp-img img {
+    object-fit: contain;
+    object-position: center;
 }
 
 /* Highlights Grid */
@@ -2120,7 +2213,7 @@ amp-sidebar .close-button {
     text-decoration: underline;
 }
 
-/* Other Fleet Recommendations */
+/* Other Fleet Recommendations (Strictly 3 columns on PC) */
 .product-other-fleet-section {
     margin-top: 3.5rem;
     border-top: 1px solid #e2e8f0;
@@ -2152,7 +2245,12 @@ amp-sidebar .close-button {
     flex-direction: column;
 }
 .product-grid-card .card-media-wrapper {
-    background: #f8fafc;
+    background: #ffffff;
+    padding: 1rem 0.75rem 0.5rem;
+    border-bottom: 1px solid #f1f5f9;
+}
+.product-grid-card .card-img-square-box {
+    max-width: 180px;
 }
 .product-grid-card .card-content-wrapper {
     padding: 1.15rem;

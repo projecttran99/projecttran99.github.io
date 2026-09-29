@@ -4,7 +4,7 @@ description: Sewa Toyota Camry Surabaya sedan premium untuk tamu kenegaraan, eks
 photos: /static/camry.jpg
 amp-img-scr: /static/camry.jpg
 image: /static/camry.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: camri rental mobil surabaya

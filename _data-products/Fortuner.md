@@ -4,7 +4,7 @@ description: Rental mobil Toyota Fortuner Surabaya harga terjangkau dengan supir
 photos: /static/fortuner.jpg
 amp-img-scr: /static/fortuner.jpg
 image: /static/fortuner.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: Fortuner rental mobil surabaya

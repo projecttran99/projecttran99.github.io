@@ -51,7 +51,9 @@ photos: https://tran99.com/static/rental-mobil-surabaya-3.jpg
                     <div class="card-media-wrapper">
                         <span class="card-status-badge">Armada Siap Jalan</span>
                         <a href="{{ item.url }}" class="card-media-link" aria-label="Lihat detail {{ item.text-title }}">
-                            <amp-img src="{{ item.amp-img-scr | default: item.image }}" width="360" height="225" layout="responsive" alt="{{ item.amp-img-alt }}" class="card-vehicle-img"></amp-img>
+                            <div class="card-img-square-box">
+                                <amp-img src="{{ item.amp-img-scr | default: item.image }}" width="1" height="1" layout="responsive" alt="{{ item.amp-img-alt }}" class="card-vehicle-img"></amp-img>
+                            </div>
                         </a>
                     </div>
 

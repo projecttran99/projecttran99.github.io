@@ -23,7 +23,9 @@
                 </div>
 
                 <div class="product-photo-card">
-                    <amp-img src="{{ page.amp-img-scr | default: page.image }}" width="600" height="375" layout="responsive" alt="{{ page.amp-img-alt | default: page.text-title }}" class="product-hero-amp-img"></amp-img>
+                    <div class="detail-img-square-box">
+                        <amp-img src="{{ page.amp-img-scr | default: page.image }}" width="1" height="1" layout="responsive" alt="{{ page.amp-img-alt | default: page.text-title }}" class="product-hero-amp-img"></amp-img>
+                    </div>
                 </div>
 
                 <!-- Features Highlights -->
@@ -147,7 +149,9 @@
                         <div class="small-12 medium-6 large-4 cell">
                             <div class="product-grid-card">
                                 <div class="card-media-wrapper">
-                                    <amp-img src="{{ other.amp-img-scr | default: other.image }}" width="360" height="225" layout="responsive" alt="{{ other.amp-img-alt }}" class="card-vehicle-img"></amp-img>
+                                    <div class="card-img-square-box">
+                                        <amp-img src="{{ other.amp-img-scr | default: other.image }}" width="1" height="1" layout="responsive" alt="{{ other.amp-img-alt }}" class="card-vehicle-img"></amp-img>
+                                    </div>
                                 </div>
                                 <div class="card-content-wrapper">
                                     <h3 class="card-vehicle-title">{{ other.text-title }}</h3>

@@ -4,7 +4,7 @@ description: Sewa Toyota Hiace Surabaya dengan supir berpengalaman. Kabin lega, 
 photos: /static/hiace.jpg
 amp-img-scr: /static/hiace.jpg
 image: /static/hiace.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: Hiace rental mobil surabaya

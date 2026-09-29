@@ -4,7 +4,7 @@ description: Sewa Elf Long Surabaya kapasitas hingga 19 penumpang dengan supir h
 photos: /static/elf-long.jpg
 amp-img-scr: /static/elf-long.jpg
 image: /static/elf-long.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: Elf Long rental mobil surabaya

@@ -4,7 +4,7 @@ description: Sewa mobil Innova Grand New Surabaya nyaman dan bersih sudah termas
 photos: /static/innova.jpg
 amp-img-scr: /static/innova.jpg
 image: /static/innova.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: innova grand new rental mobil surabaya

@@ -4,7 +4,7 @@ description: Sewa Toyota Fortuner VRZ Surabaya tangguh dan bergengsi dengan supi
 photos: /static/fortuner-2.jpg
 amp-img-scr: /static/fortuner-2.jpg
 image: /static/fortuner-2.jpg
-amp-img-width: 400
+amp-img-width: 250
 amp-img-height: 250
 amp-img-layout: responsive
 amp-img-alt: Fortuner VRZ rental mobil surabaya
