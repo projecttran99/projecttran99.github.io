@@ -1,0 +1,11 @@
+{
+  "baseline_count": 58,
+  "current_count": 58,
+  "missing_articles": [],
+  "modified_files": [
+    "_layouts/post.html (upgraded heading from h3 to h1, added breadcrumb, added CTA)",
+    "_includes/metadata.html (added title fallback, dynamic og:url, breadcrumb json-ld)"
+  ],
+  "deleted_articles": [],
+  "verdict": "PASS: 58/58 Articles 100% Preserved"
+}
