@@ -3,8 +3,8 @@ backend:
   repo: projecttran99/projecttran99.github.io
   branch: master
 
-media_folder: "photos"
-public_folder: "/photos"
+media_folder: "static"
+public_folder: "/static"
 
 collections:
   - name: "posts"
@@ -13,6 +13,8 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    media_folder: "photos"
+    public_folder: "/photos"
     editor:
       preview: false
     fields:
@@ -66,13 +68,20 @@ collections:
     folder: "_data-products"
     create: true
     slug: "{{slug}}"
+    summary: "{{text-title}} - {{price}}"
+    media_folder: "static"
+    public_folder: "/static"
     fields:
+      - { label: "Judul Halaman (SEO)", name: "title", widget: "string", required: false, hint: "Contoh: Sewa Mobil Avanza Surabaya Murah" }
+      - { label: "Meta Deskripsi (SEO)", name: "description", widget: "text", required: false, hint: "Deskripsi singkat untuk Google (maks 160 karakter)" }
       - { label: "Nama Mobil", name: "text-title", widget: "string", required: true }
-      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true }
+      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true, media_folder: "static", public_folder: "/static" }
+      - { label: "Thumbnail CMS", name: "image", widget: "hidden" }
+      - { label: "Foto Open Graph", name: "photos", widget: "hidden" }
       - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true }
-      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 165, value_type: "int" }
-      - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 165, value_type: "int" }
-      - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "fixed" }
+      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 400, value_type: "int" }
+      - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 250, value_type: "int" }
+      - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "responsive" }
       - { label: "Fasilitas 1", name: "list-1", widget: "string", default: "Termasuk Driver." }
       - { label: "Fasilitas 2", name: "list-2", widget: "string", default: "Pemakaian Area Surabaya." }
       - { label: "Fasilitas 3", name: "list-3", widget: "string", default: "Pemakaian Luar Kota [Call]." }

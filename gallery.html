@@ -19,15 +19,16 @@ photos: https://tran99.com/static/32385489_1021643167993325_7243333418375708672_
                     <div class="small-12 cell">
                         <div class="vs-section-title text-center">
                             <h3><span class="text-title">{{ site.section-4 }}</span></h3>
+                            <p class="gallery-subtitle">Dokumentasi perjalanan & pelayanan sewa rental mobil terbaik bersama Tran99</p>
                         </div>
                     </div>
-                    <div class="small-12 medium-11 large-10 cell">
-                        <div class="vs-gallery-content">
+                    <div class="small-12 cell">
+                        <div class="gallery-content-wrapper">
                             <div class="grid-x grid-padding-x">
                                 {% for item in site.data-gallery %}
-                                <div class="large-4 cell">
+                                <div class="small-12 medium-6 large-4 cell gallery-item-col">
                                     <div class="vs-box-gall-img">
-                                        <amp-instagram data-shortcode="{{ item.data-shortcode }}" width="1" height="1" layout="responsive">
+                                        <amp-instagram data-shortcode="{{ item.data-shortcode }}" width="4" height="5" layout="responsive">
                                         </amp-instagram>
                                     </div>
                                 </div>
@@ -35,13 +36,17 @@ photos: https://tran99.com/static/32385489_1021643167993325_7243333418375708672_
                             </div>
                         </div>
                     </div>
-                    <div class="small-12 medium-11 large-10 cell">
-                        <div class="vs-gallery-content">
-                            <div class="grid-x grid-padding-x">
+                    {% if site.data-tiktok and site.data-tiktok.size > 0 %}
+                    <div class="small-12 cell">
+                        <div class="gallery-tiktok-wrapper">
+                            <div class="vs-section-title text-center margin-top-2">
+                                <h3><span class="text-title">Video TikTok Kami</span></h3>
+                            </div>
+                            <div class="grid-x grid-padding-x align-center">
                                 {% for item in site.data-tiktok %}
-                                <div class="large-4 cell">
-                                    <div class="vs-box-gall-img">
-                                        <amp-tiktok width="1" height="1" layout="responsive" data-src="{{ item.data-src }}">
+                                <div class="small-12 medium-6 large-4 cell gallery-item-col">
+                                    <div class="vs-box-gall-img tiktok-box">
+                                        <amp-tiktok width="9" height="16" layout="responsive" data-src="{{ item.data-src }}">
                                         </amp-tiktok>
                                     </div>
                                 </div>
@@ -49,6 +54,7 @@ photos: https://tran99.com/static/32385489_1021643167993325_7243333418375708672_
                             </div>
                         </div>
                     </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

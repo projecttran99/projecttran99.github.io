@@ -1135,13 +1135,39 @@ body {
 }
 
 
+.gallery-content-wrapper,
+.gallery-tiktok-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.gallery-subtitle {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}
+.gallery-item-col {
+    margin-bottom: 24px;
+}
 .vs-box-gall-img {
-    margin-top: 24px;
-    background: white;
-    padding: 8px;
-    margin-bottom: 8px;
-    position: relative;
-    overflow: hidden
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    padding: 0;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    margin-bottom: 0;
+}
+.vs-box-gall-img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+.vs-box-gall-img amp-instagram,
+.vs-box-gall-img amp-tiktok {
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 .vs-float-button {

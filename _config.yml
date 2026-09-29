@@ -75,9 +75,18 @@ collections:
   data-gallery-picture:
     output: false
   data-products:
-    output: false
+    output: true
+    permalink: /product/:slug/
   data-tiktok:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "data-products"
+    values:
+      layout: "product"
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

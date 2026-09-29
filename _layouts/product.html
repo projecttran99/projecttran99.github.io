@@ -10,7 +10,11 @@
 
 <body>
     {% include nav.html %}
-    {{ content }}
+    {% if page.text-title %}
+        {% include product-detail.html %}
+    {% else %}
+        {{ content }}
+    {% endif %}
     {% include footer.html %}
     {% include float-button.html %}
 </body>
