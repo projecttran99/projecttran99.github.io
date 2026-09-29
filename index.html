@@ -22,9 +22,9 @@ blog_subtitle: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa T
 <section class="vs-content vs-home-modern">
     <!-- Hero Section -->
     <div class="vs-section-slider home-hero-wrap">
-        <div class="grid-container">
-            <div class="grid-x align-center">
-                <div class="small-12 medium-11 large-10 cell text-center">
+        <div class="grid-container full">
+            <div class="grid-x align-center" style="margin-left: 0; margin-right: 0;">
+                <div class="small-12 medium-11 large-10 cell text-center" style="padding-left: 1rem; padding-right: 1rem;">
                     <div class="home-hero-content">
                         <span class="home-hero-badge">{{ page.hero_badge | default: "Rental Mobil Surabaya Terpercaya #1" }}</span>
                         <h1 class="home-hero-title">{{ page.hero_title | default: "Rental Mobil Surabaya & Sewa Mobil Murah Terpercaya" }}</h1>
@@ -236,11 +236,11 @@ blog_subtitle: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa T
 
             <div class="grid-x grid-padding-x home-blog-grid">
                 {% for post in site.posts limit:4 %}
-                <div class="small-12 medium-6 large-3 cell home-blog-col">
+                <div class="small-12 medium-6 large-6 cell home-blog-col">
                     <article class="home-blog-card">
                         <div class="home-blog-media">
                             <a href="{{ post.url }}" aria-label="{{ post.text-title | default: post.title }}">
-                                <amp-img src="{{ post.photos | default: post.amp-img-scr | default: '/static/rental-mobil-surabaya.jpg' }}" width="16" height="10" layout="responsive" alt="{{ post.amp-img-alt | default: post.text-title | default: post.title }}" class="home-blog-thumb"></amp-img>
+                                <amp-img src="{{ post.photos | default: post.amp-img-scr | default: '/static/rental-mobil-surabaya.jpg' }}" width="16" height="9" layout="responsive" alt="{{ post.amp-img-alt | default: post.text-title | default: post.title }}" class="home-blog-thumb"></amp-img>
                             </a>
                         </div>
                         <div class="home-blog-body">
@@ -253,7 +253,7 @@ blog_subtitle: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa T
                                 <a href="{{ post.url }}">{{ post.text-title | default: post.title }}</a>
                             </h3>
                             <p class="home-blog-excerpt">
-                                {{ post.description | default: post.excerpt | strip_html | truncate: 95 }}
+                                {{ post.description | default: post.excerpt | strip_html | truncate: 110 }}
                             </p>
                             <a href="{{ post.url }}" class="home-blog-link">Baca Selengkapnya &rarr;</a>
                         </div>
@@ -268,7 +268,7 @@ blog_subtitle: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa T
         </div>
     </section>
 
-    <!-- Gallery Section -->
+    <!-- Gallery Section (PC: 3 kolom 2 baris, Mobile: 2 kolom 2 baris, bisa di-klik & di-slide) -->
     <section class="vs-section vs-bg-smoke vs-section-gallery">
         <div class="grid-container">
             <div class="grid-x grid-padding-x align-center">
@@ -276,23 +276,34 @@ blog_subtitle: "Dapatkan tips perjalanan, rekomendasi destinasi wisata di Jawa T
                     <div class="section-header-center text-center">
                         <span class="home-badge-pill">Dokumentasi Perjalanan</span>
                         <h2 class="home-section-title">{{ site.section-4 | default: "Galeri Aktivitas Kami" }}</h2>
-                        <p class="home-section-desc">Dokumentasi nyata kepuasan pelanggan dalam berbagai agenda sewa mobil bersama Tran99.</p>
+                        <p class="home-section-desc">Dokumentasi nyata kepuasan pelanggan dalam berbagai agenda sewa mobil bersama Tran99 (Klik foto untuk memperbesar & slide).</p>
                     </div>
                 </div>
-                <div class="small-12 medium-10 cell">
+                <div class="small-12 large-11 cell">
                     <div class="vs-gallery-content">
-                        <div class="grid-x grid-padding-x">
+                        <div class="grid-x grid-padding-x home-gallery-grid">
                             {% for item in site.data-gallery-picture limit:6 %}
-                            <div class="small-6 medium-4 cell" style="margin-bottom: 1.25rem;">
+                            <div class="small-6 medium-4 large-4 cell home-gallery-col {% if forloop.index > 4 %}hide-for-small-only{% endif %}">
                                 <div class="vs-box-gall-img">
-                                    <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
+                                    <amp-img src="{{ item.amp-img-scr }}" 
+                                             width="600" 
+                                             height="450" 
+                                             layout="responsive" 
+                                             alt="{{ item.amp-img-alt | default: 'Galeri Rental Mobil Surabaya Tran99' }}" 
+                                             lightbox="home-gallery"
+                                             class="home-gallery-img">
+                                    </amp-img>
+                                    <div class="gallery-zoom-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                                        <span>Slide</span>
+                                    </div>
                                 </div>
                             </div>
                             {% endfor %}                                
                         </div>
                     </div>
                 </div>
-                <div class="small-12 medium-10 cell text-center" style="margin-top: 1rem;">
+                <div class="small-12 medium-10 cell text-center" style="margin-top: 1.5rem;">
                     <a href="/gallery/" class="button btn-home-all-gallery">Buka Galeri Lengkap & Instagram &rarr;</a>
                 </div>
             </div>
