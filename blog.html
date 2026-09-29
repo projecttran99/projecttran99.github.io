@@ -22,17 +22,30 @@ photos: https://tran99.com/static/43767628_2182134858675310_4593096987499668786_
 
             <div class="grid-x grid-padding-x">
                 {% for post in site.posts %}
-                <div class="small-12 medium-6 large-4 cell blog-col" style="margin-bottom: 1.5rem;">
+                <div class="small-12 medium-6 large-6 cell blog-col" style="margin-bottom: 1.5rem;">
                     <article class="blog-card">
                         <div class="blog-card-media">
                             <a href="{{ post.url }}" aria-label="{{ post.text-title | default: post.title }}">
-                                <amp-img class="blog-thumb"
-                                         src="{{ post.photos | default: post.amp-img-scr }}" 
-                                         width="400" 
-                                         height="225" 
-                                         layout="responsive" 
-                                         alt="{{ post.amp-img-alt | default: post.text-title }}">
-                                </amp-img>
+                                <!-- Mobile Phone: Rasio 4:5 -->
+                                <div class="blog-img-phone">
+                                    <amp-img class="blog-thumb"
+                                             src="{{ post.photos | default: post.amp-img-scr }}" 
+                                             width="400" 
+                                             height="500" 
+                                             layout="responsive" 
+                                             alt="{{ post.amp-img-alt | default: post.text-title }}">
+                                    </amp-img>
+                                </div>
+                                <!-- PC / Desktop: Rasio 16:9 -->
+                                <div class="blog-img-desktop">
+                                    <amp-img class="blog-thumb"
+                                             src="{{ post.photos | default: post.amp-img-scr }}" 
+                                             width="600" 
+                                             height="338" 
+                                             layout="responsive" 
+                                             alt="{{ post.amp-img-alt | default: post.text-title }}">
+                                    </amp-img>
+                                </div>
                             </a>
                         </div>
                         <div class="blog-card-body">
