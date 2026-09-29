@@ -72,20 +72,82 @@ collections:
     media_folder: "static"
     public_folder: "/static"
     fields:
+      - { label: "Nama Mobil", name: "text-title", widget: "string", required: true, hint: "Contoh: Avanza, Innova Reborn, Hiace" }
       - { label: "Judul Halaman (SEO)", name: "title", widget: "string", required: false, hint: "Contoh: Sewa Mobil Avanza Surabaya Murah" }
-      - { label: "Meta Deskripsi (SEO)", name: "description", widget: "text", required: false, hint: "Deskripsi singkat untuk Google (maks 160 karakter)" }
-      - { label: "Nama Mobil", name: "text-title", widget: "string", required: true }
-      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true, media_folder: "static", public_folder: "/static" }
-      - { label: "Thumbnail CMS", name: "image", widget: "hidden" }
-      - { label: "Foto Open Graph", name: "photos", widget: "hidden" }
-      - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true }
-      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 250, value_type: "int" }
-      - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 250, value_type: "int" }
-      - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "responsive" }
+      - { label: "Ringkasan / Meta Deskripsi", name: "description", widget: "text", required: false, hint: "Teks ringkasan di bawah judul utama dan untuk SEO Google (maks 160 karakter)" }
+      - { label: "Badge / Label Atas", name: "badge", widget: "string", required: false, default: "Armada Resmi Tran99", hint: "Label badge pill di atas judul (default: Armada Resmi Tran99)" }
+      - { label: "Judul Utama Halaman (Hero)", name: "hero_title", widget: "string", required: false, hint: "Judul besar h1 di halaman detail. Biarkan kosong jika ingin otomatis: Sewa Mobil [Nama Mobil] Surabaya" }
+
+      # --- TARIF SEWA & SIDEBAR ---
+      - { label: "Tarif Sewa (Price)", name: "price", widget: "string", required: true, hint: "Contoh: Rp. 400.000 atau Call" }
+      - { label: "Satuan Tarif", name: "price_unit", widget: "string", required: false, default: "/ hari", hint: "Satuan waktu sewa (default: / hari)" }
+      - { label: "Badge Kartu Tarif", name: "price_badge", widget: "string", required: false, default: "Tarif Sewa Terbaik" }
+      - { label: "Label Harga", name: "price_label", widget: "string", required: false, default: "Harga Sewa Mulai:" }
+      - { label: "Catatan Tarif Sewa", name: "price_note", widget: "string", required: false, default: "*Sudah termasuk jasa supir profesional" }
+
+      # --- FASILITAS (SIDEBAR CHECKLIST) ---
+      - { label: "Judul Bagian Fasilitas", name: "facilities_title", widget: "string", required: false, default: "Fasilitas Yang Didapat:" }
       - { label: "Fasilitas 1", name: "list-1", widget: "string", default: "Termasuk Driver." }
       - { label: "Fasilitas 2", name: "list-2", widget: "string", default: "Pemakaian Area Surabaya." }
       - { label: "Fasilitas 3", name: "list-3", widget: "string", default: "Pemakaian Luar Kota [Call]." }
-      - { label: "Tarif Sewa (Price)", name: "price", widget: "string", required: true }
+      - { label: "Fasilitas 4", name: "list-4", widget: "string", required: false, default: "Kondisi Kabin Bersih & Segar" }
+      - { label: "Fasilitas 5", name: "list-5", widget: "string", required: false, default: "Customer Service 24 Jam" }
+
+      # --- TOMBOL & NAVIGASI SIDEBAR ---
+      - { label: "Teks Tombol WhatsApp", name: "cta_wa_text", widget: "string", required: false, default: "Pesan Sekarang via WhatsApp" }
+      - { label: "Teks Tombol Telepon", name: "cta_tel_text", widget: "string", required: false, hint: "Biarkan kosong untuk otomatis: Telepon: 081-330-548-581" }
+      - { label: "Teks Link Kembali ke Armada", name: "back_link_text", widget: "string", required: false, default: "← Lihat Semua Armada Mobil" }
+
+      # --- FOTO MOBIL ---
+      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true, media_folder: "static", public_folder: "/static" }
+      - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true }
+      - { label: "Thumbnail CMS", name: "image", widget: "hidden" }
+      - { label: "Foto Open Graph", name: "photos", widget: "hidden" }
+      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 250, value_type: "int" }
+      - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 250, value_type: "int" }
+      - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "responsive" }
+
+      # --- 4 FITUR KEUNGGULAN (HIGHLIGHTS) ---
+      - { label: "Keunggulan 1 - Icon Emoji", name: "feat1_icon", widget: "string", required: false, default: "🚗" }
+      - { label: "Keunggulan 1 - Judul", name: "feat1_title", widget: "string", required: false, default: "Armada Prima" }
+      - { label: "Keunggulan 1 - Keterangan", name: "feat1_desc", widget: "string", required: false, default: "Unit bersih, wangi & selalu diservis berkala" }
+
+      - { label: "Keunggulan 2 - Icon Emoji", name: "feat2_icon", widget: "string", required: false, default: "👔" }
+      - { label: "Keunggulan 2 - Judul", name: "feat2_title", widget: "string", required: false, default: "Supir Berpengalaman" }
+      - { label: "Keunggulan 2 - Keterangan", name: "feat2_desc", widget: "string", required: false, default: "Ramah, sopan, dan menguasai rute Jawa Timur" }
+
+      - { label: "Keunggulan 3 - Icon Emoji", name: "feat3_icon", widget: "string", required: false, default: "❄️" }
+      - { label: "Keunggulan 3 - Judul", name: "feat3_title", widget: "string", required: false, default: "Full AC Dingin" }
+      - { label: "Keunggulan 3 - Keterangan", name: "feat3_desc", widget: "string", required: false, default: "Kabin sejuk nyaman untuk seluruh keluarga" }
+
+      - { label: "Keunggulan 4 - Icon Emoji", name: "feat4_icon", widget: "string", required: false, default: "⏱️" }
+      - { label: "Keunggulan 4 - Judul", name: "feat4_title", widget: "string", required: false, default: "On-Time Standby" }
+      - { label: "Keunggulan 4 - Keterangan", name: "feat4_desc", widget: "string", required: false, default: "Jemput tepat waktu di Bandara Juanda / Hotel" }
+
+      # --- DESKRIPSI LAYANAN LENGKAP ---
+      - { label: "Judul Deskripsi Layanan", name: "article_title", widget: "string", required: false, hint: "Biarkan kosong untuk otomatis: Kenyamanan Sewa [Nama Mobil] di Tran99 Surabaya" }
+      - { label: "Paragraf Deskripsi 1", name: "article_p1", widget: "text", required: false, hint: "Penjelasan kebersihan, kenyamanan kabin, dan perawatan armada" }
+      - { label: "Paragraf Deskripsi 2", name: "article_p2", widget: "text", required: false, hint: "Penjelasan peruntukan (bisnis, wisata Malang/Bromo, antar-jemput bandara)" }
+
+      # --- DAFTAR LAYANAN TERMASUK ---
+      - { label: "Judul Layanan Termasuk", name: "included_title", widget: "string", required: false, default: "Layanan Termasuk:" }
+      - { label: "Poin Layanan 1", name: "included_1", widget: "string", required: false, hint: "Contoh: Unit Kendaraan: Mobil [Nama] kondisi prima wangi" }
+      - { label: "Poin Layanan 2", name: "included_2", widget: "string", required: false, hint: "Contoh: Jasa Driver Profesional..." }
+      - { label: "Poin Layanan 3", name: "included_3", widget: "string", required: false, hint: "Contoh: Wilayah Operasional: Seluruh Surabaya..." }
+      - { label: "Poin Layanan 4", name: "included_4", widget: "string", required: false, hint: "Contoh: Kemudahan Pemesanan: Booking cepat..." }
+
+      # --- CARA PEMESANAN CEPAT ---
+      - { label: "Judul Cara Pemesanan", name: "order_steps_title", widget: "string", required: false, default: "Cara Pemesanan Cepat:" }
+      - { label: "Langkah Pemesanan 1", name: "order_step_1", widget: "string", required: false, hint: 'Contoh: Klik tombol "Pesan Sekarang via WhatsApp" di halaman ini.' }
+      - { label: "Langkah Pemesanan 2", name: "order_step_2", widget: "string", required: false, hint: "Contoh: Kirimkan informasi tanggal sewa, durasi pemakaian, dan lokasi penjemputan Anda." }
+      - { label: "Langkah Pemesanan 3", name: "order_step_3", widget: "string", required: false, hint: "Contoh: Admin Tran99 akan mengonfirmasi ketersediaan armada dan jadwal perjalanan Anda." }
+
+      # --- REKOMENDASI ARMADA LAINNYA ---
+      - { label: "Judul Pilihan Armada Lainnya", name: "other_fleet_title", widget: "string", required: false, default: "Pilihan Armada Lainnya" }
+      - { label: "Deskripsi Pilihan Armada Lainnya", name: "other_fleet_desc", widget: "string", required: false, default: "Temukan kendaraan terbaik lainnya yang sesuai dengan kebutuhan perjalanan Anda" }
+
+      # --- KONTEN BEBAS / MARKDOWN BODY (OPSIONAL) ---
+      - { label: "Konten Bebas Tambahan (Opsional)", name: "body", widget: "markdown", required: false, hint: "Jika diisi, konten markdown ini akan ditambahkan di bawah deskripsi layanan" }
 
   - name: "gallery"
     label: "Galeri Instagram"
