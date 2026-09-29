@@ -968,7 +968,7 @@ screen and (min-width:40em) {
 }
 
 body {
-    overflow-x: hidden
+    overflow-x: clip;
 }
 
 .middle-center,
@@ -1875,7 +1875,7 @@ html {
 .post-layout-wrapper {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 2rem;
     position: relative;
     width: 100%;
@@ -1974,6 +1974,11 @@ html {
         display: block;
         width: 280px;
         flex: 0 0 280px;
+        align-self: flex-start;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 96px;
+        z-index: 10;
     }
 }
 .post-toc-sticky-wrapper {
@@ -1981,6 +1986,7 @@ html {
     position: sticky;
     top: 96px;
     z-index: 10;
+    width: 100%;
 }
 .post-toc-desktop .post-toc-card {
     background: #ffffff;
