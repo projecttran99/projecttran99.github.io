@@ -53,8 +53,6 @@ Kami menawarkan layanan terbaik kami dengan harga yang sangat reasonable dan kom
 
 Segera hubungi <a href="https://tran99.com/">Sewa Rental Mobil Surabaya Tran99.com</a>
 
-##
-
 Zaman sudah berubah, berbagai wasilah yang ada pada manusia banyak yang mengalami perkembangan. Orang pada zaman dahulu tidak mengenal adanya smartphone yang canggih, saat ini banyak menjamur berbagai jenis ponsel pintar dengan disupport berbagai macam fitur yang sangat canggih. Termasuk di dalam moda transportasi yang ada di Indonesia. Dulu hanya dihadapkan dengan becak, andong / kereta kuda, bus dan taxi. Sekarang banyak menjamur rental mobil murah yang kemudian disusul oleh taxi online seperti go car, grab car dan uber untuk update yang lebih baru.
 
 Berjalannya waktu hal tersebut, ada yang kemudian hilang digantikan oleh kemajuan yang lebih modern, tetapi masih ada pula yang bisa bertahan hingga kini. Contohnya, walaupun sudah ada taxi online seperti dan di dukung dengan segala kemudahan mereka, masih saja ada jasa rental mobil yang bertahan dan terus tumbuh dan semakin berkembang. Sebenarnya sepeti apa keunggulan rental mobil dibanding taxi online? Berikut ulasan singkat kami ini, semoga bermanfaat bagi masyarakat umum.

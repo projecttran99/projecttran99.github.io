@@ -61,5 +61,3 @@ Warga setempat menyebut tempat ini sebagai Kebun Bibit. Sama seperti Wisata Kebu
 Di Taman Flora Bratang, Anda bisa mengamati aneka flora. Dan juga disisi utara taman juga terdapat satwa rusa. Biasanya, taman ini ramai dikunjungi anak-anak karena adanya fasilitas outbond. Menariknya, taman ini tidak memungut biaya masuk lho. Anda tinggal datang saat jam operasionalnya saja mulai dari pukul 06:00 hingga 18:00.
 
 Jadi, siapa bilang Kota Surabaya tidak punya wisata alam? Selain Anda 6 wisata alam di Kota Surabaya di atas, Anda juga bisa melipir ke kota-kota di sekitar Kota Surabaya untuk menjelajahi wisata alam lainnya. Agar lebih nyaman, Anda bisa menyewa mobil bersama teman-teman atau keluarga untuk mendatangi seluruh lokasi tersebut. Kalau untuk sewa mobil pun Anda juga bisa sewa mobil di Kota Surabaya bersama-sama. Selain itu, jangan lupa bawa kamera untuk mengabadikan setiap momen indahmu ya ...
-
-##

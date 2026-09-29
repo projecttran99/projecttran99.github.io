@@ -47,5 +47,3 @@ Sebelum memutuskan untuk rental mobil, Anda harus mempertimbangkan kapan dan ber
 Demikian informasi mengenai rental mobil beserta driver termurah di Surabaya. Semoga bermanfaat!
 
 Untuk melakukan pemesanan di <a href="https://tran99.com/">Sewa Rental Mobil Surabaya Tran99.com</a> khususnya untuk mendapatkan layanan rental mobil Ertiga silakan klik tombol WhatsApp di pojok kanan bawah terhubung kepada kami melalui WhatsApp
-
-##

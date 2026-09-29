@@ -49,5 +49,3 @@ Tempat atau posisi lampu kabut yang dulunya itu bergabung dengan housing lampu s
 ## Bumper depan
 
 Keseluruhan gambar depan ini kelihatan berubah total karena bentuk disesuaikan dengan lampu sein, untuk berapa bagian bawah tamper berwarna hitam supaya kelihatan punya kesan gagah tetapi untuk beberapa jenis yang lain seolah aksen body dibuat seolah menjadi bumper.
-
-##

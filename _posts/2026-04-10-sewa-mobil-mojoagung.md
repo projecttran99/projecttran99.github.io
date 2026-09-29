@@ -67,5 +67,3 @@ Dengan akses transportasi yang mudah, masyarakat dapat melakukan perjalanan anta
 Selain itu, layanan transportasi sewa juga membuka peluang kerja di sektor terkait seperti pengemudi, administrasi, serta perawatan kendaraan. Dengan demikian, keberadaan layanan ini turut mendukung ekosistem ekonomi di tingkat lokal.
 
 Secara keseluruhan, layanan rental mobil menjadi bagian penting dari sistem mobilitas modern yang mendukung kebutuhan masyarakat secara fleksibel dan efisien. Dengan sistem yang terkelola dengan baik, pengguna dapat merasakan manfaat maksimal dari layanan tersebut.
-
-##

@@ -1,18 +1,19 @@
 ---
 layout: post
+title: Harga Sewa Mobil Surabaya
+text-title: Harga Sewa Mobil Surabaya
+writer: Denny Rakhmad Widi Ashari
+description: Harga sewa mobil surabaya / rental mobil Surabaya kini turun Hubungi / WA ke 081-330-548-581 sudah dapat sewa mobil
+photos: /photos/rental-mobil-surabaya-pusat-kota-2.jpg
+amp-img-alt: harga sewa mobil surabaya rental mobil surabaya trans99
+photo_middle: /photos/rental-mobil-surabaya-dengan-sopir-3.jpg
+photo_middle_alt: harga sewa mobil surabaya rental mobil surabaya trans99
+photo_bottom: /photos/rental-mobil-surabaya-dengan-sopir-6.jpg
+photo_bottom_alt: harga sewa mobil surabaya rental mobil surabaya trans99
 amp-img-scr: /static/rental-mobil-surabaya-3.jpg
 amp-img-width: 597
 amp-img-height: 358
 amp-img-layout: responsive
-amp-img-alt: harga sewa mobil surabaya rental mobil surabaya trans99
-text-title: Harga Sewa Mobil Surabaya
-writer: Denny Rakhmad Widi Ashari
-description: Harga sewa mobil surabaya / rental mobil Surabaya kini turun Hubungi / WA ke 081-330-548-581 sudah dapat sewa mobil
-photos: /static/rental-mobil-surabaya-3.jpg
-photo_middle: ''
-photo_middle_alt: ''
-photo_bottom: ''
-photo_bottom_alt: ''
 ---
 
 Harga sewa mobil surabaya / rental mobil Surabaya kini turun, sewa mobil avanza di surabaya kini cukup hanya dengan Rp. 400.000 sudah dapat sewa mobil dan sopir

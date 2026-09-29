@@ -57,5 +57,3 @@ Dalam rangka untuk menjamin sebuah kenyamanan dalam berkendara untuk menuju ke t
 ## Layanan sewa Hiace di Surabaya
 
 Apabila kita melihat dari sisi fungsi kendaraan minibus seperti hiace adalah kendaraan digunakan untuk mengangkut penumpang dalam jumlah yang banyak, sehingga diwajibkan apabila peserta berangkat bersama-sama di dalam satu kendaraan, beberapa kegiatan yang ditangani dengan model-model kegiatan seperti yang disebutkan tadi adalah, kegiatan wisata atau study tour, transfer In And Out bandara, kegiatan yang bersifat kedinasan, mudik atau pulang kampung, wisata religi atau ziarah serta acara hajatan-hajatan lainnya.
-
-##

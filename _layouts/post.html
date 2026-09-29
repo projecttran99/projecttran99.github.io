@@ -14,8 +14,8 @@
         <div class="vs-page vs-page-post">
             <div class="vs-section padding-bottom-0-post">
                 <div class="grid-container vs-box-about">
-                    <div class="grid-x align-center">
-                        <div class="small-12 medium-11 large-9 cell">
+                    <div class="grid-x grid-margin-x align-center">
+                        <div class="small-12 medium-11 large-8 cell post-article-col">
                             <article class="post-main-container">
                                 {% include breadcrumb.html %}
 
@@ -191,6 +191,48 @@
                                     </div>
                                 </div>
                             </article>
+                        </div>
+
+                        <!-- Kolom Sticky Sidebar Kanan (Khusus Tampilan PC/Desktop) -->
+                        <div class="small-12 medium-11 large-4 cell post-sidebar-col">
+                            <div class="post-sidebar-sticky">
+                                <!-- Card ToC (Daftar Isi) Otomatis dari Sub-Bab H2 -->
+                                {% assign h2_parts = article_content | split: '<h2 ' %}
+                                {% if h2_parts.size > 1 %}
+                                <aside class="post-toc-card" aria-labelledby="toc-heading">
+                                    <div class="post-toc-header">
+                                        <span class="post-toc-icon">📋</span>
+                                        <h3 id="toc-heading" class="post-toc-title">Daftar Isi</h3>
+                                    </div>
+                                    <nav class="post-toc-nav" aria-label="Daftar Isi Artikel">
+                                        <ul class="post-toc-list">
+                                            {% for part in h2_parts offset:1 %}
+                                                {% assign id_part = part | split: 'id="' | last | split: '"' | first %}
+                                                {% assign title_chunk = part | split: '>' | slice: 1, 10 | join: '>' %}
+                                                {% assign title_part = title_chunk | split: '</h2>' | first | strip_html | strip %}
+                                                {% if id_part and id_part != '' and title_part and title_part != '' %}
+                                                <li class="post-toc-item">
+                                                    <a href="#{{ id_part }}" class="post-toc-link">
+                                                        {{ title_part }}
+                                                    </a>
+                                                </li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    </nav>
+                                </aside>
+                                {% endif %}
+
+                                <!-- Card Mini Kontak Cepat WhatsApp -->
+                                <div class="post-sidebar-contact-card">
+                                    <div class="sidebar-contact-badge">Layanan 24 Jam</div>
+                                    <h4 class="sidebar-contact-title">Sewa Mobil Surabaya</h4>
+                                    <p class="sidebar-contact-desc">Butuh armada cepat & supir berpengalaman di Jawa Timur? Konsultasikan rute & armada Anda.</p>
+                                    <a href="{{ site.whatsapp-api }}" class="sidebar-contact-btn" target="_blank" rel="noopener">
+                                        Hubungi WhatsApp &rarr;
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

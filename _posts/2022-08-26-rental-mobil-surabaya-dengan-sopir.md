@@ -50,5 +50,3 @@ Untuk masyarakat di seluruh jawa timur Surabaya ataupun di seluruh Indonesia apa
 
 Kami melayani rental mobil Surabaya dengan driver atau sopir dan kami pastikan Anda akan mendapati kami sebagai penyedia jasa rental mobil Surabaya.
 Kami memberikan fasilitas dan kami menjamin Anda mendapatkan pelayanan yang menyenangkan mudah instan dan cepat segera hubungi kami klik pojok kanan bawah ada tombol whatsapp segera klik come segera konsultasikan keinginan Anda.
-
-##

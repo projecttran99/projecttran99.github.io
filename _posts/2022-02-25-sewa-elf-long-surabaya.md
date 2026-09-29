@@ -39,5 +39,3 @@ Perlu diketahui bahwasanya adalah dengan menyewa Elf kita bisa menghemat anggara
 Dikarenakan ini termasuk kendaraan besar, ada Beberapa syarat yang menyebabkan kendaraan ini terus dikendarai oleh sopir atau driver yang profesional, dan tentu ini menjadikan unit ini tidak bisa di sewa tanpa sopir atau lepas kunci. Sewa kendaraan bersifat jadwal Persib beserta sopir. Enggak waktu sewa kurang lebih 12 jam untuk hitungan 1 hari, mulai pukul 6 pagi sampai dengan 6 malam, di luar Ketentuan tersebut untuk lebih jelasnya bisa ditanyakan pada kami, dengan klik tombol WhatsApp di pojok kanan bawah device Anda tanyakan keperluan Anda dan rencana-rencana Anda kepada kami.
 
 Harga sewa Elf long di Surabaya biasanya belum termasuk untuk biaya parkir, tol makan sopir. Segera hubungi kami untuk mendapatkan harga yang baik, dikarenakan elf long di Surabaya juga berlaku seasonal, dimana harga bisa berubah sewaktu-waktu.
-
-##

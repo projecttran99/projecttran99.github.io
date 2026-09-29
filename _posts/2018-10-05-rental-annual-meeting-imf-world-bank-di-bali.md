@@ -17,8 +17,6 @@ photo_bottom_alt: ''
 
 Dengan menyediakan sewa mobil mewah surabaya kami mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara  annual meeting IMF – World Bank di bali
 
-##
-
 Cnn memberitakan bahwa pertemuan tahunan dewan gubernur dana moneter internasional-bank dunia akan resmi digelar pada minggu depan, 8 - 14 oktober 2018. Even dunia ini akan dihadiri oleh pejabat-pejabat pembuat kebijakan ekonomi dan sektor keuangan dari 189 negara. Selain para menteri keuangan dan gubernur bank sentral di dunia, sejumlah kepala negara juga bakal mampir ke indonesia untuk menghadiri pertemuan ini.
 
 Segera hubungi <a href="https://tran99.com/">Sewa Rental Mobil Surabaya Tran99.com</a>

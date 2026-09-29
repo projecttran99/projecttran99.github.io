@@ -53,5 +53,3 @@ Fitur-fitur yang terdapat pada Hiace Premio atau Hiace Commuter sangat lengkap d
 Kabin mobil Hiace Premio atau Hiace Commuter juga didesain dengan sangat nyaman, sehingga Anda akan merasa nyaman saat mengemudi atau menumpang di mobil ini. Selain itu, Hiace Premio atau Hiace Commuter juga memiliki kapasitas bagasi yang cukup luas, sehingga cocok untuk digunakan dalam perjalanan liburan bersama keluarga.
 
 Dengan semua fitur yang terdapat pada Hiace Premio atau Hiace Commuter, tidak heran jika mobil ini sangat cocok untuk digunakan dalam perjalanan jauh. Jika Anda ingin mencari mobil yang nyaman untuk perjalanan jauh, maka Hiace Premio atau Hiace Commuter merupakan pilihan yang tepat bagi Anda.
-
-##

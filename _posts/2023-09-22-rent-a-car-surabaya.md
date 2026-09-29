@@ -77,5 +77,3 @@ Language: While English is spoken at many tourist sites, having a basic understa
 Local Cuisine: Don't miss the opportunity to savor Surabaya's diverse culinary offerings. Try dishes like rawon (beef black soup), rujak cingur (salad with cow snout), and lontong balap (a traditional dish with rice cake and bean sprouts).
 
 In conclusion, renting a car in Surabaya opens up a world of possibilities for exploring the city and its surrounding attractions. With the freedom and flexibility to set your own pace, you can make the most of your visit to this vibrant part of Indonesia. Be sure to plan your itinerary, follow safety guidelines, and immerse yourself in the rich culture and natural beauty that Surabaya and East Java have to offer. Happy travels!
-
-##

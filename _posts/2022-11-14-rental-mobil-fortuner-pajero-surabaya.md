@@ -47,5 +47,3 @@ Jangan kuatir apabila Anda saat di waktu istirahat malam menginginkan acara untu
 ## Terpercaya terbaik diantara rental mobil yang lain
 
 kami sangat percaya diri membuktikan bahwa kami adalah rental mobil terbaik dan terpercaya karena kami memiliki pengalaman lebih dari 10 tahun dengan beberapa playen korporat kami yang tua yang telah kami layang selama ini.
-
-##

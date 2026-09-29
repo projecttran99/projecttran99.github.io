@@ -55,5 +55,3 @@ Sehingga acara-acara yang membutuhkan ketepatan waktu kedatangan ataupun pulang 
 ## Acara yang menggunakan bus bisa menaikkan Gengsi
 
 Untuk instansi atau lembaga dengan menyewa bus bisa menaikkan Gengsi, daripada menyewa mobil. Untuk acara sekolah seperti cara study tour dengan menyewa bus akan kelihatan mewah dan elegan.
-
-##
