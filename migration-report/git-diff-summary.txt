@@ -20,7 +20,7 @@
  TESTING-STRATEGY.md                       |  110 +
  USER-STORIES.md                           |  148 ++
  _config.yml                               |   25 +-
- _includes/amp-custom-blog.html            |  159 +-
+ _includes/amp-custom-blog.html            |  183 +-
  _includes/amp-custom-post.html            |   54 +-
  _includes/breadcrumb.html                 |    9 +
  _includes/float-button.html               |    4 +-
@@ -29,7 +29,7 @@
  _layouts/post.html                        |    8 +-
  admin/config.yml                          |   62 +
  admin/index.html                          |   13 +
- blog.html                                 |   86 +-
+ blog.html                                 |   99 +-
  existing-amp-pages.json                   |  886 +++++++
  existing-article-inventory.json           | 1394 +++++++++++
  existing-id-inventory.json                |  320 +++
@@ -45,7 +45,7 @@
  inventory/existing-seo-metadata.json      |  685 ++++++
  inventory/existing-url-inventory.json     |  492 ++++
  migration-report/article-diff.json        |   11 +
- migration-report/git-diff-summary.txt     |   51 +
+ migration-report/git-diff-summary.txt     |   60 +
  migration-report/id-diff.json             |    7 +
  migration-report/image-diff.json          |    7 +
  migration-report/url-diff.json            |   13 +
@@ -57,4 +57,4 @@
  scripts/validate-diff.js                  |   66 +
  scripts/validate-seo.js                   |   65 +
  sitemap.xml                               |   53 +-
- 59 files changed, 23012 insertions(+), 231 deletions(-)
+ 59 files changed, 23058 insertions(+), 231 deletions(-)

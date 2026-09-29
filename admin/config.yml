@@ -47,16 +47,46 @@ collections:
       - { label: "Fasilitas 3", name: "list-3", widget: "string", default: "Pemakaian Luar Kota [Call]." }
       - { label: "Tarif Sewa (Price)", name: "price", widget: "string", required: true }
 
-  - name: "settings"
-    label: "Pengaturan Website"
+  - name: "pages"
+    label: "Kelola Halaman"
     files:
-      - label: "Informasi Kontak & Perusahaan"
+      - label: "Halaman Kontak (/contact/)"
+        name: "contact_page"
+        file: "contact.html"
+        fields:
+          - { label: "Judul Halaman (Browser Title / SEO)", name: "title", widget: "string", required: true }
+          - { label: "Meta Deskripsi SEO", name: "description", widget: "text", required: true }
+          - { label: "Foto Header / Open Graph", name: "photos", widget: "image" }
+          - { label: "Judul Tampilan Kontak", name: "header_title", widget: "string", default: "Hubungi Kami" }
+          - { label: "Subjudul Tampilan Kontak", name: "header_subtitle", widget: "text", default: "Layanan Reservasi & Konsultasi Rental Mobil Surabaya 24 Jam Nonstop. Hubungi kami melalui WhatsApp, Telepon, Email, atau kunjungi kantor operasional kami." }
+          - { label: "Label Alamat", name: "address_label", widget: "string", default: "Alamat Kantor & Pool Armada" }
+          - { label: "Label WhatsApp Utama", name: "whatsapp_primary_label", widget: "string", default: "WhatsApp Utama (Fast Response 24 Jam)" }
+          - { label: "Label WhatsApp Cadangan", name: "whatsapp_secondary_label", widget: "string", default: "WhatsApp Admin 2 (Cadangan)" }
+          - { label: "Label Telepon", name: "phone_label", widget: "string", default: "Telepon Langsung" }
+          - { label: "Label Email", name: "email_label", widget: "string", default: "Email Resmi" }
+
+  - name: "settings"
+    label: "Informasi Perusahaan & Kontak"
+    files:
+      - label: "Profil Perusahaan & Kontak Operasional"
         name: "general"
         file: "_config.yml"
         fields:
-          - { label: "Nama Perusahaan", name: "company", widget: "string" }
-          - { label: "Nomor Telepon Internasional", name: "telephone", widget: "string" }
-          - { label: "Nomor Telepon Tampilan", name: "telephonedetail", widget: "string" }
-          - { label: "Alamat Jalan", name: "streetAddress", widget: "string" }
-          - { label: "Kota / Wilayah", name: "address", widget: "string" }
-          - { label: "Kode Pos", name: "postalCode", widget: "string" }
+          - { label: "Nama Perusahaan", name: "company", widget: "string", required: true }
+          - { label: "Alamat Jalan", name: "streetAddress", widget: "string", required: true }
+          - { label: "Kota", name: "city", widget: "string", default: "Sidoarjo" }
+          - { label: "Provinsi", name: "province", widget: "string", default: "Jawa Timur" }
+          - { label: "Negara", name: "country", widget: "string", default: "Indonesia" }
+          - { label: "Kode Pos", name: "postalCode", widget: "string", default: "61256" }
+          - { label: "Alamat Lengkap / Wilayah", name: "address", widget: "string" }
+          - { label: "Link Google Maps", name: "google_maps_url", widget: "string", required: true }
+          - { label: "Google Maps Embed URL (iframe)", name: "google_maps_embed", widget: "string", required: true }
+          - { label: "Alamat Email", name: "email", widget: "string", required: true }
+          - { label: "Telepon Utama (Tampilan)", name: "telephonedetail", widget: "string", required: true }
+          - { label: "Telepon Format Internasional (tel:)", name: "telephone", widget: "string", required: true }
+          - { label: "WhatsApp Utama (Tampilan)", name: "whatsapp_primary", widget: "string", required: true }
+          - { label: "WhatsApp Utama (Nomor Link)", name: "whatsapp_primary_phone", widget: "string", required: true }
+          - { label: "WhatsApp Ke-2 (Tampilan)", name: "whatsapp_secondary", widget: "string", required: true }
+          - { label: "WhatsApp Ke-2 (Nomor Link)", name: "whatsapp_secondary_phone", widget: "string", required: true }
+          - { label: "Deskripsi Singkat Website", name: "description", widget: "text" }
+

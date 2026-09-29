@@ -1,59 +1,119 @@
 ---
 layout: contact
-title: Sewa Mobil di Surabaya segera hubungi kami
-description: Hubungi kami segera dengan telepon / WA ke 081-330-548-581 dan dapatkan layanan terbaik kami
+title: Sewa Mobil di Surabaya Segera Hubungi Kami
+description: Hubungi Tran99 Rental Mobil Surabaya via Telepon atau WhatsApp ke 081-330-548-581 / 0852-3591-5990 untuk reservasi 24 jam dengan armada terbaik dan harga terjangkau.
 photos: https://tran99.com/static/43817648_353828892048143_45810111997129597_n.jpg
+header_title: Hubungi Kami
+header_subtitle: Layanan Reservasi & Konsultasi Rental Mobil Surabaya 24 Jam Nonstop. Hubungi kami melalui WhatsApp, Telepon, Email, atau kunjungi kantor operasional kami.
+address_label: Alamat Kantor & Pool Armada
+whatsapp_primary_label: WhatsApp Utama (Fast Response 24 Jam)
+whatsapp_secondary_label: WhatsApp Admin 2 (Cadangan)
+phone_label: Telepon Langsung
+email_label: Email Resmi
 ---
 <section class="vs-content">
-    <div class="vs-page vs-page-contact">
-        <div class="vs-section-contact padding-0">
-            <div class="vs-section-contact padding-0">
-                <div class="grid-x">
-                    <div class="medium-6 large-6 cell vs-bg-smoke-contact">
-                        <div class="grid-x">
-                            <div class="small-12 cell text-center">
-                                <div class="vs-section-bg-contact vs-contact-info">
-                                    <div class="vs-section-title text-center">
-                                        <h3><span class="text-title">{{ site.section-9 }}</span></h3>
-                                    </div>
-                                    <div class="grid-x align-center">
-                                        <div class="small-12 medium-10 large-6 cell">
-                                            <div class="vs-box-shape">
-                                                <div class="vs-square-shape">
-                                                    <div class="grid-x grid-padding-x">
-                                                        {% for item in site.data-section-9 %}
-                                                        <div class="small-12 cell text-left">
-                                                            <div class="shape-logo">
-                                                                <div class="box-shape-img">
-                                                                    <amp-img id="img" src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
-                                                                </div>
-                                                                <div class="box-shape-info">
-                                                                    <a href="{{ item.amp-img-href }}">{{ item.text-title }}</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        {% endfor %}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <div class="contact-split-wrapper">
+        <!-- Kolom Kiri: Informasi Kontak & Alamat Perusahaan -->
+        <div class="contact-left-col">
+            <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
+                    <li class="breadcrumb-separator">/</li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ page.header_title | default: "Hubungi Kami" }}</li>
+                </ol>
+            </nav>
+
+            <div class="contact-header">
+                <h1 class="contact-title">{{ page.header_title | default: "Hubungi Kami" }}</h1>
+                <p class="contact-subtitle">{{ page.header_subtitle | default: "Layanan Reservasi & Konsultasi Rental Mobil Surabaya 24 Jam Nonstop. Hubungi kami melalui WhatsApp, Telepon, Email, atau kunjungi kantor operasional kami." }}</p>
+            </div>
+
+            <div class="contact-info-list">
+                <!-- Alamat Perusahaan -->
+                <div class="contact-item-card">
+                    <div class="contact-item-icon">
+                        <amp-img src="/static/address.png" width="28" height="28" layout="fixed" alt="alamat rental mobil surabaya tran99"></amp-img>
+                    </div>
+                    <div class="contact-item-content">
+                        <div class="contact-item-label">{{ page.address_label | default: "Alamat Kantor & Pool Armada" }}</div>
+                        <div class="contact-item-val">
+                            {{ site.streetAddress }}, {{ site.city }}, {{ site.province }}, {{ site.country }} {{ site.postalCode }}
                         </div>
                     </div>
-                    <div class="medium-6 large-6-map cell">
-                        <!-- <div class="grid-x"> -->
-                            <!-- <div class="small-12"> -->
-                                <!-- <div id="map"> -->
-                                    <amp-iframe width="1" height="1" sandbox="allow-scripts allow-same-origin" layout="responsive" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44768.17295499938!2d112.73056169183482!3d-7.355595602828556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f9f19eb7bec41bb!2sSewa+Mobil+Surabaya+Tran99.com!5e0!3m2!1sid!2sid!4v1532318905609">
-                                        <amp-img src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44768.17295499938!2d112.73056169183482!3d-7.355595602828556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f9f19eb7bec41bb!2sSewa+Mobil+Surabaya+Tran99.com!5e0!3m2!1sid!2sid!4v1532318905609" width="1" height="1" layout="responsive" placeholder></amp-img>
-                                    </amp-iframe>
-                                <!-- </div> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
+                </div>
+
+                <!-- WhatsApp Utama -->
+                <div class="contact-item-card">
+                    <div class="contact-item-icon" style="background: #dcfce7;">
+                        <amp-img src="/static/whatsapp.svg" width="28" height="28" layout="fixed" alt="whatsapp utama rental mobil surabaya tran99"></amp-img>
+                    </div>
+                    <div class="contact-item-content">
+                        <div class="contact-item-label">{{ page.whatsapp_primary_label | default: "WhatsApp Utama (Fast Response 24 Jam)" }}</div>
+                        <div class="contact-item-val">
+                            <a href="https://api.whatsapp.com/send?text=Hallo%20Tran99%20saya%20mau%20sewa%20mobil&phone={{ site.whatsapp_primary_phone | default: '6281330548581' }}" target="_blank" rel="noopener">
+                                {{ site.whatsapp_primary | default: '081-330-548-581' }} &rarr; Chat Sekarang
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- WhatsApp Ke-2 -->
+                <div class="contact-item-card">
+                    <div class="contact-item-icon" style="background: #dcfce7;">
+                        <amp-img src="/static/whatsapp.svg" width="28" height="28" layout="fixed" alt="whatsapp kedua rental mobil surabaya tran99"></amp-img>
+                    </div>
+                    <div class="contact-item-content">
+                        <div class="contact-item-label">{{ page.whatsapp_secondary_label | default: "WhatsApp Admin 2 (Cadangan)" }}</div>
+                        <div class="contact-item-val">
+                            <a href="https://api.whatsapp.com/send?text=Hallo%20Tran99%20saya%20mau%20sewa%20mobil&phone={{ site.whatsapp_secondary_phone | default: '6285235915990' }}" target="_blank" rel="noopener">
+                                {{ site.whatsapp_secondary | default: '0852-3591-5990' }} &rarr; Chat Sekarang
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Telepon Utama -->
+                <div class="contact-item-card">
+                    <div class="contact-item-icon">
+                        <amp-img src="/static/phone.png" width="28" height="28" layout="fixed" alt="telepon rental mobil surabaya tran99"></amp-img>
+                    </div>
+                    <div class="contact-item-content">
+                        <div class="contact-item-label">{{ page.phone_label | default: "Telepon Langsung" }}</div>
+                        <div class="contact-item-val">
+                            <a href="tel:{{ site.telephone }}">
+                                {{ site.telephonedetail }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Resmi -->
+                <div class="contact-item-card">
+                    <div class="contact-item-icon">
+                        <amp-img src="/static/sms.svg" width="28" height="28" layout="fixed" alt="email rental mobil surabaya tran99"></amp-img>
+                    </div>
+                    <div class="contact-item-content">
+                        <div class="contact-item-label">{{ page.email_label | default: "Email Resmi" }}</div>
+                        <div class="contact-item-val">
+                            <a href="mailto:{{ site.email }}?Subject=Tanya%20Sewa%20Rental%20Mobil%20Tran99">
+                                {{ site.email }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kolom Kanan: Google Maps Interaktif (Setengah Halaman PC / Bawah di Phone) -->
+        <div class="contact-right-col">
+            <div class="contact-maps-wrapper">
+                <amp-iframe width="600" height="650" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" src="{{ site.google_maps_embed }}">
+                    <amp-img src="https://tran99.com/static/rental-mobil-surabaya-transparan.png" width="600" height="650" layout="responsive" placeholder alt="peta lokasi tran99 rental mobil surabaya"></amp-img>
+                </amp-iframe>
+            </div>
+            <div class="maps-action-bar">
+                <span>📍 Titik Lokasi: {{ site.company | default: "Tran99 Rental Mobil Surabaya" }}</span>
+                <a href="{{ site.google_maps_url }}" target="_blank" rel="noopener">Buka Petunjuk Arah di Google Maps &rarr;</a>
             </div>
         </div>
     </div>
