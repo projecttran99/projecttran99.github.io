@@ -1871,32 +1871,125 @@ html {
     text-decoration: underline;
 }
 
-/* Post Sticky Sidebar & Table of Contents (ToC) for Desktop PC */
-.post-sidebar-col {
+/* Post Layout Flex (Preserving previous post-main-container appearance) */
+.post-layout-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    position: relative;
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/* Post Main Container (Tampilan asli/sebelumnya tetap terjaga utuh) */
+.post-main-container {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    max-width: 860px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 40em) {
+    .post-main-container {
+        padding: 3rem 2.5rem;
+    }
+}
+
+/* 1. ToC Khusus Tampilan Phone (Di bawah post-featured-media post-media-top) */
+.post-toc-phone {
+    display: block;
+    margin: 1.5rem 0 2rem;
+}
+.post-toc-phone .post-toc-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.25rem 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+.post-toc-phone .post-toc-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+.post-toc-phone .post-toc-icon {
+    font-size: 1.15rem;
+    line-height: 1;
+}
+.post-toc-phone .post-toc-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0;
+}
+.post-toc-phone .post-toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.post-toc-phone .post-toc-item {
+    margin: 0;
+}
+.post-toc-phone .post-toc-link {
+    display: block;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: #334155;
+    text-decoration: none;
+    padding: 0.45rem 0.65rem;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+}
+.post-toc-phone .post-toc-link:hover,
+.post-toc-phone .post-toc-link:active {
+    color: #0284c7;
+    background: #f0f9ff;
+    border-color: #bae6fd;
+}
+@media screen and (min-width: 64em) {
+    .post-toc-phone {
+        display: none;
+    }
+}
+
+/* 2. ToC Khusus Tampilan PC/Desktop (Sticky di sebelah kanan post-main-container) */
+.post-toc-desktop {
     display: none;
 }
 @media screen and (min-width: 64em) {
-    .post-sidebar-col {
+    .post-toc-desktop {
         display: block;
+        width: 280px;
+        flex: 0 0 280px;
     }
 }
-.post-sidebar-sticky {
+.post-toc-sticky-wrapper {
     position: -webkit-sticky;
     position: sticky;
     top: 96px;
     z-index: 10;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
 }
-.post-toc-card {
+.post-toc-desktop .post-toc-card {
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 14px;
     padding: 1.5rem 1.25rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
 }
-.post-toc-header {
+.post-toc-desktop .post-toc-header {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -1904,37 +1997,37 @@ html {
     margin-bottom: 0.85rem;
     border-bottom: 2px solid #f1f5f9;
 }
-.post-toc-icon {
+.post-toc-desktop .post-toc-icon {
     font-size: 1.2rem;
     line-height: 1;
 }
-.post-toc-title {
+.post-toc-desktop .post-toc-title {
     font-size: 1.05rem;
     font-weight: 700;
     color: #0f172a;
     margin: 0;
     letter-spacing: -0.01em;
 }
-.post-toc-nav {
-    max-height: calc(100vh - 380px);
+.post-toc-desktop .post-toc-nav {
+    max-height: calc(100vh - 220px);
     overflow-y: auto;
     padding-right: 0.25rem;
 }
-.post-toc-nav::-webkit-scrollbar {
+.post-toc-desktop .post-toc-nav::-webkit-scrollbar {
     width: 4px;
 }
-.post-toc-nav::-webkit-scrollbar-track {
+.post-toc-desktop .post-toc-nav::-webkit-scrollbar-track {
     background: #f8fafc;
     border-radius: 4px;
 }
-.post-toc-nav::-webkit-scrollbar-thumb {
+.post-toc-desktop .post-toc-nav::-webkit-scrollbar-thumb {
     background: #cbd5e1;
     border-radius: 4px;
 }
-.post-toc-nav::-webkit-scrollbar-thumb:hover {
+.post-toc-desktop .post-toc-nav::-webkit-scrollbar-thumb:hover {
     background: #94a3b8;
 }
-.post-toc-list {
+.post-toc-desktop .post-toc-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -1942,10 +2035,10 @@ html {
     flex-direction: column;
     gap: 0.35rem;
 }
-.post-toc-item {
+.post-toc-desktop .post-toc-item {
     margin: 0;
 }
-.post-toc-link {
+.post-toc-desktop .post-toc-link {
     display: block;
     font-size: 0.86rem;
     line-height: 1.45;
@@ -1956,65 +2049,10 @@ html {
     border-radius: 0 6px 6px 0;
     transition: all 0.2s ease-in-out;
 }
-.post-toc-link:hover {
+.post-toc-desktop .post-toc-link:hover {
     color: #0284c7;
     background: #f0f9ff;
     border-left-color: #0284c7;
     text-decoration: none;
     padding-left: 0.85rem;
-}
-
-/* Sidebar Fast Contact Card */
-.post-sidebar-contact-card {
-    background: linear-gradient(135deg, #0369a1 0%, #1e3a8a 100%);
-    border-radius: 14px;
-    padding: 1.5rem 1.25rem;
-    color: #ffffff;
-    box-shadow: 0 6px 20px -4px rgba(2, 132, 199, 0.35);
-    text-align: center;
-}
-.sidebar-contact-badge {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 0.25rem 0.65rem;
-    border-radius: 20px;
-    margin-bottom: 0.75rem;
-}
-.sidebar-contact-title {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0 0 0.5rem;
-}
-.sidebar-contact-desc {
-    font-size: 0.82rem;
-    color: #e0f2fe;
-    line-height: 1.5;
-    margin-bottom: 1.15rem;
-}
-.sidebar-contact-btn {
-    display: block;
-    width: 100%;
-    padding: 0.7rem 1rem;
-    background: #22c55e;
-    color: #ffffff;
-    font-size: 0.88rem;
-    font-weight: 700;
-    text-align: center;
-    border-radius: 8px;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.35);
-    transition: all 0.2s ease;
-}
-.sidebar-contact-btn:hover {
-    background: #16a34a;
-    color: #ffffff;
-    text-decoration: none;
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(34, 197, 94, 0.45);
 }
