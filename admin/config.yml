@@ -20,12 +20,43 @@ collections:
       - { label: "Judul Artikel (Title)", name: "title", widget: "string", required: true }
       - { label: "Judul Tampilan (Text Title)", name: "text-title", widget: "string", required: true }
       - { label: "Penulis (Writer)", name: "writer", widget: "string", default: "H. Denny Rakhmad Widi Ashari, S.AP., M.E." }
-      - { label: "Meta Deskripsi SEO", name: "description", widget: "text", required: true }
-      - { label: "Foto Utama (Photos URL)", name: "photos", widget: "image", required: true }
-      - { label: "AMP Image Source", name: "amp-img-scr", widget: "image", required: true }
-      - { label: "AMP Image Alt Text", name: "amp-img-alt", widget: "string", required: true }
-      - { label: "AMP Image Width", name: "amp-img-width", widget: "number", default: 550, value_type: "int" }
-      - { label: "AMP Image Height", name: "amp-img-height", widget: "number", default: 309, value_type: "int" }
+      - label: "Meta Deskripsi SEO (Maksimal 160 Karakter)"
+        name: "description"
+        widget: "string"
+        required: true
+        pattern: ['^.{1,160}$', "Maksimal 160 karakter! Harap persingkat deskripsi Anda agar ramah Google SERP."]
+        hint: "Maksimal 160 karakter untuk optimasi snippet Google SERP (panjang ideal 120-160 karakter)."
+      - label: "Foto 1: Bagian Atas (Sesudah Nama Penulis)"
+        name: "photos"
+        widget: "image"
+        required: true
+        hint: "Foto utama yang tampil di atas setelah nama penulis (Rasio disarankan 16:9)"
+      - label: "Alt Text Foto 1 (Atas)"
+        name: "amp-img-alt"
+        widget: "string"
+        required: true
+        hint: "Deskripsi gambar foto atas untuk SEO"
+      - label: "Foto 2: Bagian Tengah (Tengah Artikel)"
+        name: "photo_middle"
+        widget: "image"
+        required: false
+        hint: "Foto yang otomatis disisipkan di bagian tengah artikel (Rasio disarankan 16:9)"
+      - label: "Alt Text Foto 2 (Tengah)"
+        name: "photo_middle_alt"
+        widget: "string"
+        required: false
+      - label: "Foto 3: Bagian Bawah (Bawah Artikel)"
+        name: "photo_bottom"
+        widget: "image"
+        required: false
+        hint: "Foto penutup di bagian akhir artikel sebelum rekomendasi (Rasio disarankan 16:9)"
+      - label: "Alt Text Foto 3 (Bawah)"
+        name: "photo_bottom_alt"
+        widget: "string"
+        required: false
+      - { label: "AMP Image Source (Legacy)", name: "amp-img-scr", widget: "hidden", default: "" }
+      - { label: "AMP Image Width", name: "amp-img-width", widget: "hidden", default: 800 }
+      - { label: "AMP Image Height", name: "amp-img-height", widget: "hidden", default: 450 }
       - { label: "AMP Image Layout", name: "amp-img-layout", widget: "hidden", default: "responsive" }
       - { label: "Konten Artikel", name: "body", widget: "markdown", required: true }
 

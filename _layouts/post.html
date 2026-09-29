@@ -11,27 +11,190 @@
 <body>
     {% include nav.html %}
     <section class="vs-content">
-        <div class="vs-page vs-page-about">
+        <div class="vs-page vs-page-post">
             <div class="vs-section padding-bottom-0-post">
                 <div class="grid-container vs-box-about">
                     <div class="grid-x align-center">
-                        <div class="small-12 large-9 cell">
-                            <div class="vs-box-product-list">
+                        <div class="small-12 medium-11 large-9 cell">
+                            <article class="post-main-container">
                                 {% include breadcrumb.html %}
-                                <div class="vs-section-title text-center">
-                                    <h1><span class="text-title">{{ page.text-title }}</span></h1>
-                                    <h5><span class="post">Writer : {{ page.writer }}</span></h5>
+
+                                <!-- Header Artikel -->
+                                <header class="post-header-area text-center">
+                                    <h1 class="post-title">
+                                        <span class="text-title">{{ page.text-title | default: page.title }}</span>
+                                    </h1>
+                                    <div class="post-meta-info">
+                                        <span class="post-meta-writer">✍️ Oleh: <strong>{{ page.writer | default: "Tran99" }}</strong></span>
+                                        {% if page.date %}
+                                        <span class="meta-dot">&bull;</span>
+                                        <span class="post-meta-date">📅 {{ page.date | date: "%d %B %Y" }}</span>
+                                        {% endif %}
+                                    </div>
+                                </header>
+
+                                <!-- 1. Foto Bagian Atas (Sesudah Nama Penulis) -->
+                                <div class="post-featured-media post-media-top">
+                                    <amp-img src="{{ page.photo_top | default: page.photos | default: page.amp-img-scr }}" 
+                                             width="800" 
+                                             height="450" 
+                                             layout="responsive" 
+                                             alt="{{ page.photo_top_alt | default: page.amp-img-alt | default: page.text-title | default: page.title }}">
+                                    </amp-img>
                                 </div>
-                                <div class="small-12 medium-4 cell">
-                                    <amp-img class="post" src="{{ page.amp-img-scr }}" width="{{ page.amp-img-width }}" height="{{ page.amp-img-height }}" layout="responsive" alt="{{ page.amp-img-alt }}"></amp-img>
+
+                                <!-- Konten Utama & 2. Foto Bagian Tengah -->
+                                {% assign article_content = content %}
+                                {% if content contains '<h2 class="post">Kami melayani :' %}
+                                    {% assign split_parts = content | split: '<h2 class="post">Kami melayani :' %}
+                                    {% assign article_content = split_parts[0] %}
+                                {% elsif content contains '<h2>Kami melayani :' %}
+                                    {% assign split_parts = content | split: '<h2>Kami melayani :' %}
+                                    {% assign article_content = split_parts[0] %}
+                                {% elsif content contains 'Kami melayani :' %}
+                                    {% assign split_parts = content | split: 'Kami melayani :' %}
+                                    {% assign article_content = split_parts[0] %}
+                                {% endif %}
+
+                                <div class="post-content-body">
+                                    {% if page.photo_middle %}
+                                        {% assign paragraphs = article_content | split: '</p>' %}
+                                        {% assign total_p = paragraphs | size %}
+                                        {% assign half_p = total_p | divided_by: 2 %}
+                                        {% for p in paragraphs %}
+                                            {{ p }}{% if forloop.index < total_p %}</p>{% endif %}
+                                            {% if forloop.index == half_p %}
+                                            <!-- 2. Foto Bagian Tengah Artikel -->
+                                            <div class="post-featured-media post-media-middle">
+                                                <amp-img src="{{ page.photo_middle }}" 
+                                                         width="800" 
+                                                         height="450" 
+                                                         layout="responsive" 
+                                                         alt="{{ page.photo_middle_alt | default: page.text-title | default: page.title }}">
+                                                </amp-img>
+                                            </div>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% else %}
+                                        {{ article_content }}
+                                    {% endif %}
                                 </div>
-                                {{ content }}
-                                <div class="post-cta-banner text-center">
-                                    <h4>Butuh Rental Mobil Surabaya Terpercaya?</h4>
-                                    <p>Hubungi Tran99.com sekarang untuk reservasi cepat 24 jam dengan driver ramah & unit terawat.</p>
-                                    <a href="{{ site.whatsapp-api }}" class="button vs-flat-btn-primary">Hubungi WhatsApp Kami</a>
+
+                                <!-- 3. Foto Bagian Bawah Artikel -->
+                                {% if page.photo_bottom %}
+                                <div class="post-featured-media post-media-bottom">
+                                    <amp-img src="{{ page.photo_bottom }}" 
+                                             width="800" 
+                                             height="450" 
+                                             layout="responsive" 
+                                             alt="{{ page.photo_bottom_alt | default: page.text-title | default: page.title }}">
+                                    </amp-img>
                                 </div>
-                            </div>
+                                {% endif %}
+
+                                <!-- Banner CTA WhatsApp -->
+                                <div class="post-cta-card text-center">
+                                    <div class="post-cta-badge">Layanan 24 Jam Nonstop</div>
+                                    <h3 class="post-cta-title">Butuh Rental Mobil Surabaya Terpercaya?</h3>
+                                    <p class="post-cta-desc">Hubungi Tran99.com sekarang untuk reservasi cepat 24 jam dengan driver ramah & unit terawat.</p>
+                                    <a href="{{ site.whatsapp-api }}" class="post-cta-btn" target="_blank" rel="noopener">
+                                        Hubungi WhatsApp Reservasi &rarr;
+                                    </a>
+                                </div>
+
+                                <!-- 3. Di bawah Kami Melayani: Navigasi Prev/Next & 4 Card Artikel Acak -->
+                                <div class="post-services-section">
+                                    <div class="post-services-header">
+                                        <h2 class="post-services-title">Kami melayani :</h2>
+                                        <p class="post-services-desc">Tran99.com menyediakan layanan sewa rental mobil di Surabaya, Sidoarjo, Bandara Juanda, Malang, dan seluruh Jawa Timur dengan armada terbaik dan supir berpengalaman.</p>
+                                    </div>
+
+                                    <!-- Navigasi Artikel Sebelumnya & Setelahnya -->
+                                    <div class="post-nav-wrapper">
+                                        <div class="grid-x grid-padding-x">
+                                            <div class="small-12 medium-6 cell post-nav-col post-nav-prev">
+                                                {% if page.previous %}
+                                                <a href="{{ page.previous.url }}" class="post-nav-card" rel="prev">
+                                                    <span class="post-nav-label">&laquo; Artikel Sebelumnya</span>
+                                                    <span class="post-nav-heading">{{ page.previous.text-title | default: page.previous.title }}</span>
+                                                </a>
+                                                {% else %}
+                                                <div class="post-nav-card disabled">
+                                                    <span class="post-nav-label">&laquo; Artikel Sebelumnya</span>
+                                                    <span class="post-nav-heading">Ini adalah artikel pertama</span>
+                                                </div>
+                                                {% endif %}
+                                            </div>
+                                            <div class="small-12 medium-6 cell post-nav-col post-nav-next">
+                                                {% if page.next %}
+                                                <a href="{{ page.next.url }}" class="post-nav-card" rel="next">
+                                                    <span class="post-nav-label">Artikel Setelahnya &raquo;</span>
+                                                    <span class="post-nav-heading">{{ page.next.text-title | default: page.next.title }}</span>
+                                                </a>
+                                                {% else %}
+                                                <div class="post-nav-card disabled">
+                                                    <span class="post-nav-label">Artikel Setelahnya &raquo;</span>
+                                                    <span class="post-nav-heading">Ini adalah artikel terbaru</span>
+                                                </div>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- 4 Card Artikel Acak / Random -->
+                                    <div class="post-related-section">
+                                        <div class="post-related-header text-center">
+                                            <h3 class="post-related-heading">Artikel Pilihan Lainnya</h3>
+                                            <p class="post-related-sub">Rekomendasi destinasi wisata dan panduan sewa rental mobil Surabaya untuk Anda</p>
+                                        </div>
+
+                                        <div class="grid-x grid-padding-x post-related-grid">
+                                            {% assign seed = page.title | size | plus: page.date | date: "%d" %}
+                                            {% assign total_posts = site.posts | size %}
+                                            {% assign offset1 = seed | times: 3 | modulo: total_posts %}
+                                            {% assign offset2 = seed | times: 7 | plus: 5 | modulo: total_posts %}
+                                            {% assign offset3 = seed | times: 13 | plus: 11 | modulo: total_posts %}
+                                            {% assign offset4 = seed | times: 19 | plus: 23 | modulo: total_posts %}
+
+                                            {% for post in site.posts %}
+                                                {% if forloop.index0 == offset1 or forloop.index0 == offset2 or forloop.index0 == offset3 or forloop.index0 == offset4 %}
+                                                <div class="small-12 medium-6 large-6 cell post-related-col" style="margin-bottom: 1.5rem;">
+                                                    <article class="blog-card">
+                                                        <div class="blog-card-media">
+                                                            <a href="{{ post.url }}" aria-label="{{ post.text-title | default: post.title }}">
+                                                                <amp-img class="blog-thumb"
+                                                                         src="{{ post.photos | default: post.amp-img-scr }}" 
+                                                                         width="600" 
+                                                                         height="338" 
+                                                                         layout="responsive" 
+                                                                         alt="{{ post.amp-img-alt | default: post.text-title }}">
+                                                                </amp-img>
+                                                            </a>
+                                                        </div>
+                                                        <div class="blog-card-body">
+                                                            <div class="blog-card-meta">
+                                                                <span>{{ post.date | date: "%d %b %Y" }}</span>
+                                                                <span class="meta-dot">&bull;</span>
+                                                                <span>{{ post.writer | default: "Tran99" }}</span>
+                                                            </div>
+                                                            <h4 class="blog-card-title">
+                                                                <a href="{{ post.url }}">{{ post.text-title | default: post.title }}</a>
+                                                            </h4>
+                                                            <div class="blog-card-excerpt">
+                                                                {{ post.description | default: post.excerpt | strip_html | truncate: 100 }}
+                                                            </div>
+                                                            <div class="blog-card-footer">
+                                                                <a href="{{ post.url }}" class="blog-read-more">Baca Selengkapnya &rarr;</a>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
