@@ -97,6 +97,16 @@ collections:
     fields:
       - { label: "Instagram Post Shortcode", name: "data-shortcode", widget: "string", required: true, hint: "Kode unik postingan Instagram dari URL (contoh: dari https://www.instagram.com/p/B8VJKGRleaJ/ kodenya adalah B8VJKGRleaJ)" }
 
+  - name: "tiktok"
+    label: "Video TikTok"
+    label_singular: "Video TikTok"
+    folder: "_data-tiktok"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{data-src}}"
+    fields:
+      - { label: "URL Video TikTok", name: "data-src", widget: "string", required: true, hint: "URL video TikTok (contoh: https://www.tiktok.com/@www.tran99.com/video/7295685281359990021)" }
+
   - name: "pages"
     label: "Kelola Halaman"
     files:
