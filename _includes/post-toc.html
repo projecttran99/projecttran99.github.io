@@ -1,24 +1,40 @@
 {% if h2_parts.size > 1 %}
 <aside class="post-toc-card" aria-labelledby="toc-heading">
     <div class="post-toc-header">
-        <span class="post-toc-icon">📋</span>
-        <h3 id="toc-heading" class="post-toc-title">Daftar Isi</h3>
+        <div class="post-toc-header-left">
+            <span class="post-toc-icon">📋</span>
+            <h3 id="toc-heading" class="post-toc-title">Daftar Isi</h3>
+        </div>
+        <span class="post-toc-count">{{ h2_parts.size | minus: 1 }} Sub-Judul</span>
     </div>
+
+    <!-- Selector Posisi Membaca / Reading Progress Track -->
+    <div class="post-toc-progress-track" title="Indikator Posisi Membaca Artikel">
+        <div class="post-toc-progress-fill"></div>
+    </div>
+
     <nav class="post-toc-nav" aria-label="Daftar Isi Artikel">
-        <ul class="post-toc-list">
-            {% for part in h2_parts offset:1 %}
-                {% assign id_part = part | split: 'id="' | last | split: '"' | first %}
-                {% assign title_chunk = part | split: '>' | slice: 1, 10 | join: '>' %}
-                {% assign title_part = title_chunk | split: '</h2>' | first | strip_html | strip %}
-                {% if id_part and id_part != '' and title_part and title_part != '' %}
-                <li class="post-toc-item">
-                    <a href="#{{ id_part }}" class="post-toc-link">
-                        {{ title_part }}
-                    </a>
-                </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+        <div class="post-toc-timeline-wrapper">
+            <div class="post-toc-timeline-rail">
+                <div class="post-toc-timeline-fill"></div>
+            </div>
+            <ul class="post-toc-list">
+                {% for part in h2_parts offset:1 %}
+                    {% assign id_part = part | split: 'id="' | last | split: '"' | first %}
+                    {% assign title_chunk = part | split: '>' | slice: 1, 10 | join: '>' %}
+                    {% assign title_part = title_chunk | split: '</h2>' | first | strip_html | strip %}
+                    {% if id_part and id_part != '' and title_part and title_part != '' %}
+                    <li class="post-toc-item">
+                        <a href="#{{ id_part }}" class="post-toc-link">
+                            <span class="post-toc-step-badge">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                            <span class="post-toc-step-text">{{ title_part }}</span>
+                            <span class="post-toc-step-indicator" aria-hidden="true">›</span>
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
     </nav>
 </aside>
 {% endif %}

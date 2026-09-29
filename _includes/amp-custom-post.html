@@ -1628,7 +1628,27 @@ html {
     margin-top: 2.25rem;
     margin-bottom: 1rem;
     line-height: 1.35;
-    scroll-margin-top: 110px;
+    scroll-margin-top: 135px;
+}
+.post-main-container [id],
+.post-content-body [id] {
+    scroll-margin-top: 135px;
+}
+@media screen and (min-width: 64em) {
+    .post-content-body h2,
+    .post-content-body h3,
+    .post-content-body h4,
+    .post-main-container [id],
+    .post-content-body [id] {
+        scroll-margin-top: 140px;
+    }
+}
+.post-content-body h2:target {
+    border-left: 4px solid #0284c7;
+    padding-left: 0.85rem;
+    background: linear-gradient(90deg, rgba(2, 132, 199, 0.08) 0%, rgba(2, 132, 199, 0) 100%);
+    border-radius: 0 8px 8px 0;
+    transition: all 0.3s ease;
 }
 .post-content-body ul,
 .post-content-body ol {
@@ -1900,7 +1920,192 @@ html {
     }
 }
 
-/* 1. ToC Khusus Tampilan Phone (Di bawah post-featured-media post-media-top) */
+/* 1. Shared Base ToC Styles */
+.post-toc-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+.post-toc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid #f1f5f9;
+}
+.post-toc-header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.post-toc-icon {
+    font-size: 1.15rem;
+    line-height: 1;
+}
+.post-toc-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+.post-toc-count {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #0284c7;
+    background: #e0f2fe;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
+/* Selector Posisi Membaca / Reading Progress Track */
+.post-toc-progress-track {
+    width: 100%;
+    height: 3px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    margin: 0.65rem 0 0.85rem;
+    overflow: hidden;
+    position: relative;
+}
+.post-toc-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #0284c7 0%, #38bdf8 100%);
+    border-radius: 3px;
+    transition: width 0.15s ease-out;
+}
+@keyframes tocProgressAnim {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+@supports (animation-timeline: scroll()) {
+    .post-toc-progress-fill {
+        animation: tocProgressAnim auto linear;
+        animation-timeline: scroll();
+    }
+}
+
+/* Timeline Track & Navigation List */
+.post-toc-timeline-wrapper {
+    position: relative;
+    padding-left: 0.15rem;
+}
+.post-toc-timeline-rail {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    bottom: 12px;
+    width: 2px;
+    background: #e2e8f0;
+    border-radius: 2px;
+    z-index: 1;
+}
+.post-toc-timeline-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(180deg, #0284c7 0%, #38bdf8 100%);
+    border-radius: 2px;
+    transition: height 0.15s ease-out;
+}
+@keyframes tocRailAnim {
+    from { height: 0%; }
+    to { height: 100%; }
+}
+@supports (animation-timeline: scroll()) {
+    .post-toc-timeline-fill {
+        animation: tocRailAnim auto linear;
+        animation-timeline: scroll();
+    }
+}
+.post-toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: relative;
+    z-index: 2;
+}
+.post-toc-item {
+    margin: 0;
+}
+.post-toc-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    text-decoration: none;
+    padding: 0.45rem 0.55rem;
+    border-radius: 8px;
+    color: #475569;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    transition: all 0.2s ease;
+    position: relative;
+    background: transparent;
+}
+.post-toc-step-badge {
+    flex: 0 0 22px;
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: #64748b;
+    background: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: all 0.2s ease;
+    margin-top: 1px;
+}
+.post-toc-step-text {
+    flex: 1;
+    min-width: 0;
+    font-weight: 500;
+}
+.post-toc-step-indicator {
+    flex: 0 0 auto;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #cbd5e1;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Hover, Focus, and Active Selector States */
+.post-toc-link:hover,
+.post-toc-link:focus,
+.post-toc-link:active {
+    color: #0284c7;
+    background: #f0f9ff;
+    text-decoration: none;
+}
+.post-toc-link:hover .post-toc-step-badge,
+.post-toc-link:focus .post-toc-step-badge,
+.post-toc-link:active .post-toc-step-badge {
+    background: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18);
+}
+.post-toc-link:hover .post-toc-step-indicator,
+.post-toc-link:focus .post-toc-step-indicator,
+.post-toc-link:active .post-toc-step-indicator {
+    color: #0284c7;
+    transform: translateX(3px);
+}
+
+/* 2. ToC Khusus Tampilan Phone (Di bawah post-featured-media post-media-top) */
 .post-toc-phone {
     display: block;
     margin: 1.5rem 0 2rem;
@@ -1909,55 +2114,8 @@ html {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
-    padding: 1.25rem 1rem;
+    padding: 1.15rem 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
-}
-.post-toc-phone .post-toc-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding-bottom: 0.6rem;
-    margin-bottom: 0.75rem;
-    border-bottom: 1px solid #e2e8f0;
-}
-.post-toc-phone .post-toc-icon {
-    font-size: 1.15rem;
-    line-height: 1;
-}
-.post-toc-phone .post-toc-title {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #0f172a;
-    margin: 0;
-}
-.post-toc-phone .post-toc-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-}
-.post-toc-phone .post-toc-item {
-    margin: 0;
-}
-.post-toc-phone .post-toc-link {
-    display: block;
-    font-size: 0.88rem;
-    line-height: 1.45;
-    color: #334155;
-    text-decoration: none;
-    padding: 0.45rem 0.65rem;
-    border-radius: 6px;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    transition: all 0.2s ease;
-}
-.post-toc-phone .post-toc-link:hover,
-.post-toc-phone .post-toc-link:active {
-    color: #0284c7;
-    background: #f0f9ff;
-    border-color: #bae6fd;
 }
 @media screen and (min-width: 64em) {
     .post-toc-phone {
@@ -1965,15 +2123,15 @@ html {
     }
 }
 
-/* 2. ToC Khusus Tampilan PC/Desktop (Sticky di sebelah kanan post-main-container) */
+/* 3. ToC Khusus Tampilan PC/Desktop (Sticky di sebelah kanan post-main-container) */
 .post-toc-desktop {
     display: none;
 }
 @media screen and (min-width: 64em) {
     .post-toc-desktop {
         display: block;
-        width: 280px;
-        flex: 0 0 280px;
+        width: 290px;
+        flex: 0 0 290px;
         align-self: flex-start;
         position: -webkit-sticky;
         position: sticky;
@@ -1992,30 +2150,11 @@ html {
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 14px;
-    padding: 1.5rem 1.25rem;
+    padding: 1.35rem 1.15rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
 }
-.post-toc-desktop .post-toc-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding-bottom: 0.85rem;
-    margin-bottom: 0.85rem;
-    border-bottom: 2px solid #f1f5f9;
-}
-.post-toc-desktop .post-toc-icon {
-    font-size: 1.2rem;
-    line-height: 1;
-}
-.post-toc-desktop .post-toc-title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: #0f172a;
-    margin: 0;
-    letter-spacing: -0.01em;
-}
 .post-toc-desktop .post-toc-nav {
-    max-height: calc(100vh - 220px);
+    max-height: calc(100vh - 210px);
     overflow-y: auto;
     padding-right: 0.25rem;
 }
@@ -2032,33 +2171,4 @@ html {
 }
 .post-toc-desktop .post-toc-nav::-webkit-scrollbar-thumb:hover {
     background: #94a3b8;
-}
-.post-toc-desktop .post-toc-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-}
-.post-toc-desktop .post-toc-item {
-    margin: 0;
-}
-.post-toc-desktop .post-toc-link {
-    display: block;
-    font-size: 0.86rem;
-    line-height: 1.45;
-    color: #475569;
-    text-decoration: none;
-    padding: 0.45rem 0.6rem 0.45rem 0.75rem;
-    border-left: 2px solid transparent;
-    border-radius: 0 6px 6px 0;
-    transition: all 0.2s ease-in-out;
-}
-.post-toc-desktop .post-toc-link:hover {
-    color: #0284c7;
-    background: #f0f9ff;
-    border-left-color: #0284c7;
-    text-decoration: none;
-    padding-left: 0.85rem;
 }
