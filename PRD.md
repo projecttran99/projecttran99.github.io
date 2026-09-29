@@ -63,7 +63,7 @@ Modernisasi ini **bukan penulisan ulang dari nol** dan **bukan pergantian platfo
 | **FR-01** | **Jekyll Static Generation** | Critical | Tetap menggunakan Jekyll static engine yang didukung GitHub Pages tanpa plugin pihak ketiga yang tidak didukung. |
 | **FR-02** | **100% AMP HTML Frontend** | Critical | Seluruh halaman publik (`/`, `/blog/`, `/contact/`, `/gallery/`, `/product/`, dan `/YYYY/MM/DD/slug/`) wajib berstatus valid Google AMP. |
 | **FR-03** | **Permalink Preservation** | Critical | Seluruh permalink artikel wajib tetap pada pola `/:year/:month/:day/:slug/`. |
-| **FR-04** | **Adarent CMS Dashboard** | High | Menyediakan antarmuka GUI Git-based CMS (Sveltia CMS / Decap CMS) pada rute `/admin/` terisolasi tanpa mempengaruhi frontend publik. |
+| **FR-04** | **Adarent CMS Dashboard** | High | Menyediakan antarmuka GUI Git-based CMS (Sveltia CMS) pada rute `/admin/` terisolasi tanpa mempengaruhi frontend publik. |
 | **FR-05** | **Dynamic CTA Floating Bar** | High | Tombol mengambang (Floating Action Button) WhatsApp dan Telpon yang patuh AMP dan tidak mengganggu navigasi. |
 | **FR-06** | **Product & Fleet Catalog** | High | Halaman `/product/` menampilkan spesifikasi armada, fasilitas (driver/lepas kunci), dan harga terintegrasi WhatsApp template order. |
 | **FR-07** | **Semantic Breadcrumb** | Medium | Komponen breadcrumb visual semantik dan JSON-LD `BreadcrumbList` pada artikel dan halaman sekunder. |
