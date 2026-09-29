@@ -57,7 +57,7 @@
                                 {% endif %}
 
                                 <div class="post-content-body">
-                                    {% if page.photo_middle %}
+                                    {% if page.photo_middle and page.photo_middle != '' %}
                                         {% assign paragraphs = article_content | split: '</p>' %}
                                         {% assign total_p = paragraphs | size %}
                                         {% assign half_p = total_p | divided_by: 2 %}
@@ -81,7 +81,7 @@
                                 </div>
 
                                 <!-- 3. Foto Bagian Bawah Artikel -->
-                                {% if page.photo_bottom %}
+                                {% if page.photo_bottom and page.photo_bottom != '' %}
                                 <div class="post-featured-media post-media-bottom">
                                     <amp-img src="{{ page.photo_bottom }}" 
                                              width="800" 
@@ -102,12 +102,8 @@
                                     </a>
                                 </div>
 
-                                <!-- 3. Di bawah Kami Melayani: Navigasi Prev/Next & 4 Card Artikel Acak -->
+                                <!-- 3. Di bawah Banner CTA: Navigasi Prev/Next & 4 Card Artikel Acak -->
                                 <div class="post-services-section">
-                                    <div class="post-services-header">
-                                        <h2 class="post-services-title">Kami melayani :</h2>
-                                        <p class="post-services-desc">Tran99.com menyediakan layanan sewa rental mobil di Surabaya, Sidoarjo, Bandara Juanda, Malang, dan seluruh Jawa Timur dengan armada terbaik dan supir berpengalaman.</p>
-                                    </div>
 
                                     <!-- Navigasi Artikel Sebelumnya & Setelahnya -->
                                     <div class="post-nav-wrapper">
