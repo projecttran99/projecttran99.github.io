@@ -1,50 +1,60 @@
 ---
 layout: blog
-title: berita terbaru tentang sewa mobil surabaya
-description: Berita dan Informasi wisata yang dilayani dan info tentang kegiatan sewa rental mobil surabaya tran99 dalam melayani pelanggan
+title: Info & Berita Terbaru Rental Sewa Mobil Surabaya
+description: Berita dan informasi wisata terlengkap, rute perjalanan, serta tips sewa rental mobil Surabaya Tran99 dalam melayani pelanggan dengan armada terawat.
 photos: https://tran99.com/static/43767628_2182134858675310_4593096987499668786_n.jpg
 ---
 <section class="vs-content">
-    <div class="vs-page vs-page-product">
-        <div class="vs-section vs-section-product-list">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <div class="small-12 cell">
-                        <div class="vs-section-title text-center">
-                            <h3><span class="text-title">{{ site.section-post }}</span></h3>
+    <div class="vs-page vs-page-blog" style="padding: 2rem 0 4rem; background: #f8fafc;">
+        <div class="grid-container">
+            <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
+                    <li class="breadcrumb-separator">/</li>
+                    <li class="breadcrumb-item active" aria-current="page">Info & Blog</li>
+                </ol>
+            </nav>
+
+            <div class="blog-header-section text-center">
+                <h1 class="blog-header-title">Info & Artikel Sewa Mobil Surabaya</h1>
+                <p class="blog-header-subtitle">Panduan perjalanan, tips sewa mobil terpercaya, dan update destinasi wisata menarik di Surabaya dan Jawa Timur bersama Tran99.com.</p>
+            </div>
+
+            <div class="grid-x grid-padding-x">
+                {% for post in site.posts %}
+                <div class="small-12 medium-6 large-4 cell blog-col" style="margin-bottom: 1.5rem;">
+                    <article class="blog-card">
+                        <div class="blog-card-media">
+                            <a href="{{ post.url }}" aria-label="{{ post.text-title | default: post.title }}">
+                                <amp-img class="blog-thumb"
+                                         src="{{ post.photos | default: post.amp-img-scr }}" 
+                                         width="400" 
+                                         height="225" 
+                                         layout="responsive" 
+                                         alt="{{ post.amp-img-alt | default: post.text-title }}">
+                                </amp-img>
+                            </a>
                         </div>
-                    </div>
-                    <div class="small-12 cell">
-                        <div class="grid-x grid-padding-x">
-                            {% for post in site.posts %}
-                            <div class="small-12 large-6 cell">
-                                <div class="vs-box-product-list">
-                                    <div class="grid-x grid-padding-x">
-                                        <div class="small-12 medium-4 cell on-desktop">
-                                            <amp-img class="blog" src="{{ post.amp-img-scr }}" width="165" height="180" layout="fixed" alt="{{ post.amp-img-alt }}"></amp-img>
-                                        </div>
-                                        <div class="small-12 medium-4 cell on-phone">
-                                            <amp-img class="blog" src="{{ post.amp-img-scr }}" width="{{ post.amp-img-width }}" height="{{ post.amp-img-height }}" layout="responsive" alt="{{ post.amp-img-alt }}"></amp-img>
-                                        </div>
-                                        <div class="small-12 medium-8 cell">
-                                            <div class="desc padding-top-1 padding-bottom-1">
-                                                <ul>
-                                                    <p class="blog">{{ post.excerpt }}</p>
-                                                </ul>
-                                            </div>
-                                            <a href="{{ post.url }}">
-                                                <div class="blog-title text-right vs-bg-secondary">
-                                                    <h5 class="text-black font-bold">{{ post.text-title }}</h5>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span>{{ post.date | date: "%d %b %Y" }}</span>
+                                <span class="meta-dot">&bull;</span>
+                                <span>{{ post.writer | default: "Tran99" }}</span>
                             </div>
-                            {% endfor %}
+                            <h2 class="blog-card-title">
+                                <a href="{{ post.url }}">{{ post.text-title | default: post.title }}</a>
+                            </h2>
+                            <div class="blog-card-excerpt">
+                                {{ post.description | default: post.excerpt | strip_html | truncate: 110 }}
+                            </div>
+                            <div class="blog-card-footer">
+                                <a href="{{ post.url }}" class="blog-read-more">Baca Selengkapnya &rarr;</a>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
+                {% endfor %}
             </div>
         </div>
+    </div>
 </section>
