@@ -11,6 +11,7 @@
  DEVELOPMENT-WORKFLOW.md                   |   98 +
  GIT-WORKFLOW.md                           |  108 +
  MIGRATION-SAFETY.md                       |   91 +
+ MIGRATION-VERIFICATION-REPORT.md          |  150 ++
  PRD.md                                    |  137 ++
  PROJECT-STRUCTURE.md                      |  172 ++
  README.md                                 |   89 +-
@@ -19,6 +20,7 @@
  TESTING-STRATEGY.md                       |  110 +
  USER-STORIES.md                           |  148 ++
  _config.yml                               |   25 +-
+ _includes/amp-custom-blog.html            |  159 +-
  _includes/amp-custom-post.html            |   54 +-
  _includes/breadcrumb.html                 |    9 +
  _includes/float-button.html               |    4 +-
@@ -27,6 +29,7 @@
  _layouts/post.html                        |    8 +-
  admin/config.yml                          |   62 +
  admin/index.html                          |   13 +
+ blog.html                                 |   86 +-
  existing-amp-pages.json                   |  886 +++++++
  existing-article-inventory.json           | 1394 +++++++++++
  existing-id-inventory.json                |  320 +++
@@ -41,11 +44,17 @@
  inventory/existing-internal-links.json    | 3822 +++++++++++++++++++++++++++++
  inventory/existing-seo-metadata.json      |  685 ++++++
  inventory/existing-url-inventory.json     |  492 ++++
+ migration-report/article-diff.json        |   11 +
+ migration-report/git-diff-summary.txt     |   51 +
+ migration-report/id-diff.json             |    7 +
+ migration-report/image-diff.json          |    7 +
+ migration-report/url-diff.json            |   13 +
  package.json                              |   17 +
  robots.txt                                |    1 +
  scripts/generate-inventory.js             |  312 +++
+ scripts/generate-migration-diffs.js       |  113 +
  scripts/validate-amp.js                   |   62 +
  scripts/validate-diff.js                  |   66 +
  scripts/validate-seo.js                   |   65 +
  sitemap.xml                               |   53 +-
- 50 files changed, 22474 insertions(+), 172 deletions(-)
+ 59 files changed, 23012 insertions(+), 231 deletions(-)
