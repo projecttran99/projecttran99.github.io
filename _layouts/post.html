@@ -17,14 +17,20 @@
                     <div class="grid-x align-center">
                         <div class="small-12 large-9 cell">
                             <div class="vs-box-product-list">
+                                {% include breadcrumb.html %}
                                 <div class="vs-section-title text-center">
-                                    <h3><span class="text-title">{{ page.text-title }}</span></h3>
+                                    <h1><span class="text-title">{{ page.text-title }}</span></h1>
                                     <h5><span class="post">Writer : {{ page.writer }}</span></h5>
                                 </div>
                                 <div class="small-12 medium-4 cell">
                                     <amp-img class="post" src="{{ page.amp-img-scr }}" width="{{ page.amp-img-width }}" height="{{ page.amp-img-height }}" layout="responsive" alt="{{ page.amp-img-alt }}"></amp-img>
                                 </div>
                                 {{ content }}
+                                <div class="post-cta-banner text-center">
+                                    <h4>Butuh Rental Mobil Surabaya Terpercaya?</h4>
+                                    <p>Hubungi Tran99.com sekarang untuk reservasi cepat 24 jam dengan driver ramah & unit terawat.</p>
+                                    <a href="{{ site.whatsapp-api }}" class="button vs-flat-btn-primary">Hubungi WhatsApp Kami</a>
+                                </div>
                             </div>
                         </div>
                     </div>

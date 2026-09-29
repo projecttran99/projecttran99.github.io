@@ -4,46 +4,19 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in site.pages %}
-  {% if page.url contains '.xml' %}{% else %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  {% endif %}
+  {% unless page.url contains '.xml' or page.url contains '404' or page.url contains '.json' or page.url contains 'sw.' or page.url contains '/admin' or page.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
+    <changefreq>{% if page.url == '/' %}weekly{% elsif page.url contains 'product' %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if page.url == '/' %}1.0{% elsif page.url contains 'product' %}0.9{% else %}0.7{% endif %}</priority>
+  </url>
+  {% endunless %}
   {% endfor %}
-  {% for page in site.data-artikel %}
-  {% if page.url contains '.xml' %}{% else %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  {% endif %}
-  {% endfor %}
-  {% for page in site.data-product %}
-  {% if page.url contains '.xml' %}{% else %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  {% endif %}
-  {% endfor %}
-  {% for page in site.data-client %}
-  {% if page.url contains '.xml' %}{% else %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  {% endif %}
-  {% endfor %}
-  {% for page in site.posts %}
-      <url>
-        <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url | replace: 'index.html', '' }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   {% endfor %}
 </urlset>

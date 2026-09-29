@@ -1,0 +1,62 @@
+backend:
+  name: github
+  repo: projecttran99/projecttran99.github.io
+  branch: master
+
+media_folder: "photos"
+public_folder: "/photos"
+
+collections:
+  - name: "posts"
+    label: "Artikel Blog"
+    label_singular: "Artikel"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Judul Artikel (Title)", name: "title", widget: "string", required: true }
+      - { label: "Judul Tampilan (Text Title)", name: "text-title", widget: "string", required: true }
+      - { label: "Penulis (Writer)", name: "writer", widget: "string", default: "Denny Rakhmad Widi Ashari" }
+      - { label: "Meta Deskripsi SEO", name: "description", widget: "text", required: true }
+      - { label: "Foto Utama (Photos URL)", name: "photos", widget: "image", required: true }
+      - { label: "AMP Image Source", name: "amp-img-scr", widget: "image", required: true }
+      - { label: "AMP Image Alt Text", name: "amp-img-alt", widget: "string", required: true }
+      - { label: "AMP Image Width", name: "amp-img-width", widget: "number", default: 550, value_type: "int" }
+      - { label: "AMP Image Height", name: "amp-img-height", widget: "number", default: 309, value_type: "int" }
+      - { label: "AMP Image Layout", name: "amp-img-layout", widget: "hidden", default: "responsive" }
+      - { label: "Konten Artikel", name: "body", widget: "markdown", required: true }
+
+  - name: "products"
+    label: "Armada Mobil (Tarif Sewa)"
+    label_singular: "Armada"
+    folder: "_data-products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nama Mobil", name: "text-title", widget: "string", required: true }
+      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true }
+      - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true }
+      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 165, value_type: "int" }
+      - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 165, value_type: "int" }
+      - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "fixed" }
+      - { label: "Fasilitas 1", name: "list-1", widget: "string", default: "Termasuk Driver." }
+      - { label: "Fasilitas 2", name: "list-2", widget: "string", default: "Pemakaian Area Surabaya." }
+      - { label: "Fasilitas 3", name: "list-3", widget: "string", default: "Pemakaian Luar Kota [Call]." }
+      - { label: "Tarif Sewa (Price)", name: "price", widget: "string", required: true }
+
+  - name: "settings"
+    label: "Pengaturan Website"
+    files:
+      - label: "Informasi Kontak & Perusahaan"
+        name: "general"
+        file: "_config.yml"
+        fields:
+          - { label: "Nama Perusahaan", name: "company", widget: "string" }
+          - { label: "Nomor Telepon Internasional", name: "telephone", widget: "string" }
+          - { label: "Nomor Telepon Tampilan", name: "telephonedetail", widget: "string" }
+          - { label: "Alamat Jalan", name: "streetAddress", widget: "string" }
+          - { label: "Kota / Wilayah", name: "address", widget: "string" }
+          - { label: "Kode Pos", name: "postalCode", widget: "string" }
