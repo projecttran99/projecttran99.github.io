@@ -72,6 +72,7 @@ collections:
         name: "general"
         file: "_config.yml"
         fields:
+          - { label: "Nama Singkat Brand (Navigasi & Hak Cipta)", name: "brand_name", widget: "string", default: "Tran99", required: true }
           - { label: "Nama Perusahaan", name: "company", widget: "string", required: true }
           - { label: "Alamat Jalan", name: "streetAddress", widget: "string", required: true }
           - { label: "Kota", name: "city", widget: "string", default: "Sidoarjo" }
@@ -88,5 +89,11 @@ collections:
           - { label: "WhatsApp Utama (Nomor Link)", name: "whatsapp_primary_phone", widget: "string", required: true }
           - { label: "WhatsApp Ke-2 (Tampilan)", name: "whatsapp_secondary", widget: "string", required: true }
           - { label: "WhatsApp Ke-2 (Nomor Link)", name: "whatsapp_secondary_phone", widget: "string", required: true }
+          - { label: "Link Facebook", name: "social_facebook", widget: "string", required: false }
+          - { label: "Link Instagram", name: "social_instagram", widget: "string", required: false }
+          - { label: "Link TikTok", name: "social_tiktok", widget: "string", required: false }
+          - { label: "Link Twitter / X", name: "social_twitter", widget: "string", required: false }
+          - { label: "Link YouTube", name: "social_youtube", widget: "string", required: false }
           - { label: "Deskripsi Singkat Website", name: "description", widget: "text" }
+
 

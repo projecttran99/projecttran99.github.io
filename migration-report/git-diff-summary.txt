@@ -26,17 +26,18 @@
  _data-section-9/whatsapp-admin.md         |    6 +-
  _data-section-9/whatsapp.md               |    6 +-
  _includes/amp-custom-blog.html            |  183 +-
- _includes/amp-custom-contact.html         |  195 +-
+ _includes/amp-custom-contact.html         |  181 +-
  _includes/amp-custom-post.html            |   54 +-
  _includes/breadcrumb.html                 |    9 +
  _includes/float-button.html               |    4 +-
  _includes/metadata.html                   |   69 +-
+ _includes/nav.html                        |    2 +-
  _layouts/nyasar.html                      |  182 +-
  _layouts/post.html                        |    8 +-
  admin/config.yml                          |   92 +
  admin/index.html                          |   13 +
  blog.html                                 |   99 +-
- contact.html                              |  154 +-
+ contact.html                              |  150 +-
  existing-amp-pages.json                   |  886 +++++++
  existing-article-inventory.json           | 1394 +++++++++++
  existing-id-inventory.json                |  320 +++
@@ -52,7 +53,7 @@
  inventory/existing-seo-metadata.json      |  685 ++++++
  inventory/existing-url-inventory.json     |  492 ++++
  migration-report/article-diff.json        |   11 +
- migration-report/git-diff-summary.txt     |   60 +
+ migration-report/git-diff-summary.txt     |   67 +
  migration-report/id-diff.json             |    7 +
  migration-report/image-diff.json          |    7 +
  migration-report/url-diff.json            |   13 +
@@ -64,4 +65,4 @@
  scripts/validate-diff.js                  |   66 +
  scripts/validate-seo.js                   |   65 +
  sitemap.xml                               |   53 +-
- 66 files changed, 23414 insertions(+), 306 deletions(-)
+ 67 files changed, 23404 insertions(+), 307 deletions(-)

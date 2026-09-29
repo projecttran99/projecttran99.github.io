@@ -1501,7 +1501,6 @@ amp-sidebar .close-button {
     .contact-split-wrapper {
         flex-direction: row;
         align-items: stretch;
-        min-height: calc(100vh - 64px);
     }
 }
 
@@ -1518,7 +1517,7 @@ amp-sidebar .close-button {
         width: 50%;
         max-width: 50%;
         flex: 0 0 50%;
-        padding: 3rem 2.5rem;
+        padding: 2.5rem 3rem;
     }
 }
 
@@ -1534,7 +1533,9 @@ amp-sidebar .close-button {
         width: 50%;
         max-width: 50%;
         flex: 0 0 50%;
-        min-height: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
     }
 }
 
@@ -1624,6 +1625,25 @@ amp-sidebar .close-button {
     width: 100%;
     height: 100%;
     display: block;
+}
+@media screen and (min-width: 48em) {
+    .contact-maps-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .contact-maps-wrapper amp-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 @media screen and (max-width: 47.9375em) {
     .contact-maps-wrapper {

@@ -4,25 +4,61 @@
             <h3><span class="text-title">{{ site.section-7 }}</span></h3>
         </div>
         <ul class="menu align-center vs-box-social">
-            {% for item in site.data-section-7 %}
+            {% if site.social_facebook %}
             <li>
-                <a href="{{ item.amp-img-href }}">
+                <a href="{{ site.social_facebook }}" target="_blank" rel="noopener" aria-label="Facebook">
                     <div class="vs-social-media">
-                        <amp-img src="{{ item.amp-img-scr }}" width="{{ item.amp-img-width }}" height="{{ item.amp-img-height }}" layout="{{ item.amp-img-layout }}" alt="{{ item.amp-img-alt }}"></amp-img>
+                        <amp-img src="/static/facebook.png" width="32" height="32" layout="fixed" alt="facebook rental mobil surabaya"></amp-img>
                     </div>
                 </a>
             </li>
-            {% endfor %}
+            {% endif %}
+            {% if site.social_instagram %}
+            <li>
+                <a href="{{ site.social_instagram }}" target="_blank" rel="noopener" aria-label="Instagram">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/instagram.png" width="32" height="32" layout="fixed" alt="instagram rental mobil surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+            {% endif %}
+            {% if site.social_tiktok %}
+            <li>
+                <a href="{{ site.social_tiktok }}" target="_blank" rel="noopener" aria-label="TikTok">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/tiktok.png" width="32" height="32" layout="fixed" alt="tiktok rental mobil surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+            {% endif %}
+            {% if site.social_twitter %}
+            <li>
+                <a href="{{ site.social_twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/twitter.png" width="32" height="32" layout="fixed" alt="twitter rental mobil surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+            {% endif %}
+            {% if site.social_youtube %}
+            <li>
+                <a href="{{ site.social_youtube }}" target="_blank" rel="noopener" aria-label="YouTube">
+                    <div class="vs-social-media">
+                        <amp-img src="/static/youtube.png" width="32" height="23" layout="fixed" alt="youtube rental mobil surabaya"></amp-img>
+                    </div>
+                </a>
+            </li>
+            {% endif %}
         </ul>
     </div>
     <div class="vs-footer-bottom">
         <div class="grid-x grid-padding-x align-middle">
             <div class="small-12 cell">
                 <div class="vs-copyright">
-                    {{ site.section-8 }}
+                    &copy; 2018 - {{ 'now' | date: '%Y' }} {{ site.brand_name | default: 'Tran99' }}. All rights reserved.
                 </div>
                 <div class="vs-copyright">
-                    <a href="https://klikada.com">Design and Maintenance by <amp-img title="klikada.com" alt="klikada.com" height="12" width="100" layout="fixed" src="https://bagusevitrans.com/images/klikada-panjang.svg"></amp-img></a>
+                    <a href="https://klikada.com" target="_blank" rel="noopener">Design and Maintenance by <amp-img title="klikada.com" alt="klikada.com" height="16" width="103" layout="fixed" src="https://cloud.klikada.com/image/klikada.com-logo.png"></amp-img></a>
                 </div>
             </div>
         </div>
