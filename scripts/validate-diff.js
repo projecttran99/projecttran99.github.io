@@ -43,7 +43,7 @@ for (const img of baselineImages) {
 }
 
 // 3. Check Core Static Pages
-const corePages = ['index.html', 'blog.html', 'contact.html', 'gallery.html', 'product.html', '404.html', 'robots.txt', 'sitemap.xml'];
+const corePages = ['index.html', 'contact.html', 'gallery.html', 'product.html', '404.html', 'robots.txt', 'sitemap.xml'];
 console.log(`Checking core static pages...`);
 for (const cp of corePages) {
   const fullPath = path.join(ROOT_DIR, cp);
@@ -51,6 +51,11 @@ for (const cp of corePages) {
     console.error(`[CRITICAL ERROR] Missing core page: ${cp}`);
     errors++;
   }
+}
+// Check blog page (accepts blog.html or blog/index.html for jekyll pagination)
+if (!fs.existsSync(path.join(ROOT_DIR, 'blog.html')) && !fs.existsSync(path.join(ROOT_DIR, 'blog', 'index.html'))) {
+  console.error(`[CRITICAL ERROR] Missing core page: blog.html or blog/index.html`);
+  errors++;
 }
 
 console.log('\n=== AUDIT SUMMARY ===');

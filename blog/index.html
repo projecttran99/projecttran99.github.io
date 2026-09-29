@@ -3,6 +3,7 @@ layout: blog
 title: Info & Berita Terbaru Rental Sewa Mobil Surabaya
 description: Berita dan informasi wisata terlengkap, rute perjalanan, serta tips sewa rental mobil Surabaya Tran99 dalam melayani pelanggan dengan armada terawat.
 photos: https://tran99.com/static/43767628_2182134858675310_4593096987499668786_n.jpg
+header_title: Blog
 ---
 <section class="vs-content">
     <div class="vs-page vs-page-blog" style="padding: 2rem 0 4rem; background: #f8fafc;">
@@ -11,7 +12,13 @@ photos: https://tran99.com/static/43767628_2182134858675310_4593096987499668786_
                 <ol class="breadcrumb-list">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
                     <li class="breadcrumb-separator">/</li>
-                    <li class="breadcrumb-item active" aria-current="page">Info & Blog</li>
+                    {% if paginator.page > 1 %}
+                    <li class="breadcrumb-item"><a href="/blog/">{{ page.header_title | default: "Blog" }}</a></li>
+                    <li class="breadcrumb-separator">/</li>
+                    <li class="breadcrumb-item active" aria-current="page">Halaman {{ paginator.page }}</li>
+                    {% else %}
+                    <li class="breadcrumb-item active" aria-current="page">{{ page.header_title | default: "Blog" }}</li>
+                    {% endif %}
                 </ol>
             </nav>
 
@@ -21,7 +28,7 @@ photos: https://tran99.com/static/43767628_2182134858675310_4593096987499668786_
             </div>
 
             <div class="grid-x grid-padding-x">
-                {% for post in site.posts %}
+                {% for post in paginator.posts %}
                 <div class="small-12 medium-6 large-6 cell blog-col" style="margin-bottom: 1.5rem;">
                     <article class="blog-card">
                         <div class="blog-card-media">
@@ -68,6 +75,52 @@ photos: https://tran99.com/static/43767628_2182134858675310_4593096987499668786_
                 </div>
                 {% endfor %}
             </div>
+
+            {% if paginator.total_pages > 1 %}
+            <nav class="blog-pagination" aria-label="Navigasi Halaman Blog">
+                <ul class="pagination-list">
+                    {% if paginator.previous_page %}
+                    <li class="pagination-item">
+                        <a href="{{ paginator.previous_page_path }}" class="pagination-btn pagination-prev" aria-label="Halaman Sebelumnya">&laquo; Prev</a>
+                    </li>
+                    {% else %}
+                    <li class="pagination-item disabled">
+                        <span class="pagination-btn pagination-prev disabled">&laquo; Prev</span>
+                    </li>
+                    {% endif %}
+
+                    {% for page_num in (1..paginator.total_pages) %}
+                        {% if page_num == paginator.page %}
+                        <li class="pagination-item active">
+                            <span class="pagination-btn pagination-current" aria-current="page">{{ page_num }}</span>
+                        </li>
+                        {% elsif page_num == 1 %}
+                        <li class="pagination-item">
+                            <a href="/blog/" class="pagination-btn pagination-num">{{ page_num }}</a>
+                        </li>
+                        {% else %}
+                        <li class="pagination-item">
+                            <a href="{{ site.paginate_path | replace: ':num', page_num }}" class="pagination-btn pagination-num">{{ page_num }}</a>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if paginator.next_page %}
+                    <li class="pagination-item">
+                        <a href="{{ paginator.next_page_path }}" class="pagination-btn pagination-next" aria-label="Halaman Selanjutnya">Next &raquo;</a>
+                    </li>
+                    {% else %}
+                    <li class="pagination-item disabled">
+                        <span class="pagination-btn pagination-next disabled">Next &raquo;</span>
+                    </li>
+                    {% endif %}
+                </ul>
+
+                <div class="pagination-summary">
+                    Halaman {{ paginator.page }} dari {{ paginator.total_pages }} (Total {{ paginator.total_posts }} artikel)
+                </div>
+            </nav>
+            {% endif %}
         </div>
     </div>
 </section>

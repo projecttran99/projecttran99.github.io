@@ -80,3 +80,7 @@ collections:
     output: false
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
