@@ -1,22 +1,40 @@
 {% if h2_parts.size > 1 %}
+{% assign total_subheadings = h2_parts.size | minus: 1 %}
+{% unless toc_state_rendered %}
+<amp-state id="tocState">
+    <script type="application/json">
+        {
+            "selected": 1,
+            "total": {{ total_subheadings }}
+        }
+    </script>
+</amp-state>
+{% assign toc_state_rendered = true %}
+{% endunless %}
 <aside class="post-toc-card" aria-labelledby="toc-heading">
     <div class="post-toc-header">
         <div class="post-toc-header-left">
             <span class="post-toc-icon">📋</span>
             <h3 id="toc-heading" class="post-toc-title">Daftar Isi</h3>
         </div>
-        <span class="post-toc-count">{{ h2_parts.size | minus: 1 }} Sub-Judul</span>
+        <span class="post-toc-count" [text]="'Bab ' + tocState.selected + ' dari ' + tocState.total">
+            Bab 1 dari {{ total_subheadings }}
+        </span>
     </div>
 
     <!-- Selector Posisi Membaca / Reading Progress Track -->
     <div class="post-toc-progress-track" title="Indikator Posisi Membaca Artikel">
-        <div class="post-toc-progress-fill"></div>
+        <div class="post-toc-progress-fill" 
+             style="width: 12%;"
+             [style]="'width: ' + ((tocState.selected / tocState.total) * 100) + '%;'"></div>
     </div>
 
     <nav class="post-toc-nav" aria-label="Daftar Isi Artikel">
         <div class="post-toc-timeline-wrapper">
             <div class="post-toc-timeline-rail">
-                <div class="post-toc-timeline-fill"></div>
+                <div class="post-toc-timeline-fill"
+                     style="height: 0%;"
+                     [style]="'height: ' + (((tocState.selected - 1) / (tocState.total - 1)) * 100) + '%;'"></div>
             </div>
             <ul class="post-toc-list">
                 {% for part in h2_parts offset:1 %}
@@ -25,10 +43,20 @@
                     {% assign title_part = title_chunk | split: '</h2>' | first | strip_html | strip %}
                     {% if id_part and id_part != '' and title_part and title_part != '' %}
                     <li class="post-toc-item">
-                        <a href="#{{ id_part }}" class="post-toc-link">
-                            <span class="post-toc-step-badge">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                        <a href="#{{ id_part }}" 
+                           class="post-toc-link{% if forloop.first %} is-active{% endif %}"
+                           role="button"
+                           tabindex="0"
+                           on="tap:AMP.setState({ tocState: { selected: {{ forloop.index }} } })"
+                           [class]="tocState.selected == {{ forloop.index }} ? 'post-toc-link is-active' : 'post-toc-link'">
+                            <span class="post-toc-step-badge{% if forloop.first %} is-active{% endif %}"
+                                  [class]="tocState.selected == {{ forloop.index }} ? 'post-toc-step-badge is-active' : 'post-toc-step-badge'">
+                                {% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}
+                            </span>
                             <span class="post-toc-step-text">{{ title_part }}</span>
-                            <span class="post-toc-step-indicator" aria-hidden="true">›</span>
+                            <span class="post-toc-step-indicator{% if forloop.first %} is-active{% endif %}"
+                                  [class]="tocState.selected == {{ forloop.index }} ? 'post-toc-step-indicator is-active' : 'post-toc-step-indicator'"
+                                  aria-hidden="true">›</span>
                         </a>
                     </li>
                     {% endif %}

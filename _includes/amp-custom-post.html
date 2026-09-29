@@ -1618,6 +1618,12 @@ amp-sidebar .close-button {
 }
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+}
+@media screen and (min-width: 64em) {
+    html {
+        scroll-padding-top: 140px;
+    }
 }
 
 .post-content-body h2,
@@ -1628,18 +1634,20 @@ html {
     margin-top: 2.25rem;
     margin-bottom: 1rem;
     line-height: 1.35;
-    scroll-margin-top: 135px;
+    scroll-margin-top: 130px;
 }
 .post-main-container [id],
-.post-content-body [id] {
-    scroll-margin-top: 135px;
+.post-content-body [id],
+:target {
+    scroll-margin-top: 130px;
 }
 @media screen and (min-width: 64em) {
     .post-content-body h2,
     .post-content-body h3,
     .post-content-body h4,
     .post-main-container [id],
-    .post-content-body [id] {
+    .post-content-body [id],
+    :target {
         scroll-margin-top: 140px;
     }
 }
@@ -1977,7 +1985,7 @@ html {
     width: 0%;
     background: linear-gradient(90deg, #0284c7 0%, #38bdf8 100%);
     border-radius: 3px;
-    transition: width 0.15s ease-out;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 @keyframes tocProgressAnim {
     from { width: 0%; }
@@ -2013,7 +2021,7 @@ html {
     height: 0%;
     background: linear-gradient(180deg, #0284c7 0%, #38bdf8 100%);
     border-radius: 2px;
-    transition: height 0.15s ease-out;
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 @keyframes tocRailAnim {
     from { height: 0%; }
@@ -2051,6 +2059,7 @@ html {
     transition: all 0.2s ease;
     position: relative;
     background: transparent;
+    cursor: pointer;
 }
 .post-toc-step-badge {
     flex: 0 0 22px;
@@ -2085,22 +2094,28 @@ html {
 /* Hover, Focus, and Active Selector States */
 .post-toc-link:hover,
 .post-toc-link:focus,
-.post-toc-link:active {
+.post-toc-link:active,
+.post-toc-link.is-active {
     color: #0284c7;
     background: #f0f9ff;
     text-decoration: none;
+    font-weight: 600;
 }
 .post-toc-link:hover .post-toc-step-badge,
 .post-toc-link:focus .post-toc-step-badge,
-.post-toc-link:active .post-toc-step-badge {
+.post-toc-link:active .post-toc-step-badge,
+.post-toc-link.is-active .post-toc-step-badge,
+.post-toc-step-badge.is-active {
     background: #0284c7;
     color: #ffffff;
     border-color: #0284c7;
-    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18);
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.22);
 }
 .post-toc-link:hover .post-toc-step-indicator,
 .post-toc-link:focus .post-toc-step-indicator,
-.post-toc-link:active .post-toc-step-indicator {
+.post-toc-link:active .post-toc-step-indicator,
+.post-toc-link.is-active .post-toc-step-indicator,
+.post-toc-step-indicator.is-active {
     color: #0284c7;
     transform: translateX(3px);
 }
