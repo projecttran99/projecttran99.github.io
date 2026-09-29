@@ -24,17 +24,13 @@
 
     <!-- Selector Posisi Membaca / Reading Progress Track -->
     <div class="post-toc-progress-track" title="Indikator Posisi Membaca Artikel">
-        <div class="post-toc-progress-fill" 
-             style="width: 12%;"
-             [style]="'width: ' + ((tocState.selected / tocState.total) * 100) + '%;'"></div>
+        <div class="post-toc-progress-fill"></div>
     </div>
 
     <nav class="post-toc-nav" aria-label="Daftar Isi Artikel">
         <div class="post-toc-timeline-wrapper">
             <div class="post-toc-timeline-rail">
-                <div class="post-toc-timeline-fill"
-                     style="height: 0%;"
-                     [style]="'height: ' + (((tocState.selected - 1) / (tocState.total - 1)) * 100) + '%;'"></div>
+                <div class="post-toc-timeline-fill"></div>
             </div>
             <ul class="post-toc-list">
                 {% for part in h2_parts offset:1 %}
