@@ -1,19 +1,22 @@
 ---
 layout: post
+title: Meeting IMF – World Bank
+text-title: Meeting IMF – World Bank
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
+description: Tran99 mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara annual meeting IMF World Bank di bali
+photos: /photos/imf-2.jpg
+amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
+photo_middle: /photos/imf-1.jpg
+photo_middle_alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
+photo_bottom: /photos/imf-2.jpg
+photo_bottom_alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
 amp-img-scr: /photos/imf-2.jpg
 amp-img-width: 1280
 amp-img-height: 960
 amp-img-layout: responsive
-amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
-text-title: meeting IMF – World Bank
-writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
-description: Tran99 mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara annual meeting IMF World Bank di bali
-photos: /photos/imf-2.jpg
-photo_middle: '/photos/imf-1.jpg'
-photo_middle_alt: 'Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99'
-photo_bottom: ''
-photo_bottom_alt: ''
 ---
+
+## Melayani tamu-tamu negara dalam acara  annual meeting IMF – World Bank di bali
 
 Dengan menyediakan sewa mobil mewah surabaya kami mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara  annual meeting IMF – World Bank di bali
 
@@ -32,6 +35,8 @@ Segera hubungi <a href="https://tran99.com/">Sewa Rental Mobil Surabaya Tran99.c
 Dengan regenerasi armada yang baru beserta driver profesional, kami senantiasa bergerak maju dan berkembang untuk memenuhi kebutuhan dengan layanan yang prima. Penerapan terhadap manajemen perusahaan terus ditumbuhkembangkan agar kami tetap menjadi yang terbaik.
 
 Segera hubungi <a href="https://tran99.com/">Sewa Rental Mobil Surabaya Tran99.com</a>
+
+## Dukungan customer services kami
 
 Dukungan customer services kami memberikan feedback atas keluhan pelanggan dengan cepat, tanggap dan sigap sehingga kami dapat langsung mengevaluasi serta menanggapi dengan baik dan tepat.
 
