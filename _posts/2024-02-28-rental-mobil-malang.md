@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Malang 
 text-title: Rental Mobil Malang 
 title: Rental Mobil Malang 
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Rental mobil telah menjadi solusi transportasi yang populer di berbagai kota, termasuk di Malang
 photos: /photos/rental-mobil-malang-1.jpg
 photo_middle: '/photos/rental-mobil-malang-2.jpg'

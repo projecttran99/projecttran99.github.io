@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Alphard 081330548581
 text-title: Sewa Mobil Alphard 081330548581
 title: Sewa Mobil Alphard 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Alphard adalah mobil mewah, untuk mendapatkannya kita dapat dengan mudah, yaitu cukup menghubungi rental mobil Alphard Tran99.com
 photos: /photos/sewa-mobil-mewah-surabaya-2.jpg
 photo_middle: '/photos/sewa-mobil-mewah-surabaya-5.jpg'

@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Sewa Mobil Perak Surabaya 081330548581 TRAN99
 text-title: Rental Sewa Mobil Perak Surabaya 081330548581 TRAN99
 title: Rental Sewa Mobil Perak Surabaya 081330548581 TRAN99
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Dapatkan Layanan Rental Sewa Mobil Perak Surabaya 081330548581 TRAN99 pilihan yang tepat
 photos: /photos/rental-mobil-ngoro-mojokerto-2.jpg
 photo_middle: '/photos/rental-mobil-bangil-pasuruan-11.jpg'

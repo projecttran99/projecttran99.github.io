@@ -2,7 +2,7 @@
 layout: post
 title: Yuk Wisata ke Air terjun Tumpak Sewu Malang Lumajang Hubungi Tran99  081330548581
 text-title: Yuk Wisata ke Air terjun Tumpak Sewu Malang Lumajang Hubungi Tran99  081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Layanan Wisata ke Air terjun Tumpak Sewu Malang Lumajang dengan hubungi Hubungi Tran99 081330548581 pilihan yang tepat Hanya Tran99
 photos: /photos/sewa-mobil-tumpak-sewu-malang-1.jpg
 amp-img-alt: Yuk Wisata ke Air terjun Tumpak Sewu Malang Lumajang Hubungi Tran99  081330548581

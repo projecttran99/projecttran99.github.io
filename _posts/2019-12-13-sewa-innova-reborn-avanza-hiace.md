@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Innova Reborn, Avanza, Hiace, 081330548581 (WA) Surabaya
 text-title: Sewa Innova Reborn
 title: Sewa Innova Reborn, Avanza, Hiace, 081330548581 (WA) Surabaya
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Sewa Innova Reborn, Avanza, Hiace, Sewa Mobil Surabaya dengan unit Innova Reborn terbaru dengan pelayanan driver yang ramah dan profesional
 photos: /photos/tran99-bersama-ibu-ibu.jpg
 photo_middle: ''

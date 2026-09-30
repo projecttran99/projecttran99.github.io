@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa elf long surabaya 081330548581
 text-title: Sewa elf long surabaya 081330548581
 title: Sewa elf long surabaya 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Sewa elf long di Surabaya semakin murah saja, berikut harga terbarunya tahun 2022, lebih lanjut hubungi 081-330-548-581 CS ready 24 jam
 photos: /photos/sewa-elf-long-surabaya.jpg
 photo_middle: '/photos/sewa-elf-long-surabaya.jpg'

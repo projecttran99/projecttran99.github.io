@@ -17,9 +17,10 @@ photos: https://tran99.com/static/32385489_1021643167993325_7243333418375708672_
                 </nav>
                 <div class="grid-x grid-padding-x align-center">
                     <div class="small-12 cell">
-                        <div class="vs-section-title text-center">
-                            <h3><span class="text-title">{{ site.section-4 }}</span></h3>
-                            <p class="gallery-subtitle">Dokumentasi perjalanan & pelayanan sewa rental mobil terbaik bersama Tran99</p>
+                        <div class="gallery-header-section text-center">
+                            <span class="gallery-badge-pill">Dokumentasi Tran99</span>
+                            <h1 class="gallery-header-title">{{ site.section-4 | default: "Galeri Kami" }}</h1>
+                            <p class="gallery-subtitle">Dokumentasi nyata perjalanan, kepuasan pelanggan, dan pelayanan sewa rental mobil Surabaya terbaik bersama Tran99.</p>
                         </div>
                     </div>
                     <div class="small-12 cell">
@@ -39,8 +40,10 @@ photos: https://tran99.com/static/32385489_1021643167993325_7243333418375708672_
                     {% if site.data-tiktok and site.data-tiktok.size > 0 %}
                     <div class="small-12 cell">
                         <div class="gallery-tiktok-wrapper">
-                            <div class="vs-section-title text-center margin-top-2">
-                                <h3><span class="text-title">Video TikTok Kami</span></h3>
+                            <div class="gallery-header-section gallery-tiktok-header text-center">
+                                <span class="gallery-badge-pill">Koleksi Video</span>
+                                <h2 class="gallery-section-title">Video TikTok Kami</h2>
+                                <p class="gallery-subtitle">Keseruan armada dan dokumentasi video singkat perjalanan bersama tim Tran99.</p>
                             </div>
                             <div class="grid-x grid-padding-x align-center">
                                 {% for item in site.data-tiktok %}

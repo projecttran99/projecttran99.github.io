@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Terdekat 081330548581
 text-title: Rental Mobil Terdekat 081330548581
 title: Rental Mobil Terdekat 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami adalah rental mobil terdekat yang menyediakan Armada yang cukup beragam yaitu dari mobil mewah sampai dengan mobil biasa Hub 081330548581
 photos: /photos/sewa-mobil-mewah-surabaya.jpg
 photo_middle: '/photos/sewa-mobil-expander-surabaya-1.jpg'

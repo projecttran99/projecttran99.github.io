@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Innova reborn facelift Surabaya 081330548581
 text-title: Sewa Innova reborn facelift Surabaya 081330548581
 title: Sewa Innova reborn facelift Surabaya 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami menyediakan Sewa Innova reborn facelift Surabaya dengan harga yang termurah dan fasilitas yang sangat lengkap
 photos: /photos/sewa-innova-reborn-faselift-surabaya.jpg
 photo_middle: '/photos/sewa-innova-reborn-faselift-surabaya-2.jpg'

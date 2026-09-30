@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Ngoro Mojokerto 081330548581 TRAN99
 text-title: Rental Mobil Ngoro Mojokerto 081330548581 TRAN99
 title: Rental Mobil Ngoro Mojokerto 081330548581 TRAN99
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Dapatkan Layanan Rental Mobil Ngoro Mojokerto 081330548581 TRAN99 pilihan yang tepat
 photos: /photos/rental-mobil-ngoro-mojokerto-2.jpg
 photo_middle: '/photos/rental-mobil-ngoro-mojokerto-5.jpg'

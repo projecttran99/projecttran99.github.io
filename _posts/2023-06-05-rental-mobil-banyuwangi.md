@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Banyuwangi 081330548581
 text-title: Rental Mobil Banyuwangi 081330548581
 title: Rental Mobil Banyuwangi 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami menyediakan Rental Mobil Banyuwangi dengan harga yang termurah dan fasilitas yang sangat lengkap, segera hubungi kami di 081330548581
 photos: /photos/rental-mobil-mojokerto.jpg
 photo_middle: '/photos/rental-mobil-surabaya-dengan-sopir-2.jpg'

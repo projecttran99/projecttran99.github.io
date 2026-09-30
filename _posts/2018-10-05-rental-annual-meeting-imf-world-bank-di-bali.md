@@ -6,7 +6,7 @@ amp-img-height: 960
 amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
 text-title: meeting IMF – World Bank
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Tran99 mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara annual meeting IMF World Bank di bali
 photos: /photos/imf-2.jpg
 photo_middle: '/photos/imf-1.jpg'

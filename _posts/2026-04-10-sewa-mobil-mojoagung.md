@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Mojoagung 081330548581
 text-title: Sewa Mobil Mojoagung 081330548581
 title: Sewa Mobil Mojoagung 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Layanan Sewa Mobil Mojoagung pilihan yang tepat, Hanya Tran99
 photos: /photos/sewa-mobil-pakisaji-7.jpg
 photo_middle: '/photos/sewa-mobil-pakisaji-8.jpg'

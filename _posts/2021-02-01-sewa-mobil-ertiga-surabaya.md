@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Ertiga Surabaya 081330548581
 text-title: Sewa Mobil Ertiga Surabaya 081330548581
 title: Sewa Mobil Ertiga Surabaya 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Sewa mobil Suzuki Ertiga Surabaya merupakan sebuah layanan terbaik Tran99.com khusus untuk Anda yang memerlukan sebuah pelayanan sewa mobil Ertiga di surabaya
 photos: /photos/sewa-mobil-ertiga-surabaya-1.jpg
 photo_middle: '/photos/sewa-mobil-ertiga-surabaya-1.jpg'

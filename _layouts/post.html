@@ -19,13 +19,154 @@
                         <article class="post-main-container">
                             {% include breadcrumb.html %}
 
+                            <!-- Resolusi Profil Penulis Terpusat dari Koleksi Authors & Dashboard -->
+                            {% assign selected_writer_name = page.writer | default: page.author | default: "Admin Tran99" %}
+                            {% assign matched_author = nil %}
+                            {% assign fallback_admin = nil %}
+                            {% assign fallback_denny = nil %}
+
+                            {% for a in site.authors %}
+                                {% if a.slug == "admin-tran99" or a.name == "Admin Tran99" %}
+                                    {% assign fallback_admin = a %}
+                                {% endif %}
+                                {% if a.slug == "dennyrwa" or a.name contains "Denny" or a.alias contains "Denny" %}
+                                    {% assign fallback_denny = a %}
+                                {% endif %}
+                                {% if a.name == selected_writer_name or a.alias == selected_writer_name or a.slug == selected_writer_name %}
+                                    {% assign matched_author = a %}
+                                {% endif %}
+                            {% endfor %}
+
+                            <!-- Pencocokan Fallback Berdasarkan Penulis -->
+                            {% if matched_author == nil %}
+                                {% if selected_writer_name contains "Denny" or selected_writer_name == "Denny Rakhmad Widi Ashari" %}
+                                    {% assign matched_author = fallback_denny %}
+                                {% elsif selected_writer_name == "Admin Tran99" or selected_writer_name == nil or selected_writer_name == "" %}
+                                    {% assign matched_author = fallback_admin %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% if matched_author %}
+                                {% assign author_display_name = matched_author.name | default: selected_writer_name %}
+                                {% assign author_display_role = matched_author.role %}
+                                {% assign author_display_photo = matched_author.photo %}
+                                {% assign author_display_bio = matched_author.bio %}
+                                {% assign raw_author_tw = matched_author.twitter %}
+                                {% assign raw_author_ig = matched_author.instagram %}
+                                {% assign raw_author_yt = matched_author.youtube %}
+                                {% assign raw_author_web = matched_author.website %}
+                                {% assign raw_author_wa = matched_author.whatsapp %}
+                            {% elsif selected_writer_name contains "Denny" or selected_writer_name == "Denny Rakhmad Widi Ashari" %}
+                                <!-- Fallback Denny dari site.author di _config.yml -->
+                                {% assign author_display_name = site.author.name | default: "H. Denny Rakhmad Widi Ashari, S.AP., M.E." %}
+                                {% assign author_display_role = site.author.role | default: "Dosen, Peneliti, Founder klikada.com, Penulis & Traveler" %}
+                                {% assign author_display_photo = site.author.photo | default: "/photos/masden.png" %}
+                                {% assign author_display_bio = site.author.bio | default: "Dosen, Peneliti, Founder klikada.com, Traveler dan Penulis konten seputar transportasi dan pariwisata Jawa Timur dan berpengalaman lebih dari 8 tahun bekerjasama dengan industri rental mobil, hotel dan agen perjalanan di Surabaya, Jawa Timur dan sekitarnya." %}
+                                {% assign raw_author_tw = site.author.twitter %}
+                                {% assign raw_author_ig = site.author.instagram %}
+                                {% assign raw_author_yt = site.author.youtube %}
+                                {% assign raw_author_web = site.author.website | default: site.author.uri %}
+                                {% assign raw_author_wa = site.author.whatsapp %}
+                            {% else %}
+                                <!-- Fallback Resmi Admin Tran99 -->
+                                {% assign author_display_name = "Admin Tran99" %}
+                                {% assign author_display_role = "Tim Redaksi & Layanan Pelanggan Tran99" %}
+                                {% assign author_display_photo = "/static/rental-mobil-surabaya-tran99-logo.png" %}
+                                {% assign author_display_bio = "Tim editorial dan customer relation resmi Tran99 Rental Mobil Surabaya. Berkomitmen menghadirkan informasi rute, panduan wisata terpercaya, armada terawat, dan pelayanan sewa mobil profesional 24 jam nonstop di Surabaya, Sidoarjo, Malang, dan seluruh Jawa Timur." %}
+                                {% assign raw_author_tw = site.social_twitter %}
+                                {% assign raw_author_ig = site.social_instagram %}
+                                {% assign raw_author_yt = site.social_youtube %}
+                                {% assign raw_author_web = site.url %}
+                                {% assign raw_author_wa = "81330548581" %}
+                            {% endif %}
+
+                            <!-- Validasi Foto Profil Default -->
+                            {% if author_display_photo == nil or author_display_photo == "" %}
+                                {% if author_display_name contains "Denny" %}
+                                    {% assign author_display_photo = "/photos/masden.png" %}
+                                {% else %}
+                                    {% assign author_display_photo = "/static/rental-mobil-surabaya-tran99-logo.png" %}
+                                {% endif %}
+                            {% endif %}
+
+                            <!-- Formatting URL Sosial Media Penulis -->
+                            {% if raw_author_tw and raw_author_tw != "" %}
+                                {% if raw_author_tw contains "http://" or raw_author_tw contains "https://" %}
+                                    {% assign author_link_tw = raw_author_tw %}
+                                {% else %}
+                                    {% assign tw_user = raw_author_tw | remove: "@" | strip %}
+                                    {% assign author_link_tw = "https://twitter.com/" | append: tw_user %}
+                                {% endif %}
+                            {% else %}
+                                {% assign author_link_tw = nil %}
+                            {% endif %}
+
+                            {% if raw_author_ig and raw_author_ig != "" %}
+                                {% if raw_author_ig contains "http://" or raw_author_ig contains "https://" %}
+                                    {% assign author_link_ig = raw_author_ig %}
+                                {% else %}
+                                    {% assign ig_user = raw_author_ig | remove: "@" | strip %}
+                                    {% assign author_link_ig = "https://www.instagram.com/" | append: ig_user | append: "/" %}
+                                {% endif %}
+                            {% else %}
+                                {% assign author_link_ig = nil %}
+                            {% endif %}
+
+                            {% if raw_author_yt and raw_author_yt != "" %}
+                                {% if raw_author_yt contains "http://" or raw_author_yt contains "https://" %}
+                                    {% assign author_link_yt = raw_author_yt %}
+                                {% else %}
+                                    {% assign yt_user = raw_author_yt | strip %}
+                                    {% assign author_link_yt = "https://www.youtube.com/" | append: yt_user %}
+                                {% endif %}
+                            {% else %}
+                                {% assign author_link_yt = nil %}
+                            {% endif %}
+
+                            {% assign post_title_clean = page.text-title | default: page.title | strip %}
+                            {% assign post_full_url = site.url | append: page.url %}
+                            {% if author_display_name contains "Denny" %}
+                                {% assign wa_salutation = "Halo Bapak " | append: author_display_name %}
+                            {% else %}
+                                {% assign wa_salutation = "Halo " | append: author_display_name %}
+                            {% endif %}
+                            {% assign wa_author_msg = wa_salutation | append: " Penulis artikel dengan judul " | append: post_title_clean | append: " (" | append: post_full_url | append: "), saya mau bertanya" %}
+                            {% assign wa_author_text = wa_author_msg | url_encode %}
+
+                            {% if raw_author_wa and raw_author_wa != "" %}
+                                {% if raw_author_wa contains "http://" or raw_author_wa contains "https://" %}
+                                    {% assign author_link_wa = raw_author_wa %}
+                                {% elsif raw_author_wa contains "08" %}
+                                    {% assign clean_wa = raw_author_wa | remove: " " | remove: "-" | remove: "+" | remove: "'" | remove: '"' | remove_first: "0" %}
+                                    {% assign author_link_wa = "https://api.whatsapp.com/send?phone=62" | append: clean_wa | append: "&text=" | append: wa_author_text %}
+                                {% elsif raw_author_wa contains "62" %}
+                                    {% assign clean_wa = raw_author_wa | remove: " " | remove: "-" | remove: "+" | remove: "'" | remove: '"' %}
+                                    {% assign author_link_wa = "https://api.whatsapp.com/send?phone=" | append: clean_wa | append: "&text=" | append: wa_author_text %}
+                                {% else %}
+                                    {% assign clean_wa = raw_author_wa | remove: " " | remove: "-" | remove: "+" | remove: "'" | remove: '"' %}
+                                    {% assign author_link_wa = "https://api.whatsapp.com/send?phone=62" | append: clean_wa | append: "&text=" | append: wa_author_text %}
+                                {% endif %}
+                            {% else %}
+                                {% assign author_link_wa = nil %}
+                            {% endif %}
+
+                            {% if raw_author_web and raw_author_web != "" %}
+                                {% if raw_author_web contains "http://" or raw_author_web contains "https://" %}
+                                    {% assign author_link_web = raw_author_web %}
+                                {% else %}
+                                    {% assign author_link_web = "https://" | append: raw_author_web %}
+                                {% endif %}
+                            {% else %}
+                                {% assign author_link_web = nil %}
+                            {% endif %}
+
                             <!-- Header Artikel -->
                             <header class="post-header-area text-center">
                                 <h1 class="post-title">
                                     <span class="text-title">{{ page.text-title | default: page.title }}</span>
                                 </h1>
                                 <div class="post-meta-info">
-                                    <span class="post-meta-writer">✍️ Oleh: <strong>{{ page.writer | default: "Tran99" }}</strong></span>
+                                    <span class="post-meta-writer">✍️ Oleh: <strong>{{ author_display_name }}</strong></span>
                                     {% if page.date %}
                                     <span class="meta-dot">&bull;</span>
                                     <span class="post-meta-date">📅 {{ page.date | date: "%d %B %Y" }}</span>
@@ -97,6 +238,137 @@
                                     </amp-img>
                                 </div>
                                 {% endif %}
+
+                                <!-- Bagian Share Media Sosial -->
+                                <div class="post-share-card">
+                                    <div class="post-share-header">
+                                        <span class="post-share-icon">📢</span>
+                                        <h4 class="post-share-title">Bagikan Artikel Ini:</h4>
+                                    </div>
+                                    <div class="post-share-buttons">
+                                        <!-- WhatsApp Share -->
+                                        <a href="https://api.whatsapp.com/send?text={{ page.text-title | default: page.title | url_encode }}%20-%20{{ site.url }}{{ page.url }}" 
+                                           class="post-share-btn share-wa" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer" 
+                                           title="Bagikan ke WhatsApp">
+                                            <svg class="post-share-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.09-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01s-.44.06-.67.31c-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.41 1.44.53.61.19 1.16.17 1.6.1 1.16-.17 1.83-.93 2.08-1.58.26-.64.26-1.2.18-1.32-.07-.12-.24-.18-.49-.3z"/></svg>
+                                            <span>WhatsApp</span>
+                                        </a>
+
+                                        <!-- Twitter / X Share -->
+                                        <a href="https://twitter.com/intent/tweet?text={{ page.text-title | default: page.title | url_encode }}&url={{ site.url }}{{ page.url }}" 
+                                           class="post-share-btn share-tw" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer" 
+                                           title="Bagikan ke Twitter / X">
+                                            <svg class="post-share-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                            <span>X / Twitter</span>
+                                        </a>
+
+                                        <!-- Instagram Link -->
+                                        <a href="{{ site.social_instagram | default: 'https://www.instagram.com/tran99sewa_mobil_surabaya/' }}" 
+                                           class="post-share-btn share-ig" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer" 
+                                           title="Kunjungi Instagram Tran99">
+                                            <svg class="post-share-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                            <span>Instagram</span>
+                                        </a>
+
+                                        <!-- YouTube Link -->
+                                        <a href="{{ site.social_youtube | default: 'https://www.youtube.com/channel/UCi1qgZQPLPFejgJzGKrvCyQ' }}" 
+                                           class="post-share-btn share-yt" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer" 
+                                           title="Kunjungi YouTube Tran99">
+                                            <svg class="post-share-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                            <span>YouTube</span>
+                                        </a>
+                                    </div>
+                                    <!-- State Status Salin URL Artikel -->
+                                    <amp-state id="postUrlCopy">
+                                        <script type="application/json">
+                                            { "copied": false }
+                                        </script>
+                                    </amp-state>
+
+                                    <!-- URL Sharing Field (Salin URL Artikel) -->
+                                    <div class="post-share-copy-box">
+                                        <span class="post-share-copy-tag">Tautan Artikel:</span>
+                                        <div class="post-share-copy-group">
+                                            <input type="text" class="post-share-copy-input" value="{{ site.url }}{{ page.url }}" readonly>
+                                            <button type="button" 
+                                                    class="post-share-copy-btn" 
+                                                    [class]="postUrlCopy.copied ? 'post-share-copy-btn copied' : 'post-share-copy-btn'"
+                                                    on="tap:AMP.copy(text='{{ site.url }}{{ page.url }}'),AMP.setState({postUrlCopy: {copied: true}})"
+                                                    title="Salin tautan artikel ini">
+                                                <svg class="post-copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                                </svg>
+                                                <span [text]="postUrlCopy.copied ? 'Tersalin! ✓' : 'Salin Link'">Salin Link</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bagian Profile Penulis (Di Bawah post-featured-media post-media-bottom) -->
+                                <div class="post-author-card">
+                                    <div class="post-author-badge">✍️ Profil Penulis</div>
+                                    <div class="post-author-content">
+                                        <div class="post-author-avatar-wrap">
+                                            <amp-img src="{{ author_display_photo }}" 
+                                                     width="96" 
+                                                     height="96" 
+                                                     layout="fixed" 
+                                                     alt="{{ author_display_name }}" 
+                                                     class="post-author-avatar-img">
+                                            </amp-img>
+                                        </div>
+                                        <div class="post-author-details">
+                                            <h4 class="post-author-name">{{ author_display_name }}</h4>
+                                            <div class="post-author-role">{{ author_display_role }}</div>
+                                            <p class="post-author-bio">{{ author_display_bio }}</p>
+                                            
+                                            <!-- Media Sosial Penulis -->
+                                            <div class="post-author-socials">
+                                                <span class="post-author-social-label">Ikuti & Hubungi:</span>
+                                                {% if author_link_wa %}
+                                                <a href="{{ author_link_wa }}" class="author-social-link author-wa" target="_blank" rel="noopener noreferrer" title="WhatsApp Penulis">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.09-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01s-.44.06-.67.31c-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.41 1.44.53.61.19 1.16.17 1.6.1 1.16-.17 1.83-.93 2.08-1.58.26-.64.26-1.2.18-1.32-.07-.12-.24-.18-.49-.3z"/></svg>
+                                                    <span>WhatsApp</span>
+                                                </a>
+                                                {% endif %}
+                                                {% if author_link_tw %}
+                                                <a href="{{ author_link_tw }}" class="author-social-link author-tw" target="_blank" rel="noopener noreferrer" title="Twitter / X Penulis">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                                    <span>Twitter / X</span>
+                                                </a>
+                                                {% endif %}
+                                                {% if author_link_ig %}
+                                                <a href="{{ author_link_ig }}" class="author-social-link author-ig" target="_blank" rel="noopener noreferrer" title="Instagram Penulis">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                                    <span>Instagram</span>
+                                                </a>
+                                                {% endif %}
+                                                {% if author_link_yt %}
+                                                <a href="{{ author_link_yt }}" class="author-social-link author-yt" target="_blank" rel="noopener noreferrer" title="YouTube Penulis">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                                    <span>YouTube</span>
+                                                </a>
+                                                {% endif %}
+                                                {% if author_link_web %}
+                                                <a href="{{ author_link_web }}" class="author-social-link author-web" target="_blank" rel="noopener noreferrer" title="Website Pribadi Penulis">
+                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                                                    <span>Website</span>
+                                                </a>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                 <!-- Banner CTA WhatsApp -->
                                 <div class="post-cta-card text-center">

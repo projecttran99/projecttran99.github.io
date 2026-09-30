@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Harga Sewa Mobil Surabaya
 text-title: Harga Sewa Mobil Surabaya
 title: Harga Sewa Mobil Surabaya
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Dapatkan Layanan Harga Sewa Mobil Surabaya pilihan yang tepat
 photos: /photos/rental-mobil-bangil-pasuruan-16.jpg
 photo_middle: '/photos/rental-mobil-bangil-pasuruan-15.jpg'

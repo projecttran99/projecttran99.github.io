@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Candi Sidoarjo Solusi Transportasi Terbaik
 text-title: Rental Mobil Candi Sidoarjo Solusi Transportasi Terbaik
 title: Rental Mobil Candi Sidoarjo Solusi Transportasi Terbaik
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Di Sidoarjo, khususnya di daerah Candi, banyak orang mencari solusi transportasi yang nyaman dan terjangkau
 photos: /photos/rental-mobil-hiace-premio-comuter.jpg
 photo_middle: '/photos/rental-mobil-malang-5.jpg'

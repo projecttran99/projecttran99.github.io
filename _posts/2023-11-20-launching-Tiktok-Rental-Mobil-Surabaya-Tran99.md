@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Launching Tiktok Rental Mobil Surabaya Tran99
 text-title: Launching Tiktok Rental Mobil Surabaya Tran99
 title: Launching Tiktok Rental Mobil Surabaya Tran99
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Launching Tiktok Rental Mobil Surabaya Tran99 Solusi Terbaik untuk Perjalanan Anda
 photos: /photos/tiktok.jpg
 photo_middle: ''

@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: sewa hiace surabaya 081330548581
 text-title: sewa hiace surabaya 081330548581
 title: sewa hiace surabaya 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Satu-satunya sewa hiace di Surabaya dengan harga semakin murah, lebih lanjut hubungi 081-330-548-581 CS ready 24 jam
 photos: /photos/sewa-hiace-surabaya.jpg
 photo_middle: '/photos/sewa-hiace-surabaya-2.jpg'

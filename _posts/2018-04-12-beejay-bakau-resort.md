@@ -6,7 +6,7 @@ amp-img-height: 309
 amp-img-layout: responsive
 amp-img-alt: beejay bakau resort rental mobil surabaya trans99
 text-title: Beejay Bakau Resort
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Beejay Bakau Resort memiliki pantai pasir putih permainan air, water boom, flyingfox Hubungi / WA ke 081-330-548-581
 photos: https://media-cdn.tripadvisor.com/media/photo-s/0c/a4/09/2c/p-20160814-090141-largejpg.jpg
 photo_middle: 'https://infobromotravel.files.wordpress.com/2017/09/bjbr.jpg'

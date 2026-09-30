@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Fortuner Surabaya
 text-title: Rental Mobil Fortuner Surabaya
 title: Rental Mobil Fortuner Surabaya
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Rental mobil Fortuner di Surabaya merupakan pilihan tepat bagi Anda yang ingin mengelilingi kota Surabaya dengan kendaraan yang nyaman dan elegan.
 photos: /photos/rental-mobil-fortuner-surabaya-1.jpg
 photo_middle: '/photos/rental-mobil-fortuner-surabaya-2.jpg'

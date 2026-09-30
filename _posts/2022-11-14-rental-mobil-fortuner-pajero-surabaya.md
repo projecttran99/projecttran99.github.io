@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Fortuner Pajero Surabaya
 text-title: Rental Mobil Fortuner Pajero Surabaya
 title: Rental Mobil Fortuner Pajero Surabaya
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami menyediakan Rental Mobil Fortuner Pajero Surabaya dengan harga yang termurah dan fasilitas yang sangat lengkap
 photos: /photos/rental-mobil-pajero.jpg
 photo_middle: '/photos/rental-mobil-pajero.jpg'

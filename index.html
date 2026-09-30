@@ -5,8 +5,8 @@ photos: https://tran99.com/static/rental-mobil-surabaya.jpg
 hero_badge: 'Rental Mobil Surabaya Terpercaya #1'
 hero_title: Rental Mobil Surabaya & Sewa Mobil Murah Terpercaya
 hero_subtitle: Pusat sewa mobil Surabaya terlengkap sudah termasuk supir berpengalaman, armada bersih wangi ber-AC dingin, dan layanan siap siaga 24 jam untuk kebutuhan perjalanan dinas, bisnis, maupun wisata Anda.
-hero_bg_img: /static/rental-mobil-surabaya-transparan.png
-hero_gradient: 'linear-gradient(135deg, rgba(15, 23, 42, 0.92) 0%, rgba(15, 39, 68, 0.88) 40%, rgba(3, 105, 161, 0.85) 80%, rgba(51, 153, 255, 0.80) 100%)'
+hero_bg_img: /static/rental-mobil-surabaya.jpg
+hero_gradient: linear-gradient(135deg, rgba(56, 189, 248, 0.25) 0%, rgba(99, 179, 237, 0.20) 40%, rgba(147, 210, 255, 0.15) 70%, rgba(255, 255, 255, 0.10) 100%)
 hero_wa_text: Pesan Mobil via WhatsApp
 hero_fleet_text: Lihat Pilihan Armada →
 hero_fleet_url: /product/
@@ -20,7 +20,8 @@ about_p1: Tran99.com adalah perusahaan penyedia jasa transportasi darat profesio
 about_p2: Didukung oleh para driver ramah, sopan, dan menguasai rute-rute strategis Jawa Timur, kami siap melayani berbagai keperluan Anda mulai dari kunjungan bisnis, dinas kantor, antar-jemput Bandara Juanda, hingga wisata keluarga ke Malang, Bromo, dan sekitarnya.
 about_img: /static/rental-mobil-surabaya.jpg
 about_img_alt: Rental Mobil Surabaya Tran99
-about_floating_title: Standar Pelayanan Prima
+about_floating_icon: ★★★★★
+about_floating_title: Standar Pelayanan Prima dan Paripurna
 about_floating_subtitle: Armada Resmi & Driver Berlisensi
 about_feat1_icon: 🚗
 about_feat1_title: Armada Prima & Bersih
@@ -101,7 +102,7 @@ layout: home
                     <div class="home-about-img-frame">
                         <amp-img src="{{ page.about_img | default: '/static/rental-mobil-surabaya.jpg' }}" width="600" height="420" layout="responsive" alt="{{ page.about_img_alt | default: 'Rental Mobil Surabaya Tran99' }}" class="home-about-img"></amp-img>
                         <div class="home-about-floating-badge">
-                            <span class="badge-star">★</span>
+                            <span class="badge-star">{{ page.about_floating_icon | default: "★" }}</span>
                             <div class="badge-text">
                                 <strong>{{ page.about_floating_title | default: "Standar Pelayanan Prima" }}</strong>
                                 <small>{{ page.about_floating_subtitle | default: "Armada Resmi & Driver Berlisensi" }}</small>
@@ -324,8 +325,8 @@ layout: home
                             <div class="small-6 medium-4 large-4 cell home-gallery-col {% if forloop.index > 4 %}hide-for-small-only{% endif %}">
                                 <div class="vs-box-gall-img">
                                     <amp-img src="{{ item.amp-img-scr }}" 
-                                             width="600" 
-                                             height="450" 
+                                             width="500" 
+                                             height="500" 
                                              layout="responsive" 
                                              alt="{{ item.amp-img-alt | default: 'Galeri Rental Mobil Surabaya Tran99' }}" 
                                              lightbox="home-gallery"

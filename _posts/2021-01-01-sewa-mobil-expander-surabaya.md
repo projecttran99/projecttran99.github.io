@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Expander Surabaya 081330548581
 text-title: Sewa Mobil Expander Surabaya 081330548581
 title: Sewa Mobil Expander Surabaya 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami menyediakan Sewa Mobil Expander Surabaya dengan harga yang termurah dan fasilitas yang lengkap
 photos: /photos/sewa-mobil-expander-surabaya-1.jpg
 photo_middle: '/photos/sewa-mobil-expander-surabaya-2.jpg'

@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil di Gresik Bonus Driver hubungi 081330548581
 text-title: Rental Mobil di Gresik Bonus Driver hubungi 081330548581
 title: Rental Mobil di Gresik Bonus Driver hubungi 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Tran99 Rental Mobil di Gresik banyak orang mengandalkannya
 photos: /photos/rental-mobil-di-gresik-1.jpg
 photo_middle: '/photos/rental-mobil-di-gresik-2.jpg'

@@ -1,67 +1,28 @@
-creator: dennyrwa
-lang: id
-locale: id_ID
-title: Rental Mobil Surabaya
-company: Tran99 Rental Mobil Surabaya
-brand_name: "Tran99"
-description: Rental Mobil Surabaya & Sewa Mobil Surabaya terpercaya. Reservasi 24 Jam via WhatsApp 081-330-548-581 / 0852-3591-5990.
-keywords: sewa mobil surabaya, rental mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya murah, sewa mobil di surabaya, rental mobil di surabaya, sewa mobil murah surabaya, sewa mobil surabaya tran99.com, rental mobil surabaya tran99.com, tran99.com
-section-1:
-section-1-a: Rental Mobil Surabaya dan Sewa Mobil Surabaya Tran99.com
-section-1-b: Rental Mobil Surabaya dan Sewa Mobil Surabaya Tran99.com
-section-2: Kami adalah tran99.com, layanan Rental Mobil Surabaya secara online
-section-2-a: Tran99.com adalah Rental Mobil Surabaya yang menyediakan jasa sewa mobil di surabaya dan keluar kota. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas. Layanan Rental Mobil Surabaya yang kami berikan memiliki SOP yang telah diatur melebihi standar rental mobil di surabaya maupun rental mobil di kota lainnya guna memberikan layanan kepada konsumen secara sempurna, sehingga sudah barang tentu perusahaan kami mendapatkan penilaian sempurna dari konsumer eksisting kami. Oleh karena itu harus kiranya kami memberikan informasi kepada Anda supaya tidak salah memilih rental mobil di surabaya maupun rental movil di kota lainnya melalui perusahaan kami. Segera hubungi kami untuk mendapatkan informasi yang akurat dan layanan yang Anda inginkan.
-section-3: Bagaimana Cara Memesan?
-section-4: Galeri Kami
-section-5: Dapatkan Layanan Kami
-section-6:
-section-6-a: Terimakasih, dan Segera
-section-6-b: Hubungi Kami
-section-7: Ikuti Kami
-section-8: © 2018 - 2026 tran99.com. All rights reserved.
-section-9: Hubungi Kami
-section-10: Harga Sewa
-section-post: Sekilas Info dari Kita
-whatsapp-float-desktop: https://web.whatsapp.com/send?phone=6281330548581&text=Hallo, saya mau sewa mobil
-whatsapp-float-phone: whatsapp://send?text=Hallo, saya mau sewa mobil!&phone=+6281330548581
-email: transportasi99@gmail.com
-type: AutoRental
-streetAddress: Jalan Ambeng-ambeng Tengah No.34 Ngingas Waru
+author:
+  name: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
+  role: Dosen, Peneliti, Founder klikada.com, Penulis & Traveler
+  photo: /photos/masden.png
+  bio: Dosen, Peneliti, Founder klikada.com, Traveler dan Penulis konten seputar transportasi dan pariwisata Jawa Timur dan berpengalaman lebih dari 8 tahun bekerjasama dengan industri rental mobil, hotel dan agen perjalanan di Surabaya, Jawa Timur dan sekitarnya.
+  email: masden@klikada.com
+  website: https://masden.klikada.com/
+  twitter: https://x.com/dennyrwa
+  instagram: https://www.instagram.com/klikada
+  youtube: https://www.youtube.com/@dennyrakhmadwidiashari
+  whatsapp: '082232267100'
+  uri: https://masden.klikada.com/
 address: Sidoarjo Jawa Timur Indonesia
+brand_name: Tran99
 city: Sidoarjo
-province: Jawa Timur
-country: Indonesia
-postalCode: "61256"
-telephone: "+6281330548581"
-telephonedetail: "081-330-548-581"
-whatsapp_primary: "081-330-548-581"
-whatsapp_primary_phone: "6281330548581"
-whatsapp_secondary: "0852-3591-5990"
-whatsapp_secondary_phone: "6285235915990"
-google_maps_url: https://www.google.co.id/search?q=Sewa+Mobil+Surabaya+Tran99.com,+Ambengambeng,+Ngingas,+Waru,+Kabupaten+Sidoarjo,+Jawa+Timur+61256&ludocid=10349018967907779003#lrd=0x2dd7e5d96ee9876d:0x8f9f19eb7bec41bb,3,,,
-google_maps_embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.170669222538!2d112.7441113!3d-7.3347222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5d96ee9876d%3A0x8f9f19eb7bec41bb!2sSewa%20Mobil%20Surabaya%20Tran99.com!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid
-social_facebook: "https://www.facebook.com/Tran99Surabaya-Sidoarjo-264861130889825/"
-social_instagram: "https://www.instagram.com/tran99sewa_mobil_surabaya/"
-social_tiktok: "https://www.tiktok.com/@www.tran99.com"
-social_twitter: "https://twitter.com/tran99com"
-social_youtube: "https://www.youtube.com/channel/UCi1qgZQPLPFejgJzGKrvCyQ"
-fb_app_id: 994411184068605
-twitter: tran99.com
-whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20Tran99%20(Name)%20(Address)%20&phone=6281330548581
-favicon: /static/favicon.ico
-photos: /static/rental-mobil-surabaya.jpg
-siteurl: https://tran99.com
-url: https://tran99.com
-permalink: pretty
-exclude:
-  - README.md
-  - package.json
-  - package-lock.json
-  - scripts/
-  - inventory/
-  - Gemfile
-  - Gemfile.lock
 collections:
+  authors:
+    output: false
+  data-gallery-picture:
+    output: false
+  data-gallery:
+    output: false
+  data-products:
+    output: true
+    permalink: /product/:slug/
   data-section-3:
     output: false
   data-section-5:
@@ -70,26 +31,83 @@ collections:
     output: false
   data-section-9:
     output: false
-  data-gallery:
-    output: false
-  data-gallery-picture:
-    output: false
-  data-products:
-    output: true
-    permalink: /product/:slug/
   data-tiktok:
     output: false
-
+company: Tran99 Rental Mobil Surabaya
+country: Indonesia
+creator: dennyrwa
 defaults:
   - scope:
-      path: ""
-      type: "data-products"
+      path: ''
+      type: posts
     values:
-      layout: "product"
-
+      author: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
+  - scope:
+      path: ''
+      type: data-products
+    values:
+      layout: product
+description: Rental Mobil Surabaya & Sewa Mobil Surabaya terpercaya. Reservasi 24 Jam via WhatsApp 081-330-548-581 / 0852-3591-5990.
+email: transportasi99@gmail.com
+exclude:
+  - README.md
+  - package.json
+  - package-lock.json
+  - scripts/
+  - inventory/
+  - Gemfile
+  - Gemfile.lock
+favicon: /static/favicon.ico
+fb_app_id: 994411184068605
+feed:
+  path: feed.xml
+google_maps_embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.170669222538!2d112.7441113!3d-7.3347222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5d96ee9876d%3A0x8f9f19eb7bec41bb!2sSewa%20Mobil%20Surabaya%20Tran99.com!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid
+google_maps_url: https://www.google.co.id/search?q=Sewa+Mobil+Surabaya+Tran99.com,+Ambengambeng,+Ngingas,+Waru,+Kabupaten+Sidoarjo,+Jawa+Timur+61256&ludocid=10349018967907779003#lrd=0x2dd7e5d96ee9876d:0x8f9f19eb7bec41bb,3,,,
+keywords: sewa mobil surabaya, rental mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya murah, sewa mobil di surabaya, rental mobil di surabaya, sewa mobil murah surabaya, sewa mobil surabaya tran99.com, rental mobil surabaya tran99.com, tran99.com
+lang: id
+locale: id_ID
+paginate: 6
+paginate_path: /blog/page:num/
+permalink: pretty
+photos: /static/rental-mobil-surabaya.jpg
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
-paginate: 6
-paginate_path: "/blog/page:num/"
+postalCode: '61256'
+province: Jawa Timur
+section-1: null
+section-1-a: Rental Mobil Surabaya dan Sewa Mobil Surabaya Tran99.com
+section-1-b: Rental Mobil Surabaya dan Sewa Mobil Surabaya Tran99.com
+section-2: Kami adalah tran99.com, layanan Rental Mobil Surabaya secara online
+section-2-a: Tran99.com adalah Rental Mobil Surabaya yang menyediakan jasa sewa mobil di surabaya dan keluar kota. Kami Berkomitmen untuk memberikan layanan yang terbaik dan menyediakan kendaraan yang berkualitas. Layanan Rental Mobil Surabaya yang kami berikan memiliki SOP yang telah diatur melebihi standar rental mobil di surabaya maupun rental mobil di kota lainnya guna memberikan layanan kepada konsumen secara sempurna, sehingga sudah barang tentu perusahaan kami mendapatkan penilaian sempurna dari konsumer eksisting kami. Oleh karena itu harus kiranya kami memberikan informasi kepada Anda supaya tidak salah memilih rental mobil di surabaya maupun rental movil di kota lainnya melalui perusahaan kami. Segera hubungi kami untuk mendapatkan informasi yang akurat dan layanan yang Anda inginkan.
+section-3: Bagaimana Cara Memesan?
+section-4: Galeri Kami
+section-5: Dapatkan Layanan Kami
+section-6: null
+section-6-a: Terimakasih, dan Segera
+section-6-b: Hubungi Kami
+section-7: Ikuti Kami
+section-8: © 2018 - 2026 tran99.com. All rights reserved.
+section-9: Hubungi Kami
+section-10: Harga Sewa
+section-post: Sekilas Info dari Kita
+siteurl: https://tran99.com
+social_facebook: https://www.facebook.com/Tran99Surabaya-Sidoarjo-264861130889825/
+social_instagram: https://www.instagram.com/tran99sewa_mobil_surabaya/
+social_tiktok: https://www.tiktok.com/@www.tran99.com
+social_twitter: https://twitter.com/tran99com
+social_youtube: https://www.youtube.com/channel/UCi1qgZQPLPFejgJzGKrvCyQ
+streetAddress: Jalan Ambeng-ambeng Tengah No.34 Ngingas Waru
+telephone: '+6281330548581'
+telephonedetail: 081-330-548-581
+title: Rental Mobil Surabaya
+twitter: tran99.com
+type: AutoRental
+url: https://tran99.com
+whatsapp_primary: 081-330-548-581
+whatsapp_primary_phone: '6281330548581'
+whatsapp_secondary: 0852-3591-5990
+whatsapp_secondary_phone: '6285235915990'
+whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20Tran99%20(Name)%20(Address)%20&phone=6281330548581
+whatsapp-float-desktop: https://web.whatsapp.com/send?phone=6281330548581&text=Hallo, saya mau sewa mobil
+whatsapp-float-phone: whatsapp://send?text=Hallo, saya mau sewa mobil!&phone=+6281330548581

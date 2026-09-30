@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Pakisaji Malang 081330548581
 text-title: Sewa Mobil Pakisaji Malang 081330548581
 title: Sewa Mobil Pakisaji Malang 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Layanan Sewa Mobil Pakisaji Malang pilihan yang tepat, Hanya Tran99
 photos: /photos/sewa-mobil-pakisaji-1.jpg
 photo_middle: '/photos/sewa-mobil-pakisaji-2.jpg'

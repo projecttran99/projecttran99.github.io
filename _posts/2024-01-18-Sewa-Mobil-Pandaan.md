@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Pandaan
 text-title: Sewa Mobil Pandaan
 title: Sewa Mobil Pandaan
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Sewa mobil menjadi opsi yang sangat populer dalam memenuhi kebutuhan transportasi di berbagai situasi.
 photos: /photos/rental-mobil-surabaya-dengan-sopir-4.jpg
 photo_middle: '/photos/sewa-mobil-expander-surabaya-1.jpg'

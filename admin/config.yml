@@ -3,17 +3,26 @@ backend:
   repo: projecttran99/projecttran99.github.io
   branch: master
 
-media_folder: "static"
+# Branding CMS (Adarent CMS)
+app_title: "Adarent CMS"
+logo_url: "https://cloud.klikada.com/image/klikada-logo-lingkaran.png"
+logo:
+  src: "https://cloud.klikada.com/image/klikada-logo-lingkaran.png"
+  show_in_header: true
+
+# Global Media Storage (Folder /static)
+media_folder: "/static"
 public_folder: "/static"
 
 collections:
   - name: "posts"
-    label: "Artikel Blog"
+    label: "Artikel Blog (Folder photos/)"
     label_singular: "Artikel"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    media_folder: "photos"
+    summary: "{{title}}"
+    media_folder: "/photos"
     public_folder: "/photos"
     editor:
       preview: false
@@ -21,7 +30,15 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Judul Artikel (Title)", name: "title", widget: "string", required: true }
       - { label: "Judul Tampilan (Text Title)", name: "text-title", widget: "string", required: true }
-      - { label: "Penulis (Writer)", name: "writer", widget: "string", default: "H. Denny Rakhmad Widi Ashari, S.AP., M.E." }
+      - label: "Penulis Artikel (Author)"
+        name: "writer"
+        widget: "relation"
+        collection: "authors"
+        search_fields: ["name", "slug"]
+        value_field: "name"
+        display_fields: ["name"]
+        default: "Admin Tran99"
+        hint: "Pilih penulis artikel. Default: Admin Tran99. Untuk menambah penulis baru, buka menu 'Profil Penulis Blog (Author Blog)'."
       - label: "Meta Deskripsi SEO (Maksimal 160 Karakter)"
         name: "description"
         widget: "string"
@@ -32,6 +49,8 @@ collections:
         name: "photos"
         widget: "image"
         required: true
+        media_folder: "/photos"
+        public_folder: "/photos"
         hint: "Foto utama yang tampil di atas setelah nama penulis (Rasio disarankan 16:9)"
       - label: "Alt Text Foto 1 (Atas)"
         name: "amp-img-alt"
@@ -42,6 +61,8 @@ collections:
         name: "photo_middle"
         widget: "image"
         required: false
+        media_folder: "/photos"
+        public_folder: "/photos"
         hint: "Foto yang otomatis disisipkan di bagian tengah artikel (Rasio disarankan 16:9)"
       - label: "Alt Text Foto 2 (Tengah)"
         name: "photo_middle_alt"
@@ -51,6 +72,8 @@ collections:
         name: "photo_bottom"
         widget: "image"
         required: false
+        media_folder: "/photos"
+        public_folder: "/photos"
         hint: "Foto penutup di bagian akhir artikel sebelum rekomendasi (Rasio disarankan 16:9)"
       - label: "Alt Text Foto 3 (Bawah)"
         name: "photo_bottom_alt"
@@ -62,14 +85,36 @@ collections:
       - { label: "AMP Image Layout", name: "amp-img-layout", widget: "hidden", default: "responsive" }
       - { label: "Konten Artikel", name: "body", widget: "markdown", required: true }
 
+  - name: "authors"
+    label: "Profil Penulis Blog (Author Blog)"
+    label_singular: "Penulis"
+    folder: "_authors"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{name}} ({{role}})"
+    media_folder: "/photos"
+    public_folder: "/photos"
+    fields:
+      - { label: "ID / Slug Penulis (Unik, huruf kecil tanpa spasi)", name: "slug", widget: "string", required: true, hint: "Contoh: admin-tran99, dennyrwa, nama-penulis" }
+      - { label: "Nama Lengkap & Gelar Penulis", name: "name", widget: "string", required: true, hint: "Contoh: Admin Tran99 atau H. Denny Rakhmad Widi Ashari, S.AP., M.E." }
+      - { label: "Peran / Jabatan Penulis", name: "role", widget: "string", required: true, hint: "Contoh: Tim Redaksi & Layanan Pelanggan atau Dosen, Peneliti & Traveler" }
+      - { label: "Foto Profil Penulis", name: "photo", widget: "image", media_folder: "/photos", public_folder: "/photos", default: "/photos/masden.png", hint: "Pilih foto profil penulis dari folder photos/" }
+      - { label: "Bio Lengkap Penulis", name: "bio", widget: "text", required: true, hint: "Biografi atau deskripsi keahlian penulis yang tampil di setiap artikel" }
+      - { label: "Email Penulis", name: "email", widget: "string", required: false }
+      - { label: "Website Penulis", name: "website", widget: "string", required: false, hint: "Contoh: https://tran99.com atau https://masden.klikada.com/" }
+      - { label: "WhatsApp Penulis", name: "whatsapp", widget: "string", required: false, hint: "Nomor WhatsApp (contoh: 081330548581 atau 082232267100)" }
+      - { label: "Instagram Penulis", name: "instagram", widget: "string", required: false, hint: "Username Instagram (contoh: tran99sewa_mobil_surabaya atau klikada)" }
+      - { label: "Twitter / X Penulis", name: "twitter", widget: "string", required: false, hint: "Username Twitter/X (contoh: tran99com atau dennyrwa)" }
+      - { label: "YouTube Penulis", name: "youtube", widget: "string", required: false, hint: "Link channel YouTube lengkap" }
+
   - name: "products"
-    label: "Armada Mobil (Tarif Sewa)"
+    label: "Armada Mobil (Folder static/)"
     label_singular: "Armada"
     folder: "_data-products"
     create: true
     slug: "{{slug}}"
     summary: "{{text-title}} - {{price}}"
-    media_folder: "static"
+    media_folder: "/static"
     public_folder: "/static"
     fields:
       - { label: "Nama Mobil", name: "text-title", widget: "string", required: true, hint: "Contoh: Avanza, Innova Reborn, Hiace" }
@@ -99,10 +144,10 @@ collections:
       - { label: "Teks Link Kembali ke Armada", name: "back_link_text", widget: "string", required: false, default: "← Lihat Semua Armada Mobil" }
 
       # --- FOTO MOBIL ---
-      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true, media_folder: "static", public_folder: "/static" }
+      - { label: "Foto Mobil", name: "amp-img-scr", widget: "image", required: true, media_folder: "/static", public_folder: "/static" }
       - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true }
-      - { label: "Thumbnail CMS", name: "image", widget: "hidden" }
-      - { label: "Foto Open Graph", name: "photos", widget: "hidden" }
+      - { label: "Thumbnail CMS", name: "image", widget: "image", required: false, media_folder: "/static", public_folder: "/static" }
+      - { label: "Foto Open Graph", name: "photos", widget: "image", required: false, media_folder: "/static", public_folder: "/static" }
       - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 250, value_type: "int" }
       - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 250, value_type: "int" }
       - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "responsive" }
@@ -148,6 +193,22 @@ collections:
 
       # --- KONTEN BEBAS / MARKDOWN BODY (OPSIONAL) ---
       - { label: "Konten Bebas Tambahan (Opsional)", name: "body", widget: "markdown", required: false, hint: "Jika diisi, konten markdown ini akan ditambahkan di bawah deskripsi layanan" }
+
+  - name: "gallery_picture"
+    label: "Galeri Aktivitas Kami (Folder static/)"
+    label_singular: "Foto Aktivitas"
+    folder: "_data-gallery-picture"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{amp-img-alt}} ({{amp-img-scr}})"
+    media_folder: "/static"
+    public_folder: "/static"
+    fields:
+      - { label: "Foto Galeri", name: "amp-img-scr", widget: "image", required: true, media_folder: "/static", public_folder: "/static" }
+      - { label: "Alt Text Foto", name: "amp-img-alt", widget: "string", required: true, default: "rental mobil surabaya" }
+      - { label: "Lebar Foto", name: "amp-img-width", widget: "number", default: 600, value_type: "int" }
+      - { label: "Tinggi Foto", name: "amp-img-height", widget: "number", default: 600, value_type: "int" }
+      - { label: "Layout Gambar", name: "amp-img-layout", widget: "hidden", default: "responsive" }
 
   - name: "gallery"
     label: "Galeri Instagram"
@@ -202,7 +263,8 @@ collections:
           - { label: "Tentang Kami - Paragraf 2", name: "about_p2", widget: "text", default: "Didukung oleh para driver ramah, sopan, dan menguasai rute-rute strategis Jawa Timur, kami siap melayani berbagai keperluan Anda mulai dari kunjungan bisnis, dinas kantor, antar-jemput Bandara Juanda, hingga wisata keluarga ke Malang, Bromo, dan sekitarnya." }
           - { label: "Tentang Kami - Foto Gambar", name: "about_img", widget: "image", default: "/static/rental-mobil-surabaya.jpg", media_folder: "static", public_folder: "/static" }
           - { label: "Tentang Kami - Alt Text Foto", name: "about_img_alt", widget: "string", default: "Rental Mobil Surabaya Tran99" }
-          - { label: "Tentang Kami - Badge Mengambang (Judul)", name: "about_floating_title", widget: "string", default: "Standar Pelayanan Prima" }
+          - { label: "Tentang Kami - Badge Mengambang (Icon / Simbol)", name: "about_floating_icon", widget: "string", default: "★", required: false }
+          - { label: "Tentang Kami - Badge Mengambang (Judul)", name: "about_floating_title", widget: "string", default: "Standar Pelayanan Prima dan Paripurna" }
           - { label: "Tentang Kami - Badge Mengambang (Subjudul)", name: "about_floating_subtitle", widget: "string", default: "Armada Resmi & Driver Berlisensi" }
           - { label: "Tentang Kami - Fitur 1 (Icon Emoji)", name: "about_feat1_icon", widget: "string", default: "🚗" }
           - { label: "Tentang Kami - Fitur 1 (Judul)", name: "about_feat1_title", widget: "string", default: "Armada Prima & Bersih" }
@@ -317,5 +379,6 @@ collections:
           - { label: "Link Twitter / X", name: "social_twitter", widget: "string", required: false }
           - { label: "Link YouTube", name: "social_youtube", widget: "string", required: false }
           - { label: "Deskripsi Singkat Website", name: "description", widget: "text" }
+
 
 

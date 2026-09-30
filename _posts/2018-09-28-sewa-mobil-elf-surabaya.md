@@ -6,7 +6,7 @@ amp-img-height: 720
 amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
 text-title: Sewa Mobil Elf Surabaya
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Tran99 melayani Sewa Mobil Elf Surabaya yang dapat dibandingkan dengan jasa sejenis WA ke 081-330-548-581
 photos: https://tran99.com/static/43913352_268369640351497_6468748527204336937_n.jpg
 photo_middle: 'https://tran99.com/static/43913352_268369640351497_6468748527204336937_n.jpg'

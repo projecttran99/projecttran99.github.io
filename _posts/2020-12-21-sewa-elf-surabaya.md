@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Elf Surabaya Termurah 2021
 text-title: Sewa Elf Surabaya Termurah 2021
 title: Sewa Elf Surabaya Termurah 2021
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami menyediakan Sewa Elf Surabaya dengan harga yang termurah dan fasilitas yang sangat lengkap
 photos: /photos/wisata-alam-surabaya-5.jpg
 photo_middle: '/photos/wisata-alam-surabaya-6.jpg'

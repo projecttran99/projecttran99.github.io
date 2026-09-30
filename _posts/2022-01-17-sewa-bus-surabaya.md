@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Bus Surabaya 081330548581
 text-title: Sewa Bus Surabaya 081330548581
 title: Sewa Bus Surabaya termurah 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Ternyata sewa bus pariwisata di Surabaya murah, harga terbaru tahun 2022, menyediakan berbagai macam tipe bus medium bus, big bus, 44 - 50 seat, hubungi 081-330-548-581 CS ready 24 jam
 photos: /photos/sewa-bus-surabaya-1.jpg
 photo_middle: '/photos/sewa-bus-surabaya-2.jpg'

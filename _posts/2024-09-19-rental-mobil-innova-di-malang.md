@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Innova di Malang hubungi 081330548581
 text-title: Rental Mobil Innova di Malang hubungi 081330548581
 title: Rental Mobil Innova di Malang hubungi 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Anda yang mencari Rental Mobil Innova di Malang hubungi 081330548581, Tran99 menyediakan solusi transportasi yang tepat untuk kebutuhan Anda
 photos: /photos/rental-mobil-innova-di-malang-2.jpg
 photo_middle: '/photos/rental-mobil-innova-di-malang-1.jpg'

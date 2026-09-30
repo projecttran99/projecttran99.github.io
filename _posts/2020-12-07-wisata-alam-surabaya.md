@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Wisata Alam di Surabaya
 text-title: Wisata Alam di Kota Surabaya tujuan para wisatawan
 title: Wisata Alam di Kota Surabaya yang Menjadi tujuan para wisatawan
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kami adalah sewa mobil yang melayani tujuan ke wisata alam di Surabaya, kami memberikan harga termurah dan terbaik.
 photos: /photos/wisata-alam-surabaya-1.jpg
 photo_middle: '/photos/wisata-alam-surabaya-2.jpg'

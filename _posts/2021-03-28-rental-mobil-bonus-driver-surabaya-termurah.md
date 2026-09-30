@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Bonus Driver Surabaya Termurah
 text-title: Sewa Mobil Bonus Driver Surabaya Termurah
 title: Sewa Mobil Bonus Driver Surabaya Termurah
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Tips untuk mendapatkan rental mobil surabaya bonus driver, Anda cukup dengan melakukan hal-hal seperti yang ada di artikel ini
 photos: /photos/sewa-mobil-bonus-driver-surabaya-termurah-2.jpg
 photo_middle: '/photos/sewa-mobil-bonus-driver-surabaya-termurah.jpg'

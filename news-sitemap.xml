@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /news-sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url | replace: 'index.html', '' }}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>{{ site.brand_name | default: site.title | xml_escape }}</news:name>
+        <news:language>{{ site.lang | default: "id" }}</news:language>
+      </news:publication>
+      <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+      <news:title>{{ post.title | default: post.text-title | xml_escape }}</news:title>
+    </news:news>
+  </url>
+  {% endfor %}
+</urlset>

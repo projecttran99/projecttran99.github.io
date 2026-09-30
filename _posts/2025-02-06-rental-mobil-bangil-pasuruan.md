@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Bangil Pasuruan Tran99 081330548581
 text-title: Rental Mobil Bangil Pasuruan Tran99 081330548581
 title: Rental Mobil Bangil Pasuruan Tran99 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Dapatkan Layanan Rental Mobil Bangil Pasuruan Tran99 081330548581 pilihan yang tepat
 photos: /photos/rental-mobil-bangil-pasuruan.jpg
 photo_middle: '/photos/rental-mobil-bangil-pasuruan-3.jpg'

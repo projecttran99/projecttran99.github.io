@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Kepanjen Malang Tran99 081330548581
 text-title: Rental Mobil Kepanjen Malang Tran99 081330548581
 title: Rental Mobil Kepanjen Malang Tran99 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Dapatkan Layanan Rental Mobil Kepanjen Malang Tran99 081330548581 pilihan yang tepat
 photos: /photos/rental-mobil-kepanjen-malang.jpg
 photo_middle: '/photos/rental-mobil-kepanjen-malang-1.jpg'

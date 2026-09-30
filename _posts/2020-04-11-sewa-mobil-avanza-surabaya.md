@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Avanza Surabaya WA 081330548581
 text-title: Sewa Mobil Avanza Surabaya WA 081330548581
 title: Sewa Mobil Avanza Surabaya WA 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Segera Hubungi Kami Sewa Mobil Avanza Surabaya, kami memberikan harga termurah di Surabaya dengan kendaraan terbaik.
 photos: /photos/sewa-mobil-innova-reborn-surabaya.jpg
 photo_middle: '/photos/sewa-mobil-avanza-surabaya-2.jpg'

@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Surabaya dengan sopir
 text-title: Rental Mobil Surabaya dengan sopir
 title: Rental Mobil Surabaya dengan sopir
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Apabila Anda menginginkan sewa mobil dengan nyaman, pilihlah rental mobil dengan sopir sekaligus, karena jasa sopir ini gratis, lebih lanjut hubungi 081-330-548-581
 photos: /photos/rental-mobil-surabaya-dengan-sopir.jpg
 photo_middle: '/photos/rental-mobil-surabaya-dengan-sopir-2.jpg'

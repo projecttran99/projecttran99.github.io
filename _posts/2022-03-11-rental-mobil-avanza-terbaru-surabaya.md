@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Avanza Terbaru Surabaya 2022
 text-title: Rental Mobil Avanza Terbaru Surabaya 2022
 title: Rental Mobil Avanza Terbaru Surabaya 2022
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Anda Menginginkan rental mobil Toyota Avanza dengan harga terbaru 2022 di surabaya, segera hubungi kami, lebih lanjut hubungi 081-330-548-581 CS ready 24 jam
 photos: /photos/rental-mobil-avanza-terbaru-surabaya.jpg
 photo_middle: '/photos/rental-mobil-avanza-terbaru-surabaya-2.jpg'

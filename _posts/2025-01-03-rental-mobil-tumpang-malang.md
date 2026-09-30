@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil di Tumpang Malang Tran99 081330548581
 text-title: Rental Mobil di Tumpang Malang Tran99 081330548581
 title: Rental Mobil di Tumpang Malang Tran99 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Kemudahan Layanan Rental Mobil di Tumpang Malang Tran99 081330548581 pilihan yang tepat
 photos: /photos/rental-mobil-surabaya-dengan-sopir.jpg
 photo_middle: '/photos/rental-mobil-surabaya-dengan-sopir-4.jpg'

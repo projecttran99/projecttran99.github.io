@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Waru Sidoarjo Tran99 081330548581
 text-title: Rental Mobil Waru Sidoarjo Tran99 081330548581
 title: Rental Mobil Waru Sidoarjo Tran99 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Dapatkan Layanan Rental Mobil Waru Sidoarjo Tran99 081330548581 pilihan yang tepat
 photos: /photos/rental-mobil-waru-sidoarjo-1.jpg
 photo_middle: '/photos/rental-mobil-waru-sidoarjo-4.jpg'

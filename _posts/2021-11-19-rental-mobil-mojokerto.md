@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Mojokerto 081330548581
 text-title: Rental Mobil Mojokerto 081330548581
 title: Rental Mobil Mojokerto termurah 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Rental mobil mojokerto termurah dengan pilihan berbagai armada dan pelayanan prima hubungi 081-330-548-581 CS ready 24 jam
 photos: /photos/rental-mobil-mojokerto.jpg
 photo_middle: '/photos/hiace-girl.jpg'

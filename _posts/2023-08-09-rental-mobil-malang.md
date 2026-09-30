@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rental Mobil Malang 081330548581
 text-title: Rental Mobil Malang 081330548581
 title: Rental Mobil Malang 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Segera hubungi kami, Rental Mobil Malang dengan harga yang termurah dengan fasilitas yang sangat lengkap, driver ramah, hubungi kami di 081330548581
 photos: /photos/sewa-hiace-surabaya-2.jpg
 photo_middle: '/photos/rental-mobil-surabaya-dengan-sopir-3.jpg'

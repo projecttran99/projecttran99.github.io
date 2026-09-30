@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Innova Reborn Surabaya WA 081330548581
 text-title: Sewa Mobil Innova Reborn Surabaya WA 081330548581
 title: Sewa Mobil Innova Reborn Surabaya WA 081330548581
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Segera Hubungi Kami Sewa Mobil Innova Reborn Surabaya, kami memberikan harga termurah di Surabaya dengan kendaraan terbaik.
 photos: /photos/sewa-mobil-innova-reborn-surabaya.jpg
 photo_middle: '/photos/sewa-mobil-innova-reborn-surabaya-2.jpg'

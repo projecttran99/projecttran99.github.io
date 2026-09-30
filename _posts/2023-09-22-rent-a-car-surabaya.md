@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Rent a Car Surabaya Exploring Surabayas Nearby Attractions
 text-title: Rent a Car Surabaya Exploring Surabayas Nearby Attractions
 title: Rent a Car Surabaya Exploring Surabayas Nearby Attractions
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Surabaya, the capital of East Java, is a bustling city known for its rich history, vibrant culture, and a myriad of attractions that cater to all types of travelers
 photos: /photos/wisata-alam-surabaya-3.jpg
 photo_middle: '/photos/wisata-alam-surabaya-1.jpg'

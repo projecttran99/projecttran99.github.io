@@ -7,7 +7,7 @@ amp-img-layout: responsive
 amp-img-alt: Sewa Mobil Hiace Premio Comuter
 text-title: Sewa Mobil Hiace Premio Comuter
 title: Sewa Mobil Hiace Premio Comuter
-writer: Denny Rakhmad Widi Ashari
+writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Rental mobil Hiace Premio atau Hiace Commuter merupakan pilihan tepat bagi Anda yang ingin menyewa mobil dengan kapasitas penumpang yang besar.
 photos: /photos/rental-mobil-hiace-premio-comuter.jpg
 photo_middle: '/photos/rental-mobil-hiace-premio-comuter.jpg'
