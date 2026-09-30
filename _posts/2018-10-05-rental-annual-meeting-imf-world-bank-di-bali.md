@@ -5,11 +5,11 @@ text-title: Meeting IMF – World Bank
 writer: H. Denny Rakhmad Widi Ashari, S.AP., M.E.
 description: Tran99 mendapatkan kesempatan untuk melayani tamu-tamu negara dalam acara annual meeting IMF World Bank di bali
 photos: /photos/imf-2.jpg
-amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
+amp-img-alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya Trans99
 photo_middle: /photos/imf-1.jpg
-photo_middle_alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
+photo_middle_alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya Trans99
 photo_bottom: /photos/imf-2.jpg
-photo_bottom_alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya trans99
+photo_bottom_alt: Sewa Mobil Elf Surabaya sewa mobil di surabaya Trans99
 amp-img-scr: /photos/imf-2.jpg
 amp-img-width: 1280
 amp-img-height: 960
