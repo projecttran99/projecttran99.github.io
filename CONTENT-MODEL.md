@@ -127,6 +127,7 @@ price: Rp. 400.000
 ```
 
 ### 3.2 Template Mapping (Liquid)
+{% raw %}
 ```liquid
 <!-- product.html -->
 {% for item in site.data-products %}
@@ -146,6 +147,7 @@ price: Rp. 400.000
 </div>
 {% endfor %}
 ```
+{% endraw %}
 
 ---
 

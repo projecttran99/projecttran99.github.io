@@ -62,9 +62,9 @@ Dari audit mendalam terhadap kode sumber dan situs live, ditemukan beberapa masa
 - **Solusi Rekomendasi:** Definisikan `url: "https://tran99.com"` pada `_config.yml`.
 
 ### B. Halaman 404 Terindeks di Sitemap
-- **Masalah:** Di `sitemap.xml`, perulangan `{% for page in site.pages %}` memasukkan `/404.html` ke dalam sitemap resmi dengan priority 1.0.
+- **Masalah:** Di `sitemap.xml`, perulangan `{% raw %}{% for page in site.pages %}{% endraw %}` memasukkan `/404.html` ke dalam sitemap resmi dengan priority 1.0.
 - **Dampak:** Search engine mengindeks halaman error 404.
-- **Solusi Rekomendasi:** Tambahkan filter `{% if page.url contains '404' %}{% else %}` atau tandai `sitemap: false` pada frontmatter 404.
+- **Solusi Rekomendasi:** Tambahkan filter `{% raw %}{% if page.url contains '404' %}{% else %}{% endraw %}` atau tandai `sitemap: false` pada frontmatter 404.
 
 ### C. Halaman 404 Memuat Boilerplate Firebase Bawaan
 - **Masalah:** File `404.html` berisi teks template Firebase mentah: *"Why am I seeing this? You may have deployed the wrong directory for your application. Check your firebase.json..."* beserta logo Firebase SVG base64.
@@ -102,7 +102,7 @@ Dari audit mendalam terhadap kode sumber dan situs live, ditemukan beberapa masa
 - **Solusi Rekomendasi:** Ubah `output: false` pada collections yang hanya berfungsi sebagai data parsial dan tidak memiliki layout mandiri.
 
 ### I. Halaman `/blog/` Belum Memiliki Paginasi
-- **Masalah:** File `blog.html` melakukan iterasi `{% for post in site.posts %}` yang me-render seluruh 58 artikel dalam satu halaman panjang.
+- **Masalah:** File `blog.html` melakukan iterasi `{% raw %}{% for post in site.posts %}{% endraw %}` yang me-render seluruh 58 artikel dalam satu halaman panjang.
 - **Dampak:** Meningkatkan bobot DOM halaman blog seiring bertambahnya artikel.
 - **Solusi Rekomendasi:** Terapkan strategi paginasi yang kompatibel dengan GitHub Pages dan AMP HTML.
 

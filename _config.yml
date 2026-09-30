@@ -51,10 +51,36 @@ description: Rental Mobil Surabaya & Sewa Mobil Surabaya terpercaya. Reservasi 2
 email: transportasi99@gmail.com
 exclude:
   - README.md
+  - AGENTS.md
+  - AMP-SPECIFICATION.md
+  - BASELINE-AUDIT-REPORT.md
+  - CHANGELOG.md
+  - CMS-SPECIFICATION.md
+  - CONTENT-MODEL.md
+  - CONTRIBUTING.md
+  - DESIGN.md
+  - DEVELOPMENT-WORKFLOW.md
+  - GIT-WORKFLOW.md
+  - MIGRATION-SAFETY.md
+  - MIGRATION-VERIFICATION-REPORT.md
+  - PRD.md
+  - PROJECT-STRUCTURE.md
+  - SEO-SPECIFICATION.md
+  - TECHNICAL-ARCHITECTURE.md
+  - TESTING-STRATEGY.md
+  - USER-STORIES.md
+  - existing-amp-pages.json
+  - existing-article-inventory.json
+  - existing-id-inventory.json
+  - existing-image-inventory.json
+  - existing-internal-links.json
+  - existing-seo-metadata.json
+  - existing-url-inventory.json
+  - migration-report/
+  - inventory/
+  - scripts/
   - package.json
   - package-lock.json
-  - scripts/
-  - inventory/
   - Gemfile
   - Gemfile.lock
 favicon: /static/favicon.ico
